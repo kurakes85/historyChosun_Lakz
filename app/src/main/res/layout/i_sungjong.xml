@@ -1,13 +1,384 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/moon_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
 
-</LinearLayout>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="9대 성종 이혈"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="조선전기, 제도및 문물 정비를 완성시킨 군주"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ImageButton
+            android:id="@+id/img_button_link_sejo_title"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:background="#00ff0000"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:foregroundGravity="center"
+            android:src="@mipmap/sungjong_001"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="11dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 성종(成宗)\n시호 조선 : 인문헌무흠성공효대왕(仁文憲武欽聖恭孝大王)\n명 : 강정(康靖)\n능묘 :선릉(宣陵)\n본관 : 전주(全州)\n휘 : 이혈(李娎)\n출생지 : 한성 경복궁 동저\n사망지 : 한성 창덕궁 대조전\n배우자 :공혜왕후(恭惠王后) → 폐비 윤씨(廢妃尹氏) → \n정현왕후(貞顯王后)\n아버지 : 조선 덕종(의경세자)\n어머니 : 소혜왕후(昭惠王后)\n생몰 기간 : 1457년 7월 30일 ~ 1494년 12월 25일\n양력 : 1457년 8월 19일 ~ 1495년 1월 20일\n재위 기간 : 왕\n음력 : 1469년 11월 28일 ~ 1494년 12월 24일(25년)\n양력 : 1469년 12월 31일 ~ 1495년 1월 20일.(25년 20일)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="성종 소개"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/zoomtextview_taejo_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="수신(修身), 치국(治國), 평천하(平天下)에는 성공했으나 제가(齊家)에는 실패한 왕.조선의 제9대 왕. 세종대왕에 버금가는 성군으로 평가받을 만큼 안정적인 유교정치를 실행하였고, 수많은 정치적 유산을 남겼다. 재위는 25년으로 충분히 길었으나, 38세의 나이로 요절했다.별명은 낮에는 요순, 밤에는 걸주(晝堯舜 夜桀紂)."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="생애"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="출생과 성장"
+                />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="성종은 세조의 맏아들인 의경세자(훗날 덕종으로 추존됨)와 왕세자빈 한씨(소혜왕후로 추존됨)의 둘째 아들로 1457년 7월 30일에 태어났다. 이름은 이무 이고 후에 이름을 혈(娎) 이라 개명하였다. 그는 어려서부터 총명하였고, 일찍부터 행동거지가 매우 침착하였다고 전해진다. 세조 때 궁궐에 내려친 벼락에 맞아 한 환관이 즉사하였던 일이 있었는데, 그의 형 월산대군이나 다른 내관들은 이 같은 상황에 어쩔 줄 몰라 하였으나, 그는 태연히 서 있었다고 한다. 이 일로 그는 세조로부터 태조와 세종을 닮아 기상과 학식이 뛰어날 것이라는 칭찬을 들으며 무척 귀여움을 받았다.그러나 그가 태어난지 얼마 지나지 않아 아버지 의경세자가 갑자기 사망하면서 그는 어머니 세자빈 한씨와 함께 궁밖으로 나가게 된다. 조부 세조는 특별히 한씨를 수빈으로 봉하고, 궁궐에 살아도 좋다고 하였으나 한씨는 사저로 물러 앉는다. 어린 나이에도 곤궁한 생활에 대한 불평불만이 없었다 하며, 자신의 속내를 쉽게 드러내지 않았다. 한명회와 신숙주 등은 이점에 착안하여 월산대군 대신 그를 선택하게 된다. 또한 한명회의 딸과 가례를 올렸고, 신숙주의 조카딸이 그의 계비인 폐비 윤씨인 점이 왕위 계승에도 보다 유리하게 작용하게 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="잠저 시절"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1461년(세조 6년) 5살이 되던 해에 자을산군(者乙山君)으로 봉해졌다.그러나 수빈 한씨는 꾸준히 대궐에 출입하면서 한명회, 신숙주 등과 교류하였고, 한명회의 딸 중의 한명을 자산군과 결혼시킨다.1468년 세조가 죽자 의경세자의 동생인 해양대군이 예종으로 즉위하면서 잘산군(乽山君 또는 자을산군(者乙山君))에 봉해졌고 예종은 즉위한 지 10개월 만에 승하하였다. 당시 예종의 아들인 제안대군은 4살이었고, 또 형인 월산군은 병환 중이었기 때문에 정희왕후의 명령에 따라 1469년(예종 1년) 음력 11월 28일에 경복궁(景福宮)에서 조선의 왕으로 즉위(卽位)하였다. 성종의 즉위 배경에는 정희왕후의 의지 외에 그의 장인이었던 한명회의 생각과 어린 그를 즉위시킴으로써 막후에서 영향력을 행사하려던 신숙주 등의 훈신들의 이해관계가 두루 작용한 결과이기도 했다.성종은 가뭄이 들면 자주 수반(水飯)을 들었다.물에 밥을 말아먹는 수반은 자연재해를 극복 하고자 하는 자신의 도덕성을 과시하는 측면도 있었지만,본질적으로 속이 타는 체질의 특성이 드러난 것이다. 즉위 직후 원상(院相·조선시대에 왕이 죽은 뒤 어린 임금을 보좌해 정무를 맡아보던 임시 벼슬)인 김질이 '비위는 찬 것을 싫어하므로 수반이 비위를 상할까 염려합니다'라며 걱정하자 '경의 말과 같다면 매양 건식을 올려야 하겠는가'고 성질 급하게 반박했다. 수반을 자주 먹는 습관은 설사로 이어졌다."
+                />
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="즉위 이후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="수렴 청정 기간"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="반발세력을 무마하고자 왕위계승권에서 밀려난 월산대군과 제안대군을 군에서 대군으로 책봉하고 이들을 좌리공신에 임명하였다. 13살의 어린 나이에 왕위에 올랐기 때문에, 즉위 초반에는 할머니인 자성대왕대비 윤씨의 수렴청정을 받았다. 당시 유력한 국왕 후보들을 모두 제치고 한명회와 정희왕후의 뜻에 따라 왕위에 올랐던 만큼 섭정을 받은 7년 동안 국정의 모든 결정권은 신숙주, 한명회 등의 원로대신들에게 있었다.그러나 수렴청정을 끝낸 1476년(성종 7년)부터는 원로대신들이 국정의 중요한 결정에 참여하는 원상 제도를 폐지하여 결재권을 되찾았다. 친정을 시작한 이후 그는 할아버지 세조가 권신들을 견제할 목적으로 길재-김숙자 등의 문인들을 적극 등용한 것을 참작, 김종직의 문하생들을 새로 대거 등용한다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="생부인 덕종(의경세자) 으로 왕위를 계승함을 확인"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="성종은 작은 아버지인 예종의 양자로 입적하여 즉위하였는데,1475년인 을미년(乙未年)에 회간대왕(의경세자, 성종의 생부)의 신주를 종묘에 올리는 것을 두고 조정에서 다시 논의되기 시작하였다.영의정 정창손(鄭昌孫), 정인지(鄭麟趾)를 비롯한 대신들은 '의경세자의 신주를 종묘에 올리게 된다면 왕실의 계통(대종)에서 아버지가 두 분인 것과 같고, 예경(禮經)에도 어긋나는 일입니다.'를 이유로 들어 반대하였으나,대왕대비 윤씨가 나서 '의경세자는 명(命)을 받아 왕세자(王世子)가 되고, 명을 받아 왕(王)이 되었으며, 또 원래는 대종(大宗)이고, 예종이 비록 명을 받아 왕이 되었더라도 먼저 신하의 예를 의경세자에게 하였거늘, 하물며 의경세자는 예종의 친형이니,예종의 위에 둔들 무엇이 해롭겠는가?'하여 되물었으며, 배맹달(裵孟達), 임수겸(林守謙), 홍경손(洪敬孫), 권윤(權綸)등의 대신들도 대왕대비 윤씨의 의견에 동조하여 '의경세자는 세조조(世祖朝)에 있어서 이미 세자(世子)로 봉(封)하였으므로 안으로는 계승(繼承)한 바가 있고, 명나라 황제가 특히 고명(誥命)을 내려 주었은즉 위로도 주품(奏稟)한 바가 있습니다. 이제 전하께서는 의경세자의 친자(親子)로써 대통을 계승하셨으니, 의경세자의 신주를 종묘에 올리는 것이 마땅합니다.'라고 거들었다.이후 조정의 논의가 계속되었으나 타협점을 찾지 못한 채 시간이 흘러가자 성종은 확고한 의지로 의경세자(덕종)의 신주를 종묘에 올리라는 절차 준비 명을 예조에 내렸고 반대파 대신들의 상소가 잇따랐다.결국 1476년 1월 9일에 의경세자(덕종)의 신주를 받들어 종묘에 안치함으로써 성종이 예종의 법자가 아닌, 덕종(의경세자)의 친자로서 왕위를 계승함을 확인하였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="후궁간의 갈등, 폐비 윤씨 폐출과 사사"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="첫 부인 공혜왕후가 18세의 나이에 요절하자 자신의 후궁 중 일찍 후궁으로 맞이한 숙의 윤씨를 왕비로 간택한다. 신숙주의 조카였던 폐비 윤씨는 성종보다 2살 연상이었으나 성종의 첫 아들을 잉태하면서 그의 총애를 받게 된다. 그리고 공혜왕후가 서거하자 곧바로 후궁에서 왕비로 승격시켜준다. 그러나 폐비는 남편 성종이 다른 후궁을 찾자 질투심을 드러내 다른 후궁들과 다투게 된다.남편을 하늘로 여기며 소훈이라는 책을 만든 인수대비는 분노하여 폐비 윤씨의 투기를 계속 지적하였고, 원로 훈신들은 폐비 윤씨를 계속 탄핵하였다. 이때는 신숙주도 이미 죽고 없었으므로 그녀를 감싸줄 사람이 아무도 없었고, 폐비는 곧 왕비에서 폐출, 사저로 되돌려보냈다. 그 뒤 양사의 언관들이 폐비를 사사해야 된다는 여론을 조성하자 그는 원자의 생모임을 들어 반대하였으나, 양사의 거듭된 탄핵을 이기지 못하고 폐비 윤씨에게 사약을 내린다.그 뒤 왕비 간택 건의가 있었으나 이를 뿌리치고 다른 후궁인 숙의 윤씨 를 승급시켜서 왕비로 삼는다. 이는 정현왕후로 중종의 생모가 된다.차천로가 지은 ‘오산설림초고’엔 성종과 관련한 기생 이야기가 실려 있다. 함경도 영흥의 명기로 ‘봄바람에 웃는다’라는 이름의 소춘풍(笑春風)이 성종의 부름을 받았다. 성종은 소춘풍을 후궁으로 삼으려 했으나 끝내 거절당한다. 연회도 없이 조용하기만 한 궁중의 별전에서 성종이 홀로 술잔을 기울이고 있었다. 소춘풍에게 술잔을 건네며 '오늘 밤은 너와 함께하고 싶은데 너의 뜻은 어떠하냐' 고 물었다.성은을 받으면 평생 다른 사람과 정을 나눌 수 없기에 독수공방이 싫었던 그녀가 거절의 뜻을 비치자 성종은 웃으면서 술과 시로 밤을 새웠다."
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="친정과 사림파 등용"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="임사홍, 유자광 등의 권신들을 축출하는 한편, 성균관을 비롯한 각 도의 향학에 전결과 서적을 주어 교육과 문화의 진흥에 힘썼으며, 김종직 등 사림파를 과감히 등용함으로써 신진세력을 형성시키고 정치적 기반을 만들었다. 이는 후대 선조시기 사림정치의 완성으로 나타난다.성종대왕 태실비(창경궁 경내에 위치)성종의 치세는 ‘문화의 황금기’라고 불렸을 만큼 세종과 세조가 이룩해 놓은 치적들을 바탕으로 빛나는 문화 정책을 펴 나간 시기였다. 1474년(성종 5년)에는 [경국대전]을 완성하여 반포했으며 1492년에는 경국대전을 보충한 [대전속록]과 [동국여지승람], [동국통감], [동문선(東文選)], [악학궤범] 등 다양한 서적을 편찬·간행했다. 세조 때 폐지된 집현전과 비슷한 역할을 맡은 홍문관을 설치하는 한편, 문신 중에서 뛰어난 재주를 가진 인물을 골라 집에서 독서하게 하는 호당제도를 실시하는 등 문화 발전에 이바지했다. 또한 승려들을 엄하게 통제하고 대부분의 사찰을 폐쇄하는 등 숭유억불 정책을 철저하게 실천했다.대외적으로는 1479년(성종 10년) 윤필상(尹弼商)으로 여금 압록강 주변의 여진족을 몰아내고 1491년(성종 22년) 허종(許琮)을 파견하여 두만강 일대의 여진족 소굴을 소탕하고, 이듬해에는 이계동(李季同)을 함길도 일대에 파견하여 여진족의 침략을 대비하는 등 북방 방비에 힘썼다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="조선의 태평성대와 그 이면, 그리고 최후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조선 시대 초기 문물 제도는 성종 때에 거의 완성되었으며,백성들은 건국 이후 가장 태평성대한 세월을 맞이했다. 그러나 이러한 태평성대는 성종의 치세 후기에 퇴폐 풍조를 조장하기도 했다. 또 여색을 밝혀 여러 후궁을 두었는데 후궁들 사이의 갈등과 알력을 조정하지 못하여 후일 연산군에 의한 학살 사건을 불러오는 빌미를 제공한다.성종은 동물을 좋아하였는데 궁궐 후원에 사슴과 강아지, 고양이 등을 데려다가 기르기도 했다. 성종은 1494년 가을부터 폐병과 기허증, 서증(暑症) (일종의 더위 먹은 병) 등으로 병석에 누웠고, 등창까지 생겼다. 성종은 1494년 음력 12월 24일 (1월 20일) 창덕궁 대조전(大造殿)에서 폐병, 기허증, 서증, 등창 등의 후유증으로 38세를 일기로 승하하였다. 능은 선릉(宣陵)이며, 현재 서울특별시 강남구 삼성동에 계비 정현왕후 와 함께 안장되어 있다."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="사후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="묘호는 조선의 모든 법제와 정비를 완성시켰다는 뜻을 담은 성종(成宗)으로 정해졌는데,빈청에서는 성종의 덕을 표현하려면 인종(仁宗)으로 정해야 한다고 여러 차례 주장했으나 결국 원래대로 갔으며, '인종(仁宗)'이란 묘호는 그의 손자이자 중종과 장경왕후 사이에서 태어난 인종이 받게 된다.그는 폐비 윤씨 사사 사건 문제를 자신의 사후 100년간 언급하지 말 것을 유언으로 남겼다. 그러나 이 유언은 지켜지지 않고 연산군에 의해 거론된다. 사림파에서 이때의 성종의 유언을 지적하며 폐비윤씨의 추숭을 적극 반대한 것은 연산군의 폭정의 원인의 하나가 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="평가와 비판"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="호문의 군주라는 평가와 함께 연산군의 학살의 원인을 제공한 인물이라는 점에서 호불호가 갈린다.재위 기간 중 세종·세조 때 이룩한 초기 문화가 은성(殷盛)하게 개화했고, 조선 초의 문물제도가 일단 정비되었다. 숙의(淑儀) 윤씨(尹氏)를 왕비로 삼았다가 폐위한 뒤 사사(賜死)하여 연산군 때 사화의 불씨가 되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

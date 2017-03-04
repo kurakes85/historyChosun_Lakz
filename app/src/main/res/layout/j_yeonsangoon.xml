@@ -1,13 +1,781 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/moon_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
 
-</LinearLayout>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="10대 연산군 이융"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="人君所畏者, 史而已 \n내가 두려워하는 것은 역사 뿐이다 - 연산군"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="11dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 없음\n시호 : 없음\n존호 : 헌천홍도경문위무대왕(憲天弘道經文緯武大王)\n본관 : 전주(全州)\n군호 : 연산군(燕山君)\n능묘 : 연산군묘(燕山君墓)\n휘 : 이융(李漋)\n자 : 없음\n출생지 한성 경복궁 자선당\n사망장소 : 교동현(喬桐縣)\n배우자 : 폐비 신씨(廢妃愼氏)\n아버지 : 조선 성종\n어머니 : 폐비 윤씨(廢妃尹氏)\n생몰 : 기간 음력 1476년 11월 6일[2] ~ 1506년 11월 6일\n양력 : 1476년 11월 22일 ~ 1506년 11월 20일(29년 11개월 28일, 1만 954일.)\n재위 기간 음력 : 1494년 12월 25일 ~ 1506년 9월 2일\n양력 : 1495년 1월 21일 ~ 1506년 9월 18일(11년 7개월 28일, 4,257일.)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="연산군 소개"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/zoomtextview_taejo_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="한국사 전체를 통틀어서도 이런 막장은 거의 없다.충혜왕을 비롯한 조선 이전의 일부 연산군을 초월한 막장 오브 막장 임금이 있긴 하지만,그렇다고 연산군이 그나마 괜찮은 편인 것도 아니고…그리고 사실 그런 임금이 많은 편도 아니다. 게다가 충혜왕은 누구라고 콕 집을 것 없이 그냥 다같이 미쳐 돌아가는 막장 분위기 속의 막장 임금이었던 반면,연산군은 잡다한 문제가 있긴 했어도 어느 정도 균형에 맞춰 멀쩡하게 돌아가던 정치판에서 뜬금깽판을 쳐버렸으니 더욱 막장일 수밖에…실제로 많은 사람들이 연산군을 기점으로 조선이 이전의 건강함을 점점 잃어갔으며,이후 즉위하는 조선 왕의 능력 부재로 인해 기묘사화와 을사사화, 문정왕후의 외척 세도를 거쳐, 결국에는 임진왜란으로 이어지게 된다고 평가한다.문제점도 있었고 뻘짓도 있었지만, 아직 망할 나라는 아니었다. 실제로 임란 이후로도 300년을 더 갔고.연산군의 막장짓에 비례해서 조선왕조상 왕권이 가장 강했던 시기는 갑자사화 이후 연산군이 폐위된 2년간일지도...조선 역사 중에서 묘호를 받지 못한 4명의 왕들 중 하나이나,본인에게 딱히 별다른 권력이 없던 정종(공정왕),성인도 되기 전에 작은아버지에게 강제로 내몰린 단종(노산군),실리외교와 분조 지휘 등으로 인해 상대적으로 더 빛나 보이는 등의 재조명으로 인해 현대에 긍정적으로 재평가된 광해군과는 반대로 반론의 여지가 없는 막장이라는 평을 받고 있다.물론 나라에 해를 끼친 왕이야 조선 시대에도 꽤나 많았지만, 그 왕들이 아무리 문제가 있어도, 최소한의 업적은 있거나,무능했으나 일제와의 타협을 끝까지 거부하여 독립운동을 이끈 공이 있거나 등의 최소한의 실드 칠 거리라도 있는데,연산군은 그조차도 없다. 즉위 초기에는 일을 좀 잘했다는 정도가 있으나, 그 뒤에 저지른 행동들이 너무나도 잔혹하다.다만 연산군이 본격 막장 놀자판으로 막 나가기 시작한 건 재위 10년째의 갑자사화 이후로,그 이전까지는 무오사화의 피바람이 있긴 했지만 행정적으로 국가는 그럭저럭 운영해 나아갔다.재위 후반의 이미지가 너무 강렬해서 그렇지,전체 재위기간 중에는 오히려 평타 이상으로 집무했던 시기가 더 길었다는 것.자세히 들여다 보면 반정세력이 편찬한 [연산군일기]에는 약간 의심되는 내용도 있는데,가령 연산군에게 엿 먹은 대비가 다음날 태연히 연화대에 구경을 한다는 내용이 있다. 방구석에 처박혀 떨어야 할 사람이 저러는 둥 정상적 심리상태의 정황과 어긋나는 이상한 점이란 것인데, 전문이 이러한지라 반대로 연산군이 둘러댔다고 보기도 한다.
+"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="'대비께서 연화대를 구경하려 하시니,\n놀이하는 사람을 급히 대궐로 들여보내라.\n옛 사람이 온실의 나무조차 말하지 않은 것\n이 정말 이유가 있는 것이니,\n이런 일들은 외간 사람들로 하여금 알게 하지 말라.'"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="게다가 설령 왜곡된 부분이 있다 해도, '알고 보니 연산군도 착했다' 고 봐서도 안 된다는 것에 주의하자. 연산군이 시도한 무리한 왕권의 강화는 신하들이 후대 왕에게 압력을 가하는 빌미 가 되었고, 무엇보다 반정으로 왕위에 오른 중종은 이러한 신권(臣權)의 압박에 제대로 시달려야 했다. 중종의 경우, 형처럼 처용무라는 춤을 좋아해서 즐겨 추었는데, 신하들이 처용무(處容舞)가 연산군이 즐겨 추던 춤이라고 간언해 중종이 춤도 못 추게 만들었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="행 적"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="초기 생애부터 즉위 초반까지"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="맹꽁이 서당 같은 학습만화에서는 연산군이 세자 시절 때 성종이 아껴 기르던 사슴이 자신의 손을 핥은 데에 화가 나 사슴을 폭행하자 이를 안 성종의 꾸지람을 받아 앙심을 품고 있다가 왕위에 오르자마자 즉시 그 사슴을 활로 쏘아 죽였다는 각종 사이코 짓을 했다는 등의 야사가 있다.그런데 이는 근거가 불확실한 이야기이며, 세자 시절의 연산군은 양녕대군 같은 불량아도 아니었지만, 아버지 성종처럼 대단한 모범생도 아닌 그저 평범한 세자였다.즉위 초에는 빈민을 구제하였다. [속국조보감(續國朝寶鑑)]을 완성시켰으며,국방도 튼튼히 했다. 왜구를 격퇴했으며 건주야인(建州野人)을 회유, 토벌하기도 했다.신하들이 헌천홍도경문위무대왕(憲天弘道經文緯武大王)이라고 하는 특이한 존호를 올렸지만,연산군은 자신에게 과분하다고 물리친 적이 있었다.성종 말기의 느슨함을 휘어잡을 만큼 정치에 의욕도 있었고, 3명의 대비들을 극진히 모셨으며,자기 자신이 나태해지는 걸 경계하려는 듯한 모습을 보여서,왕으로서 충분히 인정을 받고 있었다.몇몇 주장에 의하면,이 시절부터 이미 연산군에겐 폭군의 자질이 싹트고 있었다고 한다.조선조 내내 군왕의 공식 업무들 중 굉장히 중요한 업무에 속했던'경연(經筵)'을 점차 제대로 실시하지 않는 모습을 보이고 있었다는 것이 주요 근거이다.당시 '경연'은 사전적 의미대로면 능력/덕망 있는 관리나 선비를 모시고 스승으로 삼아,왕과 신료들이 경전을 공부하는 일종의 과외수업이었는데,실제로는 일종의 '국무회의'의 기능을 담당하고 있었다.그런데 이것을 이미 즉위 초부터 이것저것 핑계를 대면서 나가지 않기 시작했으니,이미 연산군이 폭군이라는 주장이라는 것이다.그러나 이 주장만으로 연산군이 폭군의 기미를 보였다는 것은 좀 무리가 있다.왜냐하면 조선 초기부터 시작해서 조선 후반기까지의 왕들이 모두 경연을 선호했던 것은 아니었기 때문이다.사실 세종대왕 같은 몇몇을 제외하면 대부분 싫어했다.물론 세종대왕은 경연에서 자기가 신하들을 과외시켜 준 희대의 천재적 군주이니 제외한다 쳐도 대표적으로 태종과 세조가 있다.태종은 여러 가지 핑계(?)를 대며 빠지는 경우가 많았고,세조는 아예 폐지시켜 버린 전적이 있다.광해군은 정말로 경연을 싫어했다.정말로 열 손가락에 꼽을 수준이다.한편 정조는 경연장을 자신이 배우는 자리가 아닌 신하들을 가르치는 자리로 변화시켜버렸고,그 외에도 상당히 많은 군주들이 권력이 안정되면 꺼려하는 경우가 많았다.즉 연산군이 경연을 자주 하지 않은 게 결코 잘한 일은 아니긴 해도,그렇게까지 유난하게 여길 것은 아니라는 이야기.애초에 태조 이성계부터가 경연을 싫어했다.즉위 1년차부터 '내가 나이도 많으니 경연을 들을 필요는 없겠구나!!'하다가 신하들에게 까이고 경연에 나갔다는 기록이 있을 정도다. 세금과 노역을 피해 도첩도 없이 무단으로 승려가 되려 하는 자들을 공역에 배치해 정리하면서 '백성들이 중이 되는게 어찌 그들이 거친 밥과 나물국을 즐기기 때문이겠는가? 나라에서 한 명도 빠짐없이 노역을 시켜 농사를 지을 수 없어서 출가하는 것이니, 농사에 전력하게 하여 생계를 넉넉하게 만들 방법을 찾으라'라고 명하기도 했다.이 때만 해도 백성들의 삶에 아주 무관심하지는 않았다는 것.일본에서 원숭이를 선물로 보낸 일에 대해서도 '선왕(성종) 때 앵무새를 보낸 적이 있는데,비용만 많이 들고 아무런 쓸모도 없었다. 구리나 철과 같이 꼭 필요한 물건도 값을 대기 힘들어서 무역을 금지했는데 하물며 이런 동물은 오죽하겠는가?도로 돌려보내고 잘 타이르도록 하라.'라는 개념 있는 발언을 남긴 적도 있다.(연산군일기 47권, 연산 8년 11월 14일 계미 1번째기사)단순히 개념 있고 정상적인 것을 넘어 비범해보이는 모습을 보여주는 대목도 있다.연산군 2년,초계군수 유인홍의 첩이 남자 종과 간통을 하다가 전처 소생의 딸에게 발각되고 그래서 딸을 살해하는 사건이 발생한다.이에 연산군은 직접 딸의 죽음을 자살이라 주장하는 유인홍에 대한 취조를 지시하고 심문내용을 하달하는 등 조사에 적극적으로 개입하며 심문 내용을 전해듣고선 단박에 헛점을 찾아내는 등의 예리함을 보이며 딸의 죽음이 자살이 아닌 명백한 타살이라는 점과 유인홍이 첩을 보호하기 위해 관련자들과 입을 맞추고 위증을 하려했다는 사실을 밝혀내는 탁월한 면모를 보여주었다. 참고로 여기서 유인홍과 그 첩이 입을 맞추기 위해 언문편지로 소통을 하기도 했는데,이는 연산군이 능상, 즉 위를 능멸하는 행위다 라는 구실을 붙여서 언문사용을 금지하는 명을 내리는 구실 중 하나로 작용한다.그 횟수로만 따지면,연산군은 조선 왕의 필수 덕목(?)이라 할 만한 경연을 갑자사화 바로 전 해인 연산 9년에 자그마치 122회나 열기도 했다.다만 칭병(稱病)으로 경연을 안 했던 적이 많았다는 것일 뿐, 일단 나오면 열심이었다.실제 연산군이 그다지 건강하지 못했다는 것을 감안하면,진짜 아파서 경연을 못한 경우도 많았을 것으로 짐작된다.세자 시절부터 잔병치레를 자주 앓았다는 기록이 있는 것으로 보아 병으로 인해 경연을 나가지 못했다는 것이 100% 거짓은 아니라는 증거가 된다.물론 꾀병을 부리고 놀자판을 벌인 경우도 있었던 것 같다.예를 들어,연산 3년에는 사간원에서 '아니, 눈병이 나셨다며 경연 빼먹으신 분이 왜 연회에는 나가서 즐기십니까?' 라고 아뢰자,'연회에 나가서 눈으로 먹냐?'라고 받아쳤다는 기록이 있을 정도. \n\n[연산군일기] 22권, \n\n연산 3년 3월 9일 신해 3번째 기사 , [연산군일기] 권22 3년 3월 11일 계축 2번째 기사\n\n그러니 대체적으로 여기까지는 좋았다.연산군은 즉위 후 4년까지는 정말 큰 문제는 없었다.사가독서(賜暇讀書)를 실시하여 학문을 장려하고,왜구와 야인의 침략에 대비해 병기를 증축하며,악한 관리들을 색출해 벌주는 등 초기엔 그래도 좋았다.다만, 어전회의에서 '위를 능멸하는 풍습은 고쳐야 한다'라고 말한 적이 있어,이때부터 슬슬 싹수가 보이긴 했지만… [박시백의 조선왕조실록]에서도 연산군의 이 발언이 언급되는데,훗날 피바람의 복선이라고 해석하고 있다. \n\n[연산군일기] 권2 1년 1월 30일 갑인 1번째 기사,  \n\n[연산군일기] 권2 1년 1월 30일 갑인 3번째 기사 대부분의 사극에서는 이때를 생략하나, [왕과 나] 에서 나온 연산군은 이 시기를 조명해 주긴 한다.덕분에, 연산군을 즉위 12년 내내 막장 짓을 한 왕으로 알고 있다가,초반의 4년, 길게는 10년 동안 제법 정상적이었다는 것을 알고는 꽤나 놀란 사람들이 적지 않았다고 한다.몇몇 역덕후들과 전공자들이 그의 이러한 행적 때문에 연산군을 많이 아쉬워하는 편.초기 치세만 괜찮게 유지했으면,탕아적 기질이 있긴 했지만 정국을 균형 있게 잘 운영한 유능한 군주로 사서에 남았을 것이고,이후의 조선이 가는 방향 역시 크게 바뀌었을지도 모른다.오히려 성종과 비교했을 때,성종이 너무 대간에 잡혀서 왕 스스로의 결정을 하지 못한 것에 비하면,이 때의 연산군은 젊어서 거칠기는 했으나,앞에서 설명한 대로 나름의 자질도 있었고, 왕 스스로의 결정을 밀고가는 뚝심도 있었기에 성종과 차별화된 또 다른 임금이 되었을 수도 있다는 말 이기도 하기에 아쉬움이 남는다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="사화의 연속"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="연산군의 아버지인 성종의 치세 동안 조선의 국정운영은 왕과 대신, 대간(臺諫)의 견제와 균형 속에서 이뤄졌다.이런 상태에서 연산군은 대신들인 이극돈,유자광 등의 말을 듣고 사초(史草)를 보고 문제 삼아 김종직의 제자 등의 대간들을 죽이는 무오사화(戊午士禍)를 일으켰다. 이것이 조선 최초의 사화이다. 무오사화는 선비 士자 대신 역사 史자를 쓰기도 하는데, 실록의 기초가 되는 사초 때문에 벌어졌기 때문이다. 일반적으로는 사초 중에 김종직이 지은 [조의제문] 이 문제가 되었다고 알려져 있다. 무오사화는 연산군이 전제적 왕권을 강화하기 위한 수단이었다. 성종이 균형을 애써 유교적인 방식으로 맞추려했다면, 연산군은 그냥 칼로 해결하려 한 것이다. 이는 성공을 거둬, 성종 말기 사적인 주관을 개입시켜 대신들을 탄핵하는 폐단이 드러나며 왕의 인사권마저 간섭하기에 이른 대간들을 찍어 누른다. 그 덕에 대신과 왕의 권세는 강해졌으나 성종 시대의 유교적 유산은 안드로메다로 날아갔다. 얼마 후엔 사림에게도 온건하게 대하고,대신들의 의견도 크게 수용하는 등 예전의 모습을 찾아가기 시작했다. 하지만 공작새 깃털, 산호나 후추와 같은 진귀한 물품을 들일 것을 명하는 등 이때부터 낭비벽이 슬슬 보이기 시작한다. 이에 대해 연산 9년, 대신들이 씀씀이를 줄일 것을 권고했고, 이에 대해 연산군은 대응하지 않고 넘어갔다. 드디어 사건이 터진다. 폐비 윤씨 사건을 빌미로 훈구파,사림파를 막론하고 모두 억누르고, 수많은 대신들을 숙청한 갑자사화가 벌어진 것이다. 자세한 것은 항목 참조. 어쨌거나, 연산군은 폐비 윤씨의 아들이므로 왕으로서 어머니를 신원(伸冤)시킬 권리가 없다고 할 수는 없다. 다만, 처벌이 유례가 없을 만큼 잔인하고 과도했던 것이 문제였다.그래도 예전의 모습으로 돌아와서 초기처럼 선정을 베풀었다면, 홍무제처럼 강한 왕권으로 신하들을 조져버리기는 했을지언정,백성들에게는 성군이었다는 소리는 들었을지도 모른다.훈구권신들과 간관(諫官)들이 왕권을 제약했던 성종 대의 단점을 보완한 왕이라는 긍정적인 평가를 들었을 가능성도 있다.허나 여기서 연산군의 성격을 고려할 필요가 있다.연산군은 죽어도 권력을 추구한 왕이었는데, 무오사화로 대간들을 엿 먹인 후 견제세력이 사라진 대신들이 권세가 강해지니,이제는 이들도 토사구팽하면서 밟아놓을 필요가 생긴 것이다. 이 때문에 불가항력적으로 일어난 게 갑자사화다.하지만 갑자사화 이후, 연산군의 문제있는 행동은 더 심각해졌다.아버지에게서 물려받은 방탕한 기질이 더욱 심해졌다. 원래 처용무(處容舞)도 잘 추고,연기도 잘해서 사람들을 울릴 정도였으며, 시 쓰기에도 능했다고 한다. 예술인의 기질이 있었던 것으로 보인다.그런데 [조의제문] 으로 사림 대간들을 모두 날려버리고,폐비 윤씨 사건으로 훈구 대신들을 모두 날려버린 이후 절대권력을 손아귀에 쥔 연산군.그는 더욱 막강해진 절대권력으로 하라는 나랏일은 할 생각도 안 하고… 그냥 놀아제끼기 시작했다. 그리고 조선의 정치와 경제는 그 후 2년간 막장일로를 겪는다."
+                />
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="폐비 윤씨와 갑자사화"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="어제 사묘에 나아가 어머니를 뵙고\n(昨趨思廟拜慈親 작추사묘배자친)\n\n술잔 올리며 눈물로 흠뻑 적셨네\n(奠爵難收淚滿茵 전작난수루만인)\n\n간절한 정회는 그 끝이 없으니\n(懇迫情懷難紀極 간박정회난기극)\n\n영령도 응당 이 정성을 돌보시리라\n(英靈應有顧誠眞 영령응유고성진)\n\nㅡ 연산군이 쓴 '所懷(소회)'라는 시\n"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="연산군에 대한 가장 큰 논란은 바로 폐비 윤씨와 관련된 부분이다.갑자사화의 원인이 되기도 했고, 뒤에 나오는 피 묻은 적삼 이야기도 얽혀 아주 요지경이다.연산군은 윤씨의 폐위에 찬성했다는 이유로 윤필상,김굉필 등 수십 명을 살해하고, 이미 세상을 떠난 한명회 등은 부관참시했다.갑자사화는 여기에서 비롯되었다는 해석이 지배적이다. 그러나,실록에 따르면, 연산군은 미복을 입고 임사홍의 집에 들려 폐비 윤씨에 대한 말을 듣게 된다. 이 부분의 기록은 없으나,임사홍은 성종 대에 윤씨의 폐비 조치에 열렬히 반대했던 인물인 만큼, 임사홍의 설명은 주로 자신과 윤씨의 변호로 이루어졌을 것이다.연산군은 이를 알게 된 날, 바로 자기 손으로 성종의 후궁인 귀인 정씨와 귀인 엄씨를 살해하여 산야에 버렸다.또한 폐비 윤씨가 폐비되는 데에 일조한 조모 인수대비의 궁에 칼을 들고 뛰어 들어가 결국 쇼크사 하도록 한다.박치기로 들이받았다는 이야기가 있는데, 이는 야사이다.처용탈을 쓰고 칼을 휘둘렀다는 설도 있지만,실록의 기록에는 그런 것 없이 칼을 들고 와서 인수대비더러, '왜 제 어머니를 죽이셨습니까?' 라고 물어,인수대비가 큰 충격을 받았던 것이라고 한다.사실 이 사건이 있기 직전에 계모인 정현왕후 윤씨에게 뛰어 들어가려고 했으나, 이때는 중전 신씨의 만류로 그만두었다고 한다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="어머니의 죽음을 안 시점"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="사실, 연산군은 즉위하기 전에 친어머니가 사망했다는 사실을 알고는 있었을 가능성이 높다. 성종이 아무리 '백 년 동안 이 일을 입에도 꺼내지 말라!' 고 신하들에게 신신당부했지만, 연산군이 세자로서 국사를 논의하는 장소에 참여할 때, 간간히 폐비의 이야기가 낮게나마 거론된 적이 있었으며, 윤씨가 사사당했을 시 만 7세였으니, 어쩌면 어렸을 때도 어렴풋하게나마 알고 있었을 가능성도 있다.\n\n실록에 의하면, 즉위 후 성종의 [행장록(行狀錄)] 때문에 알게 되었다고 한다. 조선은 왕이 승하하면, 왕의 삶과 가족관계에 대해 상세하게 기록한 행장을 명나라로 보내야 했다. 당연 명나라로 보내는 외교문서이자, 개인적으로는 아버지의 일생을 기록한 것이므로 연산군은 이를 보게 되었고, 이 과정에서 왕의 장인 중 한명으로 윤기견이란 사람의 이름이 있는 것을 보고 '윤호를 잘못 적은 것이 아닌가' 하고 물었다.\n\n신하 중 한 명이 '윤기견은 폐비 윤씨의 아버지' 라 답하자 폐비 윤씨에 대해 어찌되었냐 되물었다. 이때 사사되었다는 대답을 들었다. 하지만 실제로는 친어머니가 따로 있다는 걸 전부터 알고 있었으나, 더 자세한 걸 들으려고 질문했거나, 혹은 사사당했다는 것까지 알면서도 모르는 척 했던 것일 수도 있다.\n\n어쨌든, 설령 폐비 윤씨와의 추억이 없다고 해도, 자신을 낳아준 어머니인지라, 아버지와 신하에게서 어머니가 사사당했단 말을 들은 연산군의 기분이 좋았을 리는 없다. 기록에 보면 왕이 그 날 밥을 먹지 않았다고 한다. 말이 굶은 것이지, 왕이 굶은 것은 대단한 일이다(…). 실제로 많은 왕들이 굶는 것을 내세워 시위하곤 했는데, 이는 조정을 크게 뒤흔드는 무기였다.\n\n며칠 뒤 연산군은 폐비 윤씨의 초라한 무덤을 손질하고 비석이나 세워주라 말한다. 이것이 회묘(懷墓)다. 그리고 외할머니와 외삼촌 윤구를 유배지에서 풀어준다. 나중에 추숭(追崇)을 하려 하자 대간들이 많이 반대했는데, 결국 성공했다. 하지만 관련자에 대한 처벌은 없었으며, 사약을 들고 갔던 이세좌가 오히려 무덤 복원의 임무를 맡았다. 이때까진 폐비 윤씨가 성종에게 죄를 지어 사사당했다는 식으로만 이야기가 나왔으므로, 그 이상 더 어떻게 할 생각은 없었던 듯하다. 참고로 덧붙이자면, 연산군과는 약간 경우가 다르지만, 정비 소생이 아닌 왕자가 왕이 된 후에 자신의 생모를 추숭(追崇)하는 것은 흔한 일이다.\n\n그러나 실록에 따르면, 어머니의 폐위가 부당하다는 걸 안 후 태도가 변했다고 한다.사실 실록에서는 그 당시 윤씨의 폐위 정당화를 위한 여러 부정적인 기사들을 적고 있지만,그것이 사실인지의 여부는 알 수 없다. 일단 상황을 보면, 인수대비와 성종의 후궁들은 폐비 윤씨에게 적대적이었던 게 분명 하였기 때문이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="효자 연산(?)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="애당초 연산군이 친어머니 폐비 윤씨와 헤어졌을 때는 3살이었다. 헤어진 어머니에 대한 절절한 그리움이 남기에는 너무 어린 나이다. 더군다나 왕실법도상 왕자는 왕비가 직접 안고 업고 기르지도 않고, 봉보부인(奉保夫人)이라고 하는 유모에 의해 길러진다. 그것도 모자라 잔병이 잦았던 연산군은 궁 밖 강희맹의 집에서 피접(避接) 생활을 했다.이후 진실을 알게 된 후에 밥을 굶는다든가, 묘를 복원한다든가, 어머니의 지위를 다시 복권시키는것을 볼때 어느정도 어머니에 대한 효심은 있었을 가능성이 있다. 야사에는 어머니를 항상 그리워하여, 즉위 후 어느 날 자신의 어머니의 얼굴이 공민왕의 왕비였던 노국대장공주와 흡사하다는 말을 듣고, 전국에 남아 있던 노국공주의 초상화를 수집했다는 말이 있다.하지만 실록에 따르면, 자기 어머니 기일에도 검열삭제를 하는 패륜행위를 저지르기도 했다.이런 점에서, 연산에게 효심이 진짜 있었는지 아닌지에 대해서 상당히 애매모호하게 되었다. 말년에 들어서는 일관성 없이 즉흥적으로 이랬다 저랬다 했던것을 보면, 진심으로 우러나온 효심이라기보다는 반대 신료들을 숙청하기 위한 정치적 계산과 어머니에 대한 일시적인 그리움이 시너지 효과를 이루어 나타났다는 해석이 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="피 묻은 적삼"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="보통 연산군이 등장하는 사극을 보면,연산군이 자신의 외할머니 신씨를 통해 받은 폐비 윤씨의 피 묻은 적삼을 보고 분노해 갑자사화를 일으킨 것으로 그려지나,이는 사실이 아닐 확률이 높다. 무엇보다도 정사(실록)엔 연산군이 외할머니를 만난 기록이 없다. 임사홍만 만났을 뿐이다. 그렇다면 피 묻은 적삼은? 실록에는 등장하지 않는다. 다만 야사집인 [기묘록] 에는, 폐비 윤씨가 피 묻은 적삼을 자신의 어머니에게 맡기면서 자신의 원통함을 알려달라고 했다고 씌어 있다. 또 [파수편] 에서는, 연산군이 피 묻은 적삼을 받고 제정신을 잃었다는 식으로 설명을 하고 있다. 하지만 금삼(錦衫)의 피는 야사일 뿐이다.피 묻은 적삼은 이렇듯 신뢰할 수는 없는 이야기지만, 그 극적인 효과 때문에 조선시대에는 널리 퍼져 있었을 것으로 추측된다. 무엇보다도 이 설이 히트를 친 데에는, 박종화의 역사소설 [금삼의 피] 에 등장한 것이 크게 작용했다고 한다. 이러한 묘사가 상당히 임팩트가 있는지, 드라마 [장녹수], [왕과 나] 등 현재까지 사극에서 써먹고 있다. 그 외에도 [왕의 남자] 등에서도 정신적으로 불안정한 인물로 그려지는 경우가 많다.영화 [간신]의 첫 장면에서도, 임사홍, 임숭재 부자가 연산군에게 이 피 묻은 적삼을 건넨다. 하지만 여기에 비밀(반전)이 있었으니… 사실 폐비 윤씨는 자신이 세상을 떠난 후 아들이 자기 복수를 해주려고 폭군이 될 것을 걱정해, 자신의 어머니에게 모든 유품을 태워달라고 부탁했고, 실제 임사홍 부자가 폐비 윤씨의 어머니로부터 받은 것은 이 말과 함께 받은 빈 상자뿐이었다. 하지만 권세에 미친 임사홍은, 자신 때문에 독을 먹고 세상을 떠난 자신의 아내가 남긴 피 묻은 적삼을 폐비 윤씨의 것으로 속여 연산군에게 건넨 것. 또 다른 반전이 있었으니, 연산군은 이미 이 사실을 알고 있었다! 연산군은 왕권강화를 위해 임사홍의 거짓말을 눈감아 준 것 이라는 영화의 시각도 있다. 야사에만 있는 이야기라는 것이 이 글의 핵심이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="최근의 가설"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="최근에는 대간과 대신 모두를 숙청하여 절대권력을 이루기 위해서,어머니의 죽음을 정치적으로 활용했다는 설이 있다.아버지 성종이 왕임에도 불구하고 간혹 신하들의 말에 꼼짝도 못하는 듯한 모습을 보였고,이를 후계자의 입장에서 지켜보면서 자신은 그러지 않으리라 다짐했으리라는 것. 정사에서 실제로 폐비 윤씨에 대해 거론한 적은 많지 않으므로, 어디까지나 숙청의 빌미나 구실에 불과했다는 것이다. 늘 자신과 성종을 쪼아댔던 삼사(三司)가 유독 그때만큼은 성종에게 반대하지 않았다는 것을 알고는 화가 났던 것일 수도 있다.연산군은 즉위하기 전, 너무 세력이 커져 왕마저 괴롭히는 삼사를 탐탁지 않게 생각하여,즉위 직후부터 삼사의 권한을 억누르려 했다. 실제 연산군은 미친 듯이 아무나 숙청한 게 아니라, 우선 사약을 직접 나른 이세좌를 숙청한 뒤, 그 후로 이세좌의 가문인 광주 이씨와 그와 연관 있는 대신 가문을 숙청하고, 그 다음에 대간들을 찍어 누르면서, 조정의 세력균형을 완전히 무너뜨리고 절대권력을 장악했다.하지만 [연산군일기] 에는 연산군에 대한 긍정적 기사도 제법 있기 때문에, 연산군이 벌인 온갖 패륜이 모조리 거짓이라고 하기엔 무리가 많다. 설령 연산군이 절대권력을 위해 저랬다고 하더라도, 위에서 보다시피 연산군이 벌인 수많은 행동을 마음대로 하기 위해 절대권력을 쥐려고 했을 가능성이 매우 높다. 정당화할 건덕지가 없는 셈이다. 고로 연산군의 최후까지를 '왕권과 신권의 대립'으로 해석하면서 '연산군은 신권세력에게 왜곡되었다'고 떠드는 것은 심히 곤란하다. 게다가 이러한 가설을 제시한 임용한 교수도, 결과적으로 절대권력을 장악한 연산군이 이를 이용해 제멋대로 놀았다고 결론짓고 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="연산군의 광증(狂症)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="연산군은 어머니의 사랑이 부족했던 나머지, 폭정을 휘둘렀다는 말이 여러 번 제기되고 있다. 소설이나 영화 등에서도 자주 등장하는 설이기도 하다.왕자 시절 계모인 정현왕후 윤씨가 신경을 쓰지 않은 것은 아니지만, 자신의 아들 진성대군(후일의 중종)이 태어난 후엔 친아들에게 마음이 더 기울어 상대적으로 홀대했으리라 추측할 수 있다. 성종의 첫아들이라고는 하나, 미워했던 며느리의 아들이니 인수대비의 홀대도 대단했을 것이다. 하지만 이것은 모두 추측이다. 무엇보다도 성종은 연산군의 재능을 총애하고 신경을 많이 써서, 특별한 나쁜 기사는 딱히 없다. 실록에 나오는, 아버지의 사슴을 활로 쏘아 죽였다는 기사는 위작일 가능성이 높다.아이가 없었기에, 조카인 연산군을 자기 아이처럼 돌봐줬을 가능성이 높은 월산대군 부인 박씨 대한 야사 등을 비롯하여 유부녀들을 적지 않게 탐했다는 이야기에서, 그로 인한 오이디푸스 콤플렉스가 있지 않았나 하는 의심도 간다. 솔직히, 갑자사화 이후로는 강박관념 등에 시달린 게 아닌가하는 생각이 들게 하는 기사도 많다.여하간 연산군은 적어도 갑자사화 전까지는 이렇다 할 광증을 보이지 않고 있었다. 정사도 나름대로 잘하고, 백성들도 성종 대와 다르지 않다고 느낄 정도였다. 연산군의 행동을 어릴 적의 울분의 분출로 설명하기에는 무리가 많다. 다만 갑자사화 이후에는 그것이 영향을 미쳤을지도 모르는 일이다. 연산군 자체가 상당히 감성적이고, 예술적 기질이 있는 인물이었기 때문이다.그러나 이러한 광증은 앞서말한 소설이나 드라마, 영화때문에 일어난 산물로 보는 견해도 많다. 피묻은 적삼이 등장하는 [금삼의 피] 나 [장녹수] 에서 볼 수 있듯이 극적재미를 위한 요소 중 하나로 연산군의 광증을 짐짓 지어냈다는 것. 사실 관객들에게 흥미를 돋우는 것 중 하나가 스토리의 급작스러운 전환이니만큼 역사소설가나 대하드라마 작가같은 입장에서는 이를 부각시키는 것이 합당하다. 연출의 측면에 있어서도 엄한 아버지의 훈육 속에서 자라던 유년기에 대한 보상심리로 서서히 타락해가는 왕보다는 친모의 죽음으로 미쳐버리는 인물이 훨씬 매력 있어 보이는 것도 그 이유라고 할 수 있다. "
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="종합"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="철저한 계획이었다는 설이 유력한데, 폐비 윤씨의 일을 숙청을 단행하기 위한 하나의 빌미로 썼다는 것이다. 그 이전의 행동들은 모두 아직 권력이 약했던 시기의 행동이라는 것이다.이렇게 보면 어머니의 죽음을 처음 알게 된 것처럼 행동함 → 어머니를 추숭 → 날뛰는 대간 잡기 → 무오사화 → 수년간 눈치를 살핌 → 갑자사화 이 단계 모두가 권력과 정통성을 강화하는 책략이었다는 것이다.물론 역사는 승자의 기록이기 때문에 연산군의 폭정이 실제보다 어느정도 과장 됐을 가능성이 없지는 않다. 하지만 연산군 일기에 즉위기간 내내 폭정이 적힌것도 아니며 즉위 초반에 국정을 돌본 기록이 있는 기록도 있는 것을 감안하면 재위 후반 폭정을 저지른 건 엄연히 사실로 봐야 한다. 상식적으로 나라가 건국된 이후 최초로 신하들이 일으킨 쿠데타 였다는걸 생각해 보자,광해군과 달리, 연산군이 오늘날까지도 폭군이라고 욕먹으면서 재평가를 받지 못하는 것도 다 이유가 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text=""
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="철저한 계획이었다는 설이 유력한데, 폐비 윤씨의 일을 숙청을 단행하기 위한 하나의 빌미로 썼다는 것이다. 그 이전의 행동들은 모두 아직 권력이 약했던 시기의 행동이라는 것이다.이렇게 보면 어머니의 죽음을 처음 알게 된 것처럼 행동함 → 어머니를 추숭 → 날뛰는 대간 잡기 → 무오사화 → 수년간 눈치를 살핌 → 갑자사화 이 단계 모두가 권력과 정통성을 강화하는 책략이었다는 것이다.물론 역사는 승자의 기록이기 때문에 연산군의 폭정이 실제보다 어느정도 과장 됐을 가능성이 없지는 않다. 하지만 연산군 일기에 즉위기간 내내 폭정이 적힌것도 아니며 즉위 초반에 국정을 돌본 기록이 있는 기록도 있는 것을 감안하면 재위 후반 폭정을 저지른 건 엄연히 사실로 봐야 한다. 상식적으로 나라가 건국된 이후 최초로 신하들이 일으킨 쿠데타 였다는걸 생각해 보자,광해군과 달리, 연산군이 오늘날까지도 폭군이라고 욕먹으면서 재평가를 받지 못하는 것도 다 이유가 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="연산군의 패악질 종합"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="백성들의 고초"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="연산군은 황제급 권력을 얻었으나, 자신이 가진 권력에 걸맞는 일을 할 수 있을 만큼 그릇이 크거나 책임감이 강한 인물이 아니었다. 사화를 연속해서 벌인 후 나사가 빠져버린 연산군의 폭정으로, 백성들은 1년 내내 농사지은 수확물을 모두 착취당하는 식으로 빼앗겨 산에 있는 나물과 풀로 간신히 먹고살게 되었다. 하지만 그렇게 생계를 꾸려나가는 것까지 위협당했다. 산나물이 몸에 좋다는 말을 들은 연산군은 전국에 있는 산나물까지 채취하도록 하였는데, 백성들이 산나물이나 풀로 연명하는 것도 중지시키면서 많은 아사자가 발생하였다. 게다가 이 산나물을 다 먹은 것도 아니라서 궁으로 가는 산나물과 약초 수십 가마니가 사용되지도 못하고 썩는 동안, 많은 백성들은 그것을 바라보면서 굶어죽었다고 하니, 그 막장성은 하늘을 찔렀다. 이런 군주이다보니 연산군은 백성들에게조차 철저하게 증오받았다. 후에 중종반정으로 몰락하여 폐위되고 유배길에 오를 때 백성들이 앞다투어 손가락질하고 욕까지 했다고 할 정도 였다고 한다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="흥청망청"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="전국에 채홍사(採紅使)·채청사(採靑使) 등을 파견하여 미녀와 좋은 말을 구해오게 해서 방탕한 향락에 빠졌다.이 중에서 가장 예쁘거나 노래를 잘 하는 자들을 뽑아 '흥청' 이라고 이름 붙였으며, 이것이 '흥청망청' 의 어원이 된다. 워낙 크고 아름다운 것을 좋아하던 왕인지라 흥청의 규모는 2천명이었다고 한다. 초창기에는 예쁘고 노래 잘하고 춤 잘 추는 여자를 뽑으려고 했지만, 현실적으로 그건 도저히 무리였기 때문에, 얼굴이 예쁘장하면 무조건 뽑았다.\n\n이 많은 흥청들에게는 모두 집이 제공될 뿐더러, 가족의 납세와 노역도 면제되었다고 한다. 참고로 흥청으로 사용된 건물은 놀랍게도 집현전이었다. 게다가 고려시대부터 내려오다가 선왕인 세조가 중건한 절을 아예 기생방으로 만들어 버린다. 이 절이 바로 증조부 세조시절 증건되었고, 현 국보 2호 원각사지 십층석탑이 있던 원각사였다. 현재의 탑골공원이 원각사가 있던 자리다. 지금으로 치면, 대통령이 헌법을 뒤엎고 독재자가 된 다음, 국립 연구소와 서울시 내의 유서 깊은 종교시설, 예를 들어 명동성당이나 조계사를 강제로 점거하고, 클럽이나 술집으로 만들어 버린 꼴이다. 그만큼 학자와 승려를 우습게 보았다는 증거이다.또 궁궐 내관이었던 김처선이 자신의 죽음을 각오하고 선왕 중에서 연산군만큼 풍기문란을 일으키고 폭정을 일삼는 임금은 없었다는 간언을 올리자, 분노하여 김처선을 능지처참 시키고, '처(處)'라는 글자의 사용까지 금지하는 명령을 내리게 되어 '처서(處暑)'를 '조서'로, 처용무는 '풍두무(豊豆舞)'라고 고쳐 부르게 했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="성균관의 자리에 사냥터를 만들다"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종대왕이 즐겨했던, 시국을 논하고 정쟁에 대한 토론도 하는 경연을 없애서 학문을 멀리 하고, 성균관을 폐쇄하고 학생들을 모두 몰아낸 다음에, 그곳을 놀당, 즉 놀이터로 삼았다. 사간원도 폐지해서 언로를 막는 등, 연산군의 패악질은 극에 달했다. 백성들에게 끼친 피해도 만만치 않았는데, 경기도 일대에 금산(禁山), 지금으로 치면 '그린벨트' 와 비슷한 것을 정한 후, 그 안에 있는 민가를 쓸어버리고 사냥터를 만들게 하기도 했다. 이것 때문에 백성들은 연산군을 더욱 증오하였고 그가 왕위에서 쫓겨나자 통쾌하게 여겼다.물론, 조선시대 초기부터 금산은 자주 있었다. 개국초기나 연산군 시절처럼, 왜구가 출몰하는 시기에는 배를 만드는 데 쓰는 소나무를 조달하기 위해 금산을 시행하여 무분별한 벌목을 막았다. 연산군이 금산을 지정한 게 문제되는 건 이런 금산조치가 적어도 국방 등 국가경영을 목적으로 하는 정책을 위해서 시행한 것이 아니라, 그저 연산군 개인의 유흥을 위해서였다는 것이다. 게다가 단순히 산에 출입금지를 시키는 금산이 아닌 거주민을 전부 쫓아내고 그들의 땅을 빼앗는 짓을 한 것이다. 이쯤 되면 정말 막장스럽기 짝이 없다.그런데도 정작 사냥은 몇 번 나가지도 않았었다. 겁이 많아서 맹수들은 절대 사냥하지 않고, 잡아온 뒤에 우리 밖에서 쏘아 죽였다. 그가 사냥한 짐승은 노루나 토끼, 꿩 등 사람에게 위협이 되지 않는 짐승들이다. 하지만, 한 번 사냥을 나가기만 해도, 몰이꾼들의 식량부터 해서 어마어마한 돈이 들어가므로 재정은 충분히 거덜 났다. 사실 조선의 왕들이 사냥을 나가고 싶어도, 이런 재정적인 문제 때문에 제대로 사냥을 하지 못했다. 태종 이방원도 사냥을 좋아했지만, 신하들에게 잔소리를 많이 들어서 눈치를 항상 살펴야만 했다. 여담으로, 태종은 상왕이 되고 나서야 비로소 사냥을 마음껏 할 수 있게 되었다. 물론, 이때의 태종은 죽을 날이 멀지 않았기에, 세종과 신하들이 눈감아준 것도 있었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="돈 낭비"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="서총대(瑞葱臺)를 비롯한 토목공사를 벌였고, 생일에는 '혀 요리' 같은 진미를 동원했으며, 주변 관료들과 백성들의 옷도 화려하게 입을 것을 명했다. 심지어 궁궐에서 일하는 공노비들도 옷을 화려하게 입도록 했다. 하지만 문제는, 이렇게 놀아 제끼려면 당연히 돈이 많이 드는데도 불구하고, 돈도 한 푼 안 주면서 뻔뻔하게 이런 무리한 명령을 했다는 것. 덕분에, 연산군 초기만 해도 살 만했던 백성들은 경제적으로나 뭐로나 헬게이트가 열리면서 완전히 죽을 맛이 되었다.\n\n이에 대해서는 반론도 있는데, 서총대를 비롯한 연산의 토목공사는 사실 그리 큰 토목공사도 아니었고, 백성들에 대한 세수 증가는 이미 세조 이후 성종 치세부터 꾸준히 진행되어 왔으며, 재정악화 역시 딱히 연산군이 막장으로 놀지 않았더라도, 훈구파들의 세력 확대로 인해 성종 때부터 진행되어왔다는 견해다.\n\n또한 연산군은 금표(禁標)를 지정해 농토를 마구 뺏었는데, 이는 대부분 훈구 대신들의 사유지를 연산군 자신의 사유지로 만든 것이라 백성들의 생활과는 큰 관련이 없었다는 주장이다. 즉 민생 자체에 딱히 심한 타격을 초래하지는 않았으리라는 것이다. 막장이 된 뒤 2년 동안 연산군이 마음대로 놀아 제끼면서 재정을 악화시킨 점은 있었으나, 성종이나 중종과 비교해볼 때 딱히 심각한 지출이나 징세는 없었다는 주장도 있다.\n\n그러나 두고두고 문제가 되는 왕실의 방만한 재정운용은 무오사화 이후 심화되어, 연산군 10년 내수사(內需司) 직계제를 통해 이에 필요한 비용을 수탈하는 제도가 확립된다. 애초 재정의 남용에 따른 부족분을 다음해, 그 다음해에 필요로 하는 공물을 앞당겨 조달하는 인납(引納), 무납(貿納) 등 공납제도가 크게 어지러워진 것은 연산군 때부터의 일이며, 연산군 7년에 이를 현실화한다는 미명 하에 실시된 공안 상정(신유공안)으로 인해, 백성들에게 부담되는 공납의 부담은 크게 증가했다.\n\n이미 16세기 들어 조세제도에서 공납의 비중이 커져만 가던 시대상황을 생각하면, 이러한 변화가 백성들에게 심각한 부담이 되었을 것이란 건 당연지사다. 예를 들어, 경기도에서 1년에 진상해야 할 물고기 7,518마리 중 4,800마리가 이러한 별진상으로 늘어난 품목들이었다. 선조시대의 율곡 이이가 만언봉사에서 가장 큰 문제로 지적한 공물 추가분정은 바로 연산군의 이러한 깽판질에서 비롯된 것이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="직언을 차단"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="신하들 단속에 매우 난리를 쳤는데, '입은 몸을 베는 칼이다.' 라는 내용의 신언패(愼言牌) 를 차게 하고, 총애하는 흥청의 나들이나 연산군의 가마를 메는 데 신하들을 동원시켰다.폐위 몇 달 전부터는 아예 사모 앞뒤로 '충', '성' 을 수놓게 하였다. 그렇게 많이 죽이고도 겁이 어마어마하게 많았던 모양이다. 자기 권위를 살리는 데에도 열심이어서, 자신이 사냥을 나갈 때에는 백성들을 멀리 쫓아내버렸으며, 북악산 마루에서 궁궐을 내려다본 아이들의 부모를 잡아 족쳤다는 말이 나돌 정도였으니, 이걸 보면 연산군은 백성을 사랑하는 왕이 절대로 아니다라는 것을 알 수 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="언문사용 금지"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="연산군의 악행을 비방하는 투서가 나돌았는데,그것이 언문으로 써져 있었다는 이유로 훈민정음 교습을 중단시키고 언문 구결을 모조리 수거하여 불태웠다.하지만 정작 뒤에 나오는 흥청들의 음악 교본은 모두 언문, 즉 한글로 되어 있었다.아무래도 연산군이 일시적인 감정 때문에 명령을 내리기는 했지만,이미 백성들에게도 한글 사용이 제대로 정착된 현실 때문에 흐지부지 되어버린 듯하다. 그러므로 '한글의 암흑기' 까지는 아니었다고 할 수 있다.또한 언문이 지식인이 아니라 일반 백성들까지 상대로 한 글이라는 점을 생각해보면,연산군에 대한 반감이 백성들에게까지 퍼졌거나,백성들까지 끌어들여서 반(反)연산군 활동을 하려는 세력이 나타났다는 것으로도 이해될 수도 있다. 어찌되었든 한 국가의 임금이라는 사람이, 개인의 감정으로 고조부의 업적을 제대로 능욕한 꼴이 되었으니 까여도 할 말 없다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="성 중독자"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="왕의 음탕이 날로 심하여,\n\n매양 족친 및 선왕의 후궁을 모아\n\n왕이 친히 잔을 들어서 마시게 하며,\n\n마음에 드는 사람이 있으면\n\n장녹수가 아끼는 궁인에게 누구의 아내인지\n\n비밀히 알아보게 하여 외워두었다가 \n\n이어 궁중에 묵게 하여 밤에 강제로 간음하며 낮에도 그랬다.\n\n혹 4,5일이 지나도록 나가지 못한 사람으로서,\n\n좌의정 박모의 아내, 남천군 이모의 아내,\n\n봉사 변모의 아내 (중략) 같은 이들이\n\n모두(왕과) 추문이 있었다.\n\nㅡ [조선왕조실록] 연산군일기 11년(1505) 4월 12일."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="왕이 박씨 로 하여금 그 집에서 세자를 봉양하게 하다가\n\n세자가 장성하여 경복궁에 들어와 거처하게 되면서는,\n\n왕이 박씨에게 특별히 명하여 세자를 입시(入侍)하게 하고,\n\n드디어 간통을 한 다음 은으로 승평부 대부인이란 도장을 만들어 주었다.\n\n어느 날 밤 왕이 박씨와 함께 자다가 꿈에 월산대군을 보고는 밉게 여겨\n\n내관으로 하여금 한 길이나 되는 쇠막대기를 만들어\n\n월산대군의 묘 가운데 꽂게 하였는데 우레와 같은 소리가 들렸다.\n\nㅡ [조선왕조실록] 연산군일기 12년(1506) 6월 6일."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="'색(色)을 밝혀서, 기생들만으로는 만족하지 못하고, 신하들의 아내까지 은밀히 불러다가 간음했다.'하며, 실록에는 연산군에게 아내를 바친 신하들의 명단이 기록되어 있다. 거기다가 이복누이들과 근친상간까지 했다는 기록도 존재한다. 그런데 색욕에 비해 정력이 딸렸는지, 약을 엄청나게 복용했다고 전해진다. 사실 연산군의 건강은 그렇게 좋은 편이 아니었다. 항상 잔병을 달고 살아서 본인이 이것 때문에 스트레스를 많이 받고 살았다. 갑자사화 후 친모(폐비 윤씨)의 상중에도 성관계, 심심하면 말의 등에서도 성관계를 하는 등, 하드코어의 극치를 달린다.이게 다 사실이라면,연산군은 현대 정신의학적인 견지에서,전형적인 섹스 중독증을 앓았던 것으로 생각된다.육체적인 성욕의 해소가 아니라, 정신적인 공허를 성적인 자극으로 채우려고 성에 탐닉하는 것인데,결국 밑 빠진 독에 물붓기다. 원인이 되는 정신적인 문제가 해결되지 않기 때문이다.물론, 저 시점에선 정신의학이란 개념 자체가 지구상에 없던 시기인 관계로, 후대의 인물인 사도세자의 경우에서와 마찬가지로 이를 해결할 방법은 전혀 없었다고 봐야 한다.더군다나 연산군은, 궁녀들을 시도 때도 없이 너무 많이 뽑은 탓에, 연산군의 치세기간 동안이 조선왕조 전체를 통틀어서 궁녀들의 수가 가장 많았던 시기였다. 각 군주 당 평균 600~700명 가량 되던 궁녀의 수가, 이 시기에만 유일하게 1,000명을 돌파했다고 한다. 물론, 궁녀들 대부분은 노비였으니 궁녀를 뽑는 것 자체는 큰 문제가 아니었지만, 궁녀 유지비는 그 자체로 백성들 등골을 빼먹는 행위였다는 것이 문제다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="중종반정,폭군의 몰락"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1506년 음력 9월 2일 성희안, 유순정, 박원종, 신윤무 등은 사전에 준비한 사병들로 거병하여,신수근, 임사홍등 연산군의 측근들을 살해하고 궁을 장악하여 성종의 둘째아들 진성대군(중종)을 왕으로 추대했다. 연산군은 폐위되어 민가에 숨어있다가 체포되어 경기도 김포군 교동(喬桐)에 추방되었다. 이때 장녹수 등 그의 후궁들은 한성부 종로, 남대문 등에서 투석사형당하였으며 연산군의 어린 아들들도 반정군에 의해 살해당했다.정현왕후는 처음에 주저하는 듯 하다가 바로 반정군의 요청을 수용한다.음력 9월 2일 새벽, 궁궐의 방화를 틈타 민간복으로 변복한뒤 말을 타고 궁궐을 빠져나온 연산군은 한성부 근처의 한 민가에 숨었으나 그를 추격한 박원종의 사병에 의해 체포되었다. 체포 즉시 압송되어 폐위당하고 강화도로 유배되었다. 유배된 뒤 유배지의 별감과 상궁들은 그를 조롱했으나 그는 이를 묵묵히 참고 인내했다. 그러나 유배 직후 열병에 걸려서 오랫동안 고생하게 된다. 뒤이어 강화도 근처 교동도로 배소가 옮겨진다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="가족사와 편력"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="아내 폐비 신씨는 신수근의 여동생으로 후덕하고 엄정하기로 유명하였고, 남편의 폭주를 막아보려고 여러 번 간언하지만 실패했다. 그래도 조강지처인지 연산군은 그녀를 내치지도 않고, 그녀의 후덕함을 황금에 새겨 치하하기도 했다.연산군과 신씨는 유배될 때 각각 다른 곳에서 지내게 되었는데,실록의 기록에 따르면, 연산군의 유언은 '중전이 보고 싶다' 였다고 한다. 어떻게 보면 나름대로 인간적인 유언이다. 원래 연산군의 묘는 강화도에 있었지만, 부인 신씨가 간청하여 몇 년 뒤 오늘의 위치로 이장했고, 신씨 역시 사망한 후 연산군의 옆에 묻히게 되었으니, 결국 유언은 이루어진 셈이다. 장례는 왕의 지위가 취소된 점을 들어 왕자의 예로 치러졌다고 한다.하지만 장녹수 쪽으로 가면 이야기가 달라진다. 검열삭제를 안하기로 유명한 예종의 아들 제안대군의 종이었던 장녹수는 당시 30대였고 유부녀였으나, 엄청난 동안과 애교로 연산군을 녹여서 가지고 놀았다고 전해진다. 연산군의 후궁 노릇을 하면서 권세를 누리다가 중종반정 이후 처형당한다.폐세자 이황을 포함한 연산군의 아들 4명은 연산군이 폐위된 이후 반정공신들에게 부당한 죽임을 당했다. 반정당시 세자 이황은 10살이었는데, 야사에 따르면 외척 신수근 이 반정을 알고도, 임금이 포악하지만 세자가 총명하다며 반대를 하다가 역적으로 몰려서 죽음을 당했을 정도였다.하지만 고작 10살짜리의 어린애가 어떻게 성장할지는 아무도 예측할 수 없는 부분이고, 이황 본인 또한 어린애라서 그런지 개념이 없는 편이었는데, 중종반정 다음날 은둔지에서 먹는 식사에 평소 자신이 좋아하던 꿩고기가 빠져있자, 상궁에게 '꿩고기는 어딨느냐?' 며 반찬투정을 하기도 했다. 덕분에 궁녀들이 '불쌍하신 분… 앞으론 피죽도 못 드실 텐데…'라고 말하다가 눈물바다가 되었다고 하는데….이황은 연산군의 아들 중 최연장자였고, 창녕대군의 경우, 겨우 5살이었는데도 불구하고 연산군 폐위 이후 몇 달 만에 사사되었다. 연산군의 막장 포스에 묻히는 감이 있지만, 반정공신들의 조치 역시 16세 미만의 경우는 사형을 금하고, 노비로 만드는 것이 최고형이던 조선의 법도상 엄연한 불법이다. 중종은 자신의 조카들을 죽이라는 반정공신들의 요구에, 처음에는 '어린 아이들이 뭔 죽일 죄가 있겠으며 장차 위협이 될 가능성도 낮고 인정상으로도 못할 짓이다' 라는 이유로 거부했지만, 요구가 계속되자 결국 모두 사사시키고 말았다. 그나마 중종은 폐세자 이황의 장례나 제대로 치러주라고 명령했지만, 이 또한 묵살 당했다. 이때 실록 기록을 보면, 즉위 초기 중종이 얼마나 무력한 임금이었는지 제대로 체감할 수 있을 정도였다.반정공신들이 반정명분을 더욱 굳건히 하기 위해, 연산군에 대한 이야기들 중 일부는 날조되었거나 과장되었을 가능성이 있다는 주장이 제기되기도 했다.더욱이 반정공신들 대부분은 연산군의 체제에서 이득을 누린 관료들이 대부분이다.역사는 승자가 기록한다는 점을 보면 가능성이 없지는 않은 주장이기는 하지만, 기본적으로 연산군이 막장테크를 탄 것은 사실이다.비슷하게 정치적 다툼으로 아버지를 잃었지만 성군이 된 정조와 비교하기도 하는데, 자세히 따지고 보면 둘의 상황은 상당히 다르다. 사도세자가 죽을 당시 정조는 연산군보다 나이가 많았고, 영조는 사도세자를 죽인 것을 후회하는 것처럼 립서비스를 하며 시호를 내리기도 했다. 그리고 정조에게 사도세자의 죽음의 정당성에 대해 여러 차례 훈계를 했다. 반면 연산군이 폐비 윤씨의 죽음과 관련해서 갑자사화를 일으킨 것도, 어디까지나 대신 세력을 숙청하기 위한 구실이었다는 설도 있다. 그리고 정조 역시 자신의 즉위에 반대하는 세력이나 아버지의 죽음에 관계가 있다고 생각한 인물들은 연산군 정도는 아니더래도 나름대로 숙청하기도 했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="연산군 일기"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조선왕조 건국 이래 최초로 반정으로 축출되어 왕권을 상실했던 임금이었기 때문에, 광해군과 함께 역대 임금들과는 달리 행적기록을 담은 실록호칭도 실록이 아닌 일기로 격하되었다. 그래서 연산군과 광해군의 행적기록은 역대 임금들과는 달리 실록이 아닌 일기로 부른다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

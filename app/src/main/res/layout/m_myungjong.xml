@@ -1,6 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="13대 명종 이환"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="슬슬 왜놈들이 기어온다 비변사를 설치하라!"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="11dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 명종(明宗)\n시호 : 조선헌의소문광숙경효대왕(獻毅昭文光肅敬孝大王)\n명 : 공헌(恭憲)\n본관 : 전주(全州)\n능묘 : 강릉(康陵)\n휘 : 이환(李峘)\n자 : 대양(對陽)\n출생지 : 사망장소 한성 경복궁 양심당\n배우자 : 인순왕후(仁順王后)\n아버지 조선 : 중종\n어머니 : 문정왕후(文定王后)\n생몰기간 : 음력1534년 5월 22일 ~ 1567년 6월 28일\n양력 : 1534년 7월 3일 ~ 1567년 8월 2일\n재위 기간 : 음력 1545년 ~ 1567년 6월 28일\n양력 1545년 8월 13일 ~ 1567년 8월 2일.(21년 11개월 20일, 8,024일.)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="명종 소개"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="즉위와 을사사화"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="중종의 차남으로, 이름은 환(李峘), 본관은 전주이며 인종의 이복 동생이다.어머니는 중종의 3번째 왕비 문정왕후이고, 비는 청릉부원군 심강의 딸인 인순왕후이다. 6살 때인 1539년 부왕 중종에 의해 경원대군(慶原大君)에 책봉되었다.성종 때 싹튼 훈구파와 사림파 사이의 대립은 연산군 대의 무오사화·갑자사화, 중종대의 기묘사화로 나타나면서 단순한 훈구파와 사림파 사이의 대립 차원을 넘어 양반관료층의 분열과 권력투쟁으로 발전해가고 있었다. 명종의 즉위는 이러한 정치적 분위기 속에서 이루어졌다.중종의 계비 장경왕후 윤씨 소생의 세자 호(훗날의 인종)를 왕위에 앉히려는 외척 윤임 일파의 대윤(大尹)과,문정왕후 소생의 명종(경원대군)을 즉위시키려는 윤원형 일파의 소윤(小尹) 사이에서 왕위계승을 둘러싼 암투는 중종 말년부터 치열하게 전개되었다.1544년 인종의 즉위를 계기로 윤임 일파가 권력을 장악하자 이언적(李彦迪) 등 사림들이 정권에 참여하게 되었다.그러나 1545년에 인종이 훙서 3일 전 경원대군에게 선위하고 경원대군(명종)이 12세의 나이로 즉위하여 문정왕후가 수렴청정을 하게 되자 윤원형 일파의 소윤이 권력을 장악하여 대윤에 대한 대대적인 숙청을 단행했다.숙청은 윤임이 중종의 여덟째 아들인 봉성군을 왕으로 삼으려 한다는 윤원형의 탄핵을 계기로 시작되었다.문정왕후는 윤임·유관(柳灌) 등을 사사 하고 봉성군·이언적·노수신 등을 유배시켰다. 그뒤에도 반대파에 대한 숙청이 계속되어 을사사화 이래 6년 동안 100여 명에 달하는 사람들이 죽었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="을묘왜변과 비변사의 상설기구화"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1555년 세견선(歲遣船)의 감소로 곤란을 겪어온 왜인들이 전라도 지방을 침입한 을묘왜변이 일어났다.이에 1510년(중종 10) 삼포왜란 때 설치되어 임시기구로 존속해오던 군사기관인 비변사가 상설기구로 되어, 청사가 새로 마련되고 관제상으로도 정1품 아문의 정식아문이 되었다.그러나 이 시기의 비변사는 군사문제를 총괄하는 관청으로서는 한계를 지니고 있었다.비변사 기능의 강화는 임진왜란을 겪으면서 전쟁수행을 위한 최고기관으로서 정치·경제·군사·외교 등 군국사무 전반을 처리하면서 이루어졌으며,이러한 최고권력기관으로서의 역할은 조선 후기(조선의 26대 임금 고종의 즉위 후 흥선대원군의 섭정 전)까지 지속되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="왕권강화의 시도"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1553년 문정왕후가 수렴청정을 거두고 친정(親政)을 하게 된 명종은 문정왕후와 윤원형을 견제하고 왕권을 안정시키기 위하여 이량(李樑)을 이조판서,그 아들 이정빈(李廷賓)을 이조전랑으로 기용했다.그러나 이량등은 왕의 신임을 믿고 파벌을 형성하여 횡령을 일삼았으며 사림 출신의 관료들을 외직으로 추방했다.이에 사림들이 반발하자 이량은 사화(士禍)를 꾀했으나 심의겸(沈義謙)에게 탄핵당하여 1563년 숙청되었다.결국 1565년 문정왕후가 죽기까지 20년 동안 명종은 자신의 세력기반을 지니지 못한 채 문정왕후와 윤원형의 전횡 속에서 왕위를 지킬 수밖에 없었다.문정왕후가 죽은 뒤 윤원형과 보우(普雨)를 내쫓고 인재를 고루 등용하여 정치를 하려고 노력했으나, 그 뜻을 보지 못하고 승하하고 만다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="최 후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1567년 6월 27일 부터 병이 위독하여 대신들이 경복궁 양심당에 입사하였으나 명종은 이미 말을 제대로 할 수 없을 정도로 이미 상태가 급격히 나빠져 있었다.대신들과 약방 의원들이 손을 쓰려 했지만 이미 때는 늦고 말았다.결국 다음날인 음력 6월 28일 축시(오전 1시~3시)에 이질과 그동안 지속되어 온 과도한 스트레스로 인하여 경복궁 양심당에서 34세를 일기로 승하하였다.적장자인 순회세자가 있었으나 13세에 요절하는 바람에 명종이 승하했을 때는 왕실의 적통이 단절되게 된다.결국 덕흥대원군의 셋째 아들 하성군을 양자로 입적하여 왕위를 계승하게 한다. 이 자가 제 14대 임금인 선조이다.묘호는 명종(明宗)인데, 명종 자신의 유지에 따랐다. 서울특별시 노원구 공릉동에 위치한 강릉(康陵)에 안장되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

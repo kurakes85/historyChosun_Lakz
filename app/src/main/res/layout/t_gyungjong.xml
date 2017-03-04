@@ -1,6 +1,303 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="20대 경종 이윤"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="조선의20대왕 엄마가 희빈 장씨"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="11dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 경종(景宗)\n시호 : 조선\n덕문익무순인선효대왕\n(德文翼武純仁宣孝大王)\n청 :각공(恪恭)\n본관 : 전주(全州)\n능묘 : 의릉(懿陵)\n휘 : 윤(昀)\n자 : 휘서(輝瑞)\n출생 : 한성 창경궁 취선당\n사망장소 :한성 창경궁 환취정\n배우자 : 단의왕후(端懿王后), 선의왕후(宣懿王后)\n아버지 :조선 숙종\n어머니 : 옥산부대빈 장씨(玉山府大嬪 張氏)\n생몰기간 음력: 1688년 10월 28일 ~ 1724년 8월 25일\n양력 : 1688년 11월 20일 ~ 1724년 10월 11일\n재위기간 : 1720년 6월 13일 ~ 1724년 8월 25일\n양력 : 1720년 7월 17일 ~ 1724년 10월 11일"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="경종 개요"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조선의 20대 왕으로 숙종과 희빈 장씨 사이에서 태어났다.\n\n대중적 인지도가 높은 숙종과 영조 사이에 낀 임금인데다 재위기간이 짧다보니 사람들 사이에서는 인지도가 바닥을 기는 왕이다. 하지만 동시에 기나긴 영조 시대를 설명하는데 좋든 나쁘든 빼놓을 수 없는 왕이기도 하다. 숙종이 조선의 헨리 8세라면, 경종은 조선의 메리 1세 격."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="출생과 성장"
+                />
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="숙종의 첫 아들이었던 까닭에 태어난지 100일도 안되어 원자 책봉을 받았다. 무엇보다 당시 숙종의 마음을 사로잡고 있던 희빈 장씨의 소생이었고, 연잉군과 연령군 같은 다른 왕자들이 태어나기 전에는 왕자가 경종과 숙빈 최씨 소생의 요절한 아들 밖에 없었기에 그는 숙종의 지극한 총애를 받았다. 그리고 장희빈과 이를 배경으로 하는 남인들이 든든하게 버티고 있었던 까닭에 유년기에는 비교적 평탄한 세자시절을 보냈다.하지만 숙종은 알다시피 무수한 환국을 일으키며 신하들을 찍어눌렀고, 어머니가 후궁으로 낮추어지고 인현왕후가 복위되면서 그도 인현왕후의 아들이 된다. 어찌보면 어머니의 원수지만 그래도 인현왕후를 극진히 모셨다고 한다. 14세가 되던 해에는 결국 생모 희빈 장씨까지 사약을 받는 사태가 터졌다. 이 때 세자였던 경종은 대신들에게 찾아가 어머니를 죽이지 말아달라고 간청했지만 '이게 다 세자 저하를 위한 것' 이라 둘러대면서 세자의 요청을 무시했다. 야사에서는 이 사건 이후로 경종이 시름시름 앓기 시작했다고 한다.거기다 생모가 사약을 받는 와중에도 법률상 어머니인 인현왕후의 빈소를 상주로서 지켜야 했으니,마음 고생이 심했을 것이다. 게다가 이후 1716년의 병신처분으로 2년전 죽은 윤증이 추탈되면서 상황은 그로기로 몰렸다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="대리청정기"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="숙종 말년에는 부왕이 지병으로 누워 대리청정을 맡게 된다. 이는 노론의 이이명이 숙종과 독대한 후에 청한 것으로서(정유독대), 주도자에서 보듯 경종의 실수를 통해 세자를 교체하고자 하는 목적이었다. 그런데 경종의 대리청정은 내리는 비답이 '아뢴대로 하라', '따르지 않겠다', '유의 하겠다' 가 전부라고 해도 과언이 아닐 정도로 극도로 조심스러웠다. 기록에 보면 김창집을 비롯한 노론계 신하들이 유의하겠다고만 하지 말고 가끔은 모르면 물어보고 의견도 내어보시라고 간했는데 경종의 답변은 '유의하겠다' 였다. 다만 딱 한번 큰소리를 내며 노발대발한 적은 있다. 승지 유숭이 늦게 입시하자 '당장 여기서 물러나라. 사관들도 물러가라! 신하가 되서 너희들이 이렇게 날 기다리게 할 수 있느냐? 여섯 승지들을 모조리 나문해라!' 하며 폭발적으로 화를 낸 것. 돌발 상황에 대신들도 당황해서 어쩔줄을 몰라 했고, 공포에 질린 승지 및 사관들은 데꿀멍하여 세자 앞에서 물러나야 했다. 얼마 지나지 않아 화를 푼 세자는 행동이 지나쳤음을 인정하며 승지들에게 다시 입시를 하라고 했다. 아마도 억누른 감정이 작은 일에 터져나온 것으로 보인다. 물론 며칠 뒤에 신하들이 이 일을 지적할 때의 대답은 '유의하겠다' 가 전부였다. 이에 대해 숙종은 비망기를 통해 지나친 행동이었다고 질책하였는데, 세자를 두둔하는 소론 신하들이 오히려 '주상께서 지나친 행동임. 비망기로 질책할 정도는 아닙니다'라고 말해 유야무야 넘어가게 되었다. 당시 숙종은 중병을 앓고 있는데다 대리청정을 하고 있는 세자의 권위를 깎아서는 안된다는 인식에서 비롯한 것 같다. 숙종은 '내가 세자 아빤데 부자간의 정리로 그런 말도 못하냐?' 라고 투덜거렸으나 병세가 위중하여 화도 못내고 드러누워 버렸다.\n\n어머니가 사약을 받아서 자신도 아버지에게 미운털이 박힌 상태이고 연령군, 연잉군이 숙종의 총애를 한 몸에 받고 있었는데다가 자신도 정궁의 소생이 아니었기 때문에언제든지 갈릴수 있었기 때문에 신중하게 행동한 듯하다. 정궁인 인현왕후의 폐서인과 복위, 어머니의 사사를 보면서 부왕(숙종)은 충분히 그럴 수 있는 인물이라고 생각했을 것이다. 실제로 숙종은 세자교체를 내심 고려했는데 당시 청나라 강희제의 태자가 교체되었고, 연약하고 강하지 못한 경종을 못 미더워하는 점이 실록에도 간간히 보인다.\n\n노론에서는 이런 왕의 의도를 알고 연잉군을 밀어주려 안간힘을 썼고, 숙종의 의중을 어떻게든 활용하려고 하였다. 그러나 세자를 지지하던 소론 측 인사들이 격렬하게 반발했고, 숙종이 앓아서 누워있는데다 대리청정을 그럭저럭 잘하고 있는 세자를 함부로 바꾸자고 나오기 어려웠다. 위에 나오듯 극도로 조심스럽게 행동하다 보니 특별히 공은 없었지만 그렇다고 해서 두드러진 실책을 한 적도 없었다. 당시의 정황을 보면 숙종이 '내가 아파서 왕노릇을 못해먹겠는데 세자에게 대리청정 좀 시키는게 어떠냐?' 라고 하자 영의정 김창집을 비롯한 노론 대신들이 즉각 찬동하면서 세자의 능력을 칭찬했는데 그동안 반(反) 세자임이 분명했던 노론이 이러는 것이 너무 냄새가 나서 소론 대신 영부사 윤지완 등이 도끼를 가지고 지부상소를 하는 등 한동안 분위기가 험악했다. 어쨌거나 꿀리는 것이 있었는지 숙종은 윤지완의 상소에 대해 '말 좀 가려서 하지...' 라면서 별다른 반응을 보이지 않았다. 아예 노론에서 세자에게 대리청정을 시키고 큰 실책을 저지르길 기다렸다가 이를 빌미로 공격하려 했는데 세자가 큰 사고없이 무난히 정국을 이끌어나가다 보니 '어? 어? 이게 아닌데?!' 하고 있다가 실패했던 셈이다.어쨌든 아슬아슬하게 세자 자리를 유지하고 있던 경종은 1720년 숙종이 승하하면서 간신히 왕위를 물려받을 수 있었다. 숙종이 조금만 더 건강했거나 오래 살았으면 왕에 못 올랐을지도 모른다는 이야기도 있지만, 조선시대 시스템 상 왕이 마음대로 세자를 팽개칠 수 있는 것이 아니라서 무기력하긴 해도 실수도 하지 않는 경종을 내치기는 어려웠을 것이다. 여담이지만 조선의 역대 왕세자 중 최장기간을 세자로 지낸 기록을 가지고 있다. "
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="재위"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="즉위 후 노론의 우려와는 달리 피의 복수가 벌어지지는 않았다. 하지만 즉위했다고 해도 다수파인 노론의 지지를 얻지 못했고, 경종도 하루가 멀다하고 자리보전하고 눕기 일쑤였으니 치적을 세울만한 환경은 못됐다. 사실 노론은 이 당시 왕만 자기편이 아니지 비변사,육조,삼사등이 노론 차지며 성균관,사학의 유생들 대다수가 노론이며 심지어 궁내의 내관, 궁녀도 노론과 줄이 이어져 있어서 궐 안 상황도 체크할 수 있었다. 이런 야당 같지도 않은 초거대 야당이 버티고 있는데 어쩌겠는가?\n\n이런 상황에서 노론은 연잉군의 세제 책봉을 관철시켰고, 심지어 대리까지 주장했다. 이 대리는 이뤄지지 않았으나 김일경이 이를 근거로 노론의 숙청을 주장하는 상소를 올리고 이것이 받아들여지면서 피바람이 분다. 또 다음해인 1722년, 목호룡이 노론이 경종을 살해하고 이이명을 옹립하려 한다고 고변하는 사태(삼수의 옥)가 발생했다. 이렇게 신축년, 임인년 2번에 걸쳐 대숙청인 신임옥사가 일어난다. 이 과정이 경종의 태도변화와 맞물려 매우 드라마틱 하므로 항목 참조. 일부에서는 경종이 처음부터 노리고 있었다는 해석을 택하고 있고, 알려진 해석들은 병약한 경종이 소론의 주장을 그대로 따랐다는 것인데 실록의 기록을 보면 전자의 가능성이 상당하다. 경종이 노론의 변명에 태도를 돌변하여 '결탁이니 교통이니 따위의 말은 심히 무엄하다. 번거롭게 하지 말라!' 라고 일갈을 날려버렸다든지...\n\n대리청정 논란으로 유배되어있던 노론 4대신(이이명, 김창집, 조태채, 이건명)이 유배지에서 사약으로 사사되고, 노론측 인사들이 대거 숙청된 뒤 경종 말년까지 소론 강경파들이 집권하며 노론의 씨를 말리는 피의 나날들이 이어졌다.이때 이후로도 경종은 한번 제대로 분노를 폭발시킨 적이 있다. 노론이 초토화되자 소론 측에서는 얼씨구나 하고 노론 씨말리기에 더불어 영조의 세제 추탈에도 앞장섰는데 그 와중에 너무 경종이 소극적이라는 식의 주장이 나왔다. 그 말에 경종은 전에 없이 크게 분노하여 일갈을 토해냈다.당황한 소론은 싹싹 빈 끝에 겨우 경종의 화를 가라앉혔고, '우리도 너무 나대나가 노론처럼 싹 갈리는거 아냐?' 하는 불안감에 노론에 대한 공격 수위를 낮추기 시작했다. 바로 그 상황에서 소론 강경파(준론 - 김일경 등)와 온건파(완론)의 분당이 일어났다.과소평가 받는 면이 없지 않지만 보는 바와 같이 얌전해 보이면서도 신하들을 쥐어잡을 때에는 확실히 쥐어잡았다. 주변에서 끊임없이 이간질하고 실제로 개인적으로 앙심을 품을 수 있음에도 왕실의 리더로서 똘똘하고 자신 다음의 정통성을 갖춘 이복동생 연잉군을 지켜줘서 아들이 없었음에도 왕위 계승이 차질 없이 이루어질 수 있게 했다. 어머니 문제, 자신의 좋지 못한 건강, 경쟁자라고 볼 수도 있었던 동생, 갈라져 있던 조정의 분위기 등 여러 난제가 산적해 있었지만 숙종과 영조 사이에서 자신의 역할은 충실히 다했다고 볼 수 있다.이렇게 노론과 소론의 격렬한 정쟁 속에서 치이다가 결국 즉위 4년, 37세의 나이로 승하했다. 세자 대리청정시절 노론 대신들을 찍어누르고 양전사업을 강행해서 완성시켰던 기록 등이 있는 걸 보면 뒷배경만 안정적이었으면 국정을 잘 이끌어나갔을지도 모른다는 설도 있다. 독도가 조선의 영토임을 밝혀 놓은 남구만의 [약천집] 이 발간되었고, 서양의 것을 모방한 소화기가 만들어지기도 했다. 와문진종(시계)을 들여온 것도 이때."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="경종은 불임이었나?"
+                />
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="경종은 자식을 두지 못했고, 이미 연잉군을 왕세제로 지명해뒀기 때문에 연잉군이 그 뒤를 이었다. 이에 잘 알려진 경종의 불임설이 있다.\n\n경종은 젊어서부터 병약했다. 어머니가 당쟁에 휘말려 죄인으로 죽는 모습을 직접 목격한 상황에서, 제2의 연산군이 되어 피바람이 몰아칠까봐 두려워한 노론 신하들이 틈만 나면 갈궈대고, 아버지 숙종도 희빈 장씨의 아들이란 이유로 허구헌날 갈궈대니 거기서 받은 정신적 스트레스가 상당했을 것이다. 미치지 않은 것만 해도 대단하다는 평이 있긴 한데, 노론 측에서 남긴 기록을 보면 살짝 정신이 돌아버린 부분도 있었던 모양. 노론 강경파의 단암만록을 인용하자면 '세자는 때때로 벽을 향하고 앉아서 조그마한 소리로 중얼거려 다른 사람과 대화하는 것처럼 했다. 또 한밤중에 계단과 뜰 사이를 방황하기도 했고 정신도 안정되지 못했으며 지각도 불분명했다. 숙종의 상에도 한 번도 곡소리를 내지 않았으며 까닭없이 웃기까지 했다.' 노론의 기록이란 특성상 악의적인 표현일 가능성이 있으나 경종이 느낀 스트레스가 대단했음을 짐작할 수 있다. 불임설도 여기에 나왔다.경종이 자식을 두지 못한 것에 대해서는 여러 설이 있다. 가장 유명한 일화가 사약을 받기 전 희빈 장씨가 죽기 전에 세자를 보고 싶다고 애원했고, 이에 마음이 약해진 숙종이 세자를 데려오도록 했다. 하지만 희빈 장씨는 돌연 세자의 영 좋지 않은 곳을 꽉 붙잡고 당기는 만행을 저질렀고, 그 때문에 경종이 기절했는데 이로 인해 자식을 둘 수 없는 성불구자가 됐고 병약해졌다는 것이다. 하지만 이것은 논란의 여지가 있다. 만약에 장희빈이 정말로 그렇게 했다면 분명히 사사로 끝날 일이 아닐뿐 아니라 세자에게 했다는 말을 토대로 하면 장희빈은 명백한 대역죄인이 된다. 그렇게 되면 능지, 효수, 연좌 3 콤보 중 하나라도 해야 정상인데 그렇지 않았다는 건 앞에서 언급한 두 개의 말은 그저 창작에 불과하다는 소리가 된다.또한 경종이 불임이 되어 자식을 못 낳으면 당연히 세자 자리에서도 밀려날 가능성이 높아진다. 이 당시에는 후사를 이을 수 없는 사람이 왕위에 오를 수 없는 상황이었기 떄문이다. 후사를 이을수 없음은 세자에서 밀려나가고 세자에서 밀려나가지 못함은 왕이 될 수 없는 것이며 더 나아가 죽음으로도 이어질 수 있는데 그렇게 되면 남인복귀, 명예회복은 꿈조차도 꿀 수 없게 된다. 그리고 이 사실을 장희빈이 당연히 모를 리가 없다.애초에 경종을 세자 자리에 앉히려고 노력한게 장희빈임을 감안하고 더군다나 사약 먹을 때는 금부도사를 비롯해서 보는 사람들이 있다. 이들 앞에서 그런 짓을 저질렀는데 금부도사가 보고하지 않을 리가 없고 보고하면 즉시 기록으로 남겨지는데 정사에는 그런 기록이 없다. 즉 야사는 야사일 뿐이라는 얘기가 된다. 실제로 경종이 완전한 성불구였다고 단정하기는 힘들다. 학자들은 대체로 과도한 스트레스로 인한 생식능력 저하 정도로 추측하고 있다. 굳이 장희빈과 연관을 짓자면, 위에서 언급했듯이 경조가 생모의 죽음 자체에 충격을 받고 쇠약해진 정도가 적당하다. 결혼을 2번이나 했음에도 끝내 자손을 두지 못했고, 계비인 선의왕후와 함께 양자를 들이려고 했다는 이야기도 있다.하지만 왕실의 대전제, 대원칙인 효-현-숙 '삼종의 혈맥'을 고려하면 해당자는 연잉군의 아들(후에 진종소황제로까지 추숭되는 효장세자)뿐이었다. 그러나 즉위 당시 효장세자의 나이는 겨우 생후 16개월이었다. 그게 아니라면 의외로 간단한 해법이 있는데 소현의 증손자 밀풍군이었다. 이인좌의 난에서 그들이 괜히 밀풍군을 옹립한 것이 아니다. 세자/세제 책봉은 청나라의 승인을 받아야 되는 일이었는데 청나라에서 '아니 왕이 아직 젊은데 왜 동생을 세제로 책봉하나?' 라 의문을 제기하자 당시 책봉요청을 위해 갔던 노론의 이건명, 윤양래 등이 '왕이 발기불능 이라 자손을 둘 수 없다' 고 보고했다. 결국 청나라의 기록에도 남게 됐는데 그 때문에 경종이 성불구였다는 설이 퍼진 모양이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="갑작스러운 죽음 및 능묘"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="승하하기 전날 밤 부터 배를 쥐어짜는 듯한 복통과 그에 따른 심각한 탈수 증세 및 구토와 설사 증세가 동반되어 다음날 새벽, 재위한 지 4년 2개월 만인 1724년 10월 11일 (음력 8월 25일) 축시 (오전 1시~3시) 에 창경궁(昌慶宮) 환취정(環翠亭)에서 37세를 일기로 훙(薨) 하였다. 서울특별시 성북구 석관동에 위치한 의릉에 안장되었다. 경종의 태실비(탯줄을 묻은 곳)는 충청북도 충주시 엄정면 괴동리 소재에 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="독살설"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1724년 음력 8월 25일, 그는 갑자기 최후를 맞이한다. 특별히 병세를 앓고 있지 않은 상태에서 왕세제인 연잉군이 보낸 게장과 생감을 먹었다가 고통을 호소하면서 죽어갔는데, 소론측 일부는 영조가 경종을 독살한 것이라고 주장했다. 이 주장의 근거는 이러하다.본래 경종은 왕위에 오르기 전부터 시름시름 앓는 날이 많았고 항상 피곤해 하는 날이 잦았다. 이 때문에 연잉군(훗날의 영조)은 경종의 입맛을 돋우기 위해 게장 (아마도 간장게장이었을 것으로 추정된다.) 을 올렸다. 경종이 그제서야 입맛이 도는지 수라를 조금씩 들게 되니, 이번에는 생감을 올렸다. 그런데 한의학에서 볼 때 게장과 생감을 서로 궁합이 맞지 않는 음식으로 여겨 게장과 생감을 함께 올리는 것을 극구 반대했으나, 연잉군이 막무가내로 올렸고 게장과 생감을 올린지 이틀이 지난 뒤 부터 경종이 심한 복통을 호소하자 연잉군은 인삼을 올리려 하였다. 의원이 그렇게 하게 될 경우 기(氣)를 되돌리지 못하여 상태는 더 악화될 것이라며 역시나 반대했으나 왕세제의 명령인지라 그대로 따를 수 밖에 없었다. 그 후 인삼을 3번 더 올렸고 그 다음날 새벽에 급사하였다는 것이다.김일경의 난이나 청주성을 중심으로 벌어진 이인좌의 난 당시 난군은 위와 같은 주장을 하며 영조의 경종 독살설을 보다 구체화시킨다. 경종 독살설은 널리 퍼져, 신치운(申致雲)은 영조가 자신을 친국할 때 '신은 갑진년 (경종이 사망하고 영조가 즉위한 1724년) 부터 게장을 먹지 않습니다' 라며 경종 독살설을 비꼬아서 대답했고 이 이야기를 들은 영조가 분통하여 눈물을 흘릴 정도였으며, 1754년 (영조 30년) 에 영조는 경종을 자신이 독살한 것이 아니라는 것을 해명하는 글을 남기기도 하였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="사후"
+                />
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="청나라에서 내린 시호는 각공왕(恪恭王)이나, 청나라와의 외교 이외에는 사용하지 않았다. 묘호인 경종 은 당시 왕세제였던 영조가 왕위에 즉위한 후에 이복형을 '노숙한 마음으로 크게 생각했다' 는 뜻으로 지어주었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

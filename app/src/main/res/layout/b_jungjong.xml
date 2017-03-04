@@ -4,13 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical"
         android:orientation="vertical"
-        android:paddingRight="5px"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
         >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -22,9 +28,15 @@
             android:textSize="30dp"
             android:text="2대 정종 이경 "
             />
-
-        <!--<ImageView />-->
-        <!--이미지 자료 없음 이방원 개객끼-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="동생들과 평온하길 바랬던 정종"
+            />
 
 
         <LinearLayout
@@ -102,7 +114,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="1.1 조선 건국 이전(왜구토벌)"
+                android:text="조선 건국 이전(왜구토벌)"
                 />
 
             <android.support.v4.widget.Space
@@ -130,7 +142,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="1.2 정치국면 전환과 친원파 축출"
+                android:text="정치국면 전환과 친원파 축출"
                 />
 
             <android.support.v4.widget.Space
@@ -158,7 +170,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="2.1 조선개국"
+                android:text="조선 개국"
                />
 
             <android.support.v4.widget.Space
@@ -186,7 +198,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="2.2 즉위"
+                android:text="즉 위"
                 />
 
             <android.support.v4.widget.Space
@@ -264,7 +276,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="2.3 재위기간"
+                android:text="재위기간"
                 />
 
             <android.support.v4.widget.Space
@@ -410,7 +422,7 @@
 
             <android.support.v4.widget.Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp" />
+                android:layout_height="20dp" />
 
         </LinearLayout>
     </LinearLayout>

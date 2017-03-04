@@ -1,6 +1,538 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="15대 광해군 이혼"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="외치는 뛰었났으나,내치는 광인의 폭정"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="11dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 없음\n시호 : 없음\n존호 : 체천흥운준덕홍공신성영숙흠문인무서륜입기명성광렬융\n봉현보무정중희예철장의장헌순정건의수정창도숭업대왕\n(體天興運俊德弘功神聖英肅欽文仁武敍倫立紀明誠光烈隆\n奉顯保懋定重熙睿哲莊毅章憲順靖建義守正彰道崇業大王)\n없음(폐위)\n\n군호 : 광해군(光海君)\n본관 : 전주(全州)\n묘 : 광해군묘(光海君墓)\n성 : 이(李)\n휘 : 혼(琿)\n사망장소 : 제주도\n배우자 : 폐비 유씨(廢妃 柳氏)\n아버지 : 조선 선조\n어머니 : 공빈 김씨(恭嬪 金氏)\n생몰 기간 : 음력 1575년 4월 26일 ~ 1641년 7월 1일\n양력 : 1575년 6월 4일 ~ 1641년 8월 7일(66년 2개월 3일, 2만 4171일)\n재위기간 음력 1608년 2월 2일 ~ 1623년 3월 12일\n양력 : 1608년 3월 17일 ~ 1623년 4월 11일(15년 25일, 5503일)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="광해군 개요"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/img_button_link_gwang_hae_tomb"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:background="#00ff0000"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:foregroundGravity="center"
+                android:src="@mipmap/gwang_hae_tomb"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="14dp"
+                android:text="광해군은 유언으로 어머니 공빈김씨 무덤 발치 \n묘에 뭍혀있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="창덕궁, 창경궁, 경희궁, 인경궁, 자수궁 등의 무리한 토목공사로 조선의 재정을 파탄냈고,아버지가 물려준 인재풀을 다 박살내버렸으며,말년에 후회하듯 다시 서인들과 남인들을 끌어안으려 했지만 결국 역으로 그것이 원인이 되어 몰락했다.당파성이 적은 중신들만 처음처럼 계속 중용했어도... 하지만 좌청룡 선조, 우백호 인조의 든든한 지원으로 재평가를 받고 있다.폐위 된 왕치곤 후대의 평가가 좋은 몇 안 되는 왕 중 하나로, 사극이나 창작물의 소재로도 잘 등장한다.20세기 들어서 재평가 바람이 불기도 하였으나, 2010년대 들어 거품이라는 평가가 다시 늘어나고 있다.선조와 인조에게 핍박당한 왕이라서 재평가를 받으나,업적만 평가하자면 아버지 선조에게 절대로 못 미친다.조선왕조 최악의 왕으로 욕을 먹는 인조조차 광해군이 남긴 뒤처리를 맡은 왕이며,재정 관리를 포함한 다방면에서 인조보다 대충한 일이 많다는,일반적인 여론과는 정반대의 암군 자질을 보여줬다. 무엇보다 정치계의 1인자가 성급하면 정반대의 역풍을 맞는다는 진리를 매우 잘 보여주는 왕이다.선조의 차남이자 서자로써 임진왜란 당시 세자로 책봉된 후 왕위에 올랐다.이복동생인 영창대군을 제외하면 아들 모두가 서자들이고,광해군은 그들 서자들 중에서도 장남이 아닌 차남이었기에 서손인 선조만큼은 아니었지만 지위가 불안정했다.광해군은 양위 및 폐위로 묘호가 추숭되지 않았던 4인의 조선 국왕 중 한 임금이기도 하다.다른 3명은 2대 공정왕, 6대 노산군, 10대 연산군이다.다만 공정왕과 노산군은 숙종 대에 들어서 각각 정종과 단종으로 추숭되었으므로 결국에는 연산군과 같이 둘밖에 남지 않았다.더불어 광해군은 조선왕조실록에서도 노산군, 연산군과 같이 '실록'이 아닌 '일기'의 형식으로 그들에 대한 기록이 실린 단 셋 뿐인 임금이다.다만 재위 내내 숙부에게 끌려다니다 죽어 동정을 받는 단종과 역으로 오직 전횡만을 일삼아 비판을 받는 연산군과는 다르게,광해군은 치적의 공과가 뚜렷하여 그 평가 스펙트럼도 상당히 넓은 편.재위기를 떼놓고 보더라도 세자시절 구국을 위해 전장을 누볐던 면모부터 노년기 제주도에서 유배생활 끝에 숨을 거두기에 이르기까지, 군주가 아닌 한 인간의 생애로 보더라도 굉장히 파란만장하고 굴곡이 큰 편이기도 하다.묘호와는 별도로, 광해군은 재위 도중에 따로 존호를 받은 바가 있었다.\n\n체천흥운준덕홍공신성영숙흠문인무서륜입기명성광렬융봉현보무정중희예철장의장헌순정건의수정창도숭업대왕(體天興運俊德弘功神聖英肅欽文仁武敍倫立紀明誠光烈隆奉顯保懋定重熙睿哲莊毅章憲順靖建義守正彰道崇業大王).\n\n이것이 그에게 주어진 시호와 무관하다는 점을 고려하면 조선 역대 국왕의 존호 중에서도 압도적인 길이다.이러한 존호들 가운데 일부는 명의 황제가 내린 칙서의 령을 받들기 거부하면서 표면적으로는 예를 표하고자 바쳐진 존호로, 사실상 명에 대한 기만책으로서 전략적으로 활용되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="생 애"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="세자 책봉 이전"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1575년에 태어나 어린 나이에 광해군에 봉해졌다.어려서 생모 공빈 김씨를 여의고 부왕의 냉대 속에 자랐다.외할아버지인 김희철마저도 임진왜란 중에 전사하면서 그가 기댈 곳은 없었다.선조에게 적자가 없는 데다, 서장남인 임해군이 포악하고 인망이 없어 서차남이었던 광해군이 세자로 책봉되었다.야사에 의하면 선조가 아들들을 불러 '가장 맛있는 음식이 무엇이냐'고 물었더니,다른 왕자들은 각기 다른 대답을 하였지만, 광해군은 소금이라 대답하여 세자로 책봉되었다고 한다.1591년(선조 24) 종계변무가 성사되자 기뻐했던 부왕 선조는 왕자들도 특별히 광국원종공신 1등에 책록하여 원종공신록에 넣는다.광해군도 이때 친형 임해군 진, 이복동생 신성군 후, 정원군 부, 순화군 보 등과 함께 광국원종공신 1등에 특별히 책록되었다.당시 선조는 정비 의인왕후가 자식을 낳지 못하자, 어쩔 수 없이 서자 중에서 왕세자를 선택해야 했지만 쉬운 일이 아니었다.자질로 따지자면 광해군이 유력했으나 선조는 자신이 총애하는 후궁 인빈 김씨의 아들인 신성군을 마음에 두고 있었다.더군다나 선조는 광해군이 적자가 아님을 항상 마음에 두고 있었기 때문에 왕세자 책봉을 계속 미루었다.선조의 나이가 어느덧 40세에 이르자 더는 왕세자 책봉을 미룰 수 없다고 생각한 좌의정 정철은 건저(建儲) 문제를 제기했다.그는 동인의 영수인 영의정 이산해와 우의정 유성룡 등과 함께 광해군의 책봉 문제로 건의하기로 했다가 이산해의 계략에 빠져 경연에서 '나라가 어려울 때 빠른 시일 내에 세자를 책봉하는 것이 현명하다.'라며 광해군을 세자로 책봉하라는 건의를 했다.선조는 공빈 김씨가 죽은 후 인빈 김씨를 총애하여 인빈의 아들 신성군을 세자로 책봉하려 하였으나,세자 건저 문제에서 동인 이산해의 계략에 넘어간 정철 등의 견제로 실패하였다.정철은 광해군을 왕세자로 추천했으나,신성군을 모함한다는 이유로 왕의 노여움을 사 파직을 당하고 유배를 가게 되고,동인은 이 일을 처리하게 되는데, 많은 서인을 외직으로 쫓아버리면서 선조는 유성룡을 좌의정으로 올리고 서인을 멀리하며 동인들을 가까이 두었다.이 일의 처리 문제 때문에 동인이 남인과 북인으로 나뉘게 되었다. 동인은 정여립의 모반으로 일어난 기축옥사 때 정철에게 원한을 품어, 건저의 문제를 통해 서인에 대한 보복 수단으로 이용되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="세자 건저의 문제"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="당시 선조는 정비 의인왕후가 자식을 낳지 못하자, 어쩔 수 없이 서자 중에서 왕세자를 선택해야 했지만 쉬운 일이 아니었다.자질로 따지자면 광해군이 유력했으나 선조는 자신이 총애하는 후궁 인빈 김씨의 아들인 신성군을 마음에 두고 있었다.더군다나 선조는 광해군이 적자가 아님을 항상 마음에 두고 있었기 때문에 왕세자 책봉을 계속 미루었다.그러나 선조의 나이가 어느덧 40세에 이르자 더는 왕세자 책봉을 미룰 수 없다고 생각한 좌의정 정철은 건저(建儲) 문제를 제기했다.그는 동인의 영수인 영의정 이산해와 우의정 유성룡 등과 함께 광해군의 책봉 문제로 건의하기로 했다가 이산해의 계략에 빠져 경연에서 '나라가 어려울 때 빠른 시일 내에 세자를 책봉하는 것이 현명하다.'라며 광해군을 세자로 책봉하라는 건의를 했다. 선조는 공빈 김씨가 죽은 후 인빈 김씨를 총애하여 인빈의 아들 신성군을 세자로 책봉하려 하였으나, 세자 건저 문제에서 동인 이산해의 계략에 넘어간 정철 등의 견제로 실패하였다.정철은 광해군을 왕세자로 추천했으나,신성군을 모함한다는 이유로 왕의 노여움을 사 파직을 당하고 유배를 가게 되고,동인은 이 일을 처리하게 되는데, 많은 서인을 외직으로 쫓아버리면서 선조는 유성룡을 좌의정으로 올리고 서인을 멀리하며 동인들을 가까이 두었다.이 일의 처리 문제 때문에 동인이 남인과 북인으로 나뉘게 되었다. 동인은 정여립의 모반으로 일어난 기축옥사 때 정철에게 원한을 품어, 건저의 문제를 통해 서인에 대한 보복 수단으로 이용되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="세자 시절"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="임진왜란"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1592년 임진왜란이 일어나면서 왕세자 책봉 문제가 거론되지 못하였으나,신성군이 피난길에 죽고 분조해야 할 상황에 부닥치자 선조는 어쩔 수 없이 광해군을 왕세자로 책봉하였다.광해군의 형인 임해군은 성격이 광포하고 인망이 없다는 이유로 왕세자 책봉에서 제외되었다.광해군은 전쟁 중에 평양에서 세자로 책봉된 뒤 선조가 피난 가고 없는 궁을 지키면서 전란 수습을 했다.함경도와 전라도 등지에서 군수품과 의병을 직접 모집하는 한편, 민심을 위무하고 군량미를 모아 민중들의 신망과 지지를 받기도 했다.또한, 부왕의 정비인 의인왕후의 양자가 되어 세자로서의 위치를 표면상 굳히게 되었다. 그러나 부왕 선조는 그런 세자 광해군을 오히려 경계하며 심하게 견제하였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="왕위 계승"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="그 후 1606년 선조의 계비가 된 인목왕후가 영창대군(적자)을 낳자 광해군을 미워하던 부왕 선조는 다시 영창대군을 세자로 책봉하여 왕위를 물려주려 하였고,소북파의 유영경 등도 적통론을 내세워 영창대군 옹립계획을 세운 선조를 지지하였다. 특히나 선조 자신이 서얼로서 방계승통을 했다는 콤플렉스까지 겹치면서 영창대군에게 왕위를 물려주려는 시도가 행해졌다.그러나 1608년 지병이 악화된 선조는 영창대군이 어린 상태에서 광해군에게 왕위를 계승시킨다는 교서를 내린 후 약밥을 먹다가 갑자기 체하여 승하하였다.이때 교서는 선조가 내린 것이 아니라 인목왕후가 현실성이 없다 판단하여 광해군에게 왕위를 양보한 것이라는 주장도 있다.1608년 음력 2월 2일, 광해군은 34살의 나이로 왕위에 올랐다. 이후 유영경은 사류사회(士類社會)의 지지를 얻지 못하고, 선조의 갑작스러운 죽음과 유영경의 척신 정권에 대한 의도는 사류사회의 거부감만 가중시켜 유영경은 잇단 탄핵으로 주살되고,사후에도 그 죄를 물어야 한다는 항의가 빗발치기도 했다.유영경의 세자 교체 기도에 대해 적극 반대하고 나선 것은 그에 의해 축출되었던 북인의 다른 계열인 이산해, 이이첨, 정인홍 등이고, 이들은 광해군이 즉위함에 따라 정통을 지지한 공로로 중용되어 대북(大北)이라 하였다. 이후 소북파는 대북파의 견제를 끊임없이 받으며 조금씩 몰락의 길을 걷게 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="세자 시절"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="즉위 초기"
+                />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="즉위한 광해군은 바로 생모인 공빈 김씨를 공성왕후로 추존하였다.유영경의 세자 교체 기도에 대해 적극 반대하고 나섰던 대북파의 이산해, 이이첨, 정인홍 등은 광해군이 즉위함에 따라 광해군을 정통으로 지지한 공로로 중용되었다.즉위 초 광해군은 당쟁의 폐해를 알고 억제하려 하였다. 남인인 영의정 이원익을 포함하여 북인에게 밀린 남인계 인사들과 서인계 인사들을 일부 등용하고,소북파를 대북파 못지않게 대우하는 등 초기에는 당쟁을 수습하려고 노력했으나 대북파의 반발로 별다른 성과를 거두지 못하였다.산림 숭용 정책을 추진하고 재야의 선비들을 채용하려 하였으나 곽재우, 정인홍 모두 고사하거나 취임 후 사직 상소를 한 후 내려가 실패하였다. 그러나 정인홍은 뒤에 그의 권고를 받아들여 관직에 올라 북인 정권의 막후 실력자가 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="민생과 문화"
+                />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="임금이 된 광해군은 즉위 초부터 안으로는 왕권을 강화하면서 전후 복구 사업을 시행하였으며, 밖으로는 실리적인 외교를 펼쳤다.1608년 선혜청을 두어 경기도에 대동법을 시행하고,1611년 양전 사업을 벌였다. 이어 임진왜란 때 화재로 소실된 창덕궁, 경희궁, 창경궁을 재건하고 인경궁을 건설했으며,임진왜란 때 소실된 서적 간행에도 힘써 [신증동국여지승람], [용비어천가] ,[동국신속삼강행실] 등을 다시 간행했다. 허균의 [홍길동전], 허준의 [동의보감] 등도 이 시기에 완성되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="군사와 중립외교"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="광해군은 파주 교하가 군사적으로 방어에 유용할 뿐 아니라, 중국 대륙과의 해상 교역이 가능해 새로운 문물을 받아들이기에 적당한 곳이라고 생각하고 수도를 교하로 옮길 계획을 세웠으나 계속 미루어지다가 결국 시행되지 못했다. 광해군은 1618년 만주에서 여진족이 세력을 키워 후금을 건국하자 북방의 성과 병기를 수리하고 군사를 양성하는 등 국경 방비에 힘썼다.한편, 1619년 후금의 누르하치가 심양 지방을 공격하여 명나라가 후금과의 전쟁에서 원군을 요청하자 강홍립·김경서를 보내어 명군을 원조한다.강홍립은 명나라군이 사르후, 상간하다, 아부달리에서 잇달아 패주하고, 부차 전투(이상 3월)에서 조선군의 주요 지휘관이 전사하고 병력의 2/3가 괴멸하자 후금에 항복하였다.이후 광해군은 후금에 본의 아닌 출병임을 해명함으로써 후금의 침략을 모면하면서 광해군이 중립외교를 펼치자 서인세력들은 크게 반발하고 대노하여 '후금(여진족 세력, 흔히들 오랑캐라고 불림)에게 사대를 대하는 것은 왜란 때 명나라에서 군을 파병하여 우리 조선군을 도와주었는데 사대를 저버린다는 것은 배은망덕하고 오랑캐만도 못한 천한 놈이오!'라고 말하였다. 이 말이 나중에 말의 씨가 되어 광해군이 서인세력들이 이끌었던 인조반정에 의해 폐위되는 빌미를 광해군이 제공해준 셈이였다.그러나 1622년 명나라 장수 모문룡의 가도의 주둔으로 긴장감이 갈수록 높아진다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="왕권 강화책"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="정적 숙청"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1609년 광해군은 자신의 세자 책봉 과정에서, 장자 승계 원칙을 주장하며 자신을 압박하던 명나라가 활용하던,친형제이자 장자 임해군을 교동으로 유배하여 죽이고, 김직재의 옥과 계축옥사(癸丑獄事)가 발생하자 1613년 영창대군을 추대하여 역모를 꾀했다는 혐의로 인목왕후의 아버지 김제남을 사사하였다. 이 과정에서 광해군과 북인은 인목왕후의 의인왕후 능(陵) 저주설을 조작하기도 하였다.김제남은 죽은 지 3년 만에 다시 부관참시되었으며 그 일족 또한 막내아들과 부인을 제외한 세 아들이 화를 당하였다.임해군은 자신의 왕권 강화에 걸림돌이 되었다고는 하나, 광해군 자신의 유일한 친형제였고,투명하지 못한 살해 과정으로 일부 신료들에게 의구심을 주기도 하였다. 영창대군 살해 역시 광해군과 북인들의 측근들이 치밀한 계획 아래 주도하여 결과적으로 광해군에게 패륜군주 이미지를 주는 데 결정적인 역할만 하고 말았다.1614년 광해군은 이복동생인 영창대군을 강화도에 유배하였다가 얼마 후 방 안에 가두고 장작불을 지펴 죽였다.1615년 훗날 인조가 되는 능양군의 동생인 능창군까지 폐서인하여 교동에 안치해버리고,결국 목을 매어 자결하게 하는 등 왕권을 위협하는 모든 세력을 제거함으로써 지나치게 많은 사람을 희생시키고,이는 그동안 기가 죽어 있던 서인 세력에게 반정의 명분을 제공하는 셈이 되었다.광해군과 이이첨 일당은 영창대군 살해 시점 직후부터,각종 조작설과 허균 등을 비롯한 강경파 관료,유생들을 동원한 상소 릴레이를 펼치며 끊임없이 인목왕후 폐비 공작을 전개하였고,1618년 인목왕후를 폐비시켜 서궁(西宮)에 유폐시켰다. 이 사건으로 정국은 들끓었으며, 인조반정의 결정적인 명분을 제공하게 된다.\n\n[궁궐 복원 공사]\n무리한 토목 공사를 연이어 강행하여 궁궐 복원 등으로 백성들의 민심도 이반하기 시작했다.이로써 광해군은 그동안 자신이 임진왜란 때부터 쌓아왔던 일반 백성의 민심을 점차 잃게 되었다.또한, 측근들의 월권과 부패가 문제시되었으며, 궁궐 복원 과정에서의 자금 문제도 민심이반의 원인이 되었다.광해군 집권 당시의 실권자 이이첨, 유희분, 박승종은 부원군 칭호의 '창'자를 따 3창 부원군이라 일컬어졌다.일부 신하들과 후궁들 사이에서는 뇌물로 벼슬을 팔고 사는 비리를 저지르게 되면서 서인과 반정 세력에게 정치적으로 명분을 주게 되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="측근들(북인세력)의 권력 남용"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="광해군 재위 시절 막강한 권력을 휘둘렀던 이이첨과 상궁 김개시, 허균 등은 무수한 옥사를 일으켜 반대파 신료들을 무자비하게 숙청하였으며, 이 과정에서 왕권을 위협하는 절대적인 권력을 구축하게 되었다. 이같은 행위들은 광해군에게 치명적인 정치적 아킬레스건으로 작용하게 되는데,성리학의 도덕주의, 도의 정치, 왕도 정치를 기본 이념으로 삼던 조선 사대부들로부터 반발 사게 되었다.이이첨과 정인홍이 무리하게 능창군의 역모와 영창대군의 옥사를 주관하고,1617년부터 인목왕후의 폐모론을 주장하는 것 역시 사림의 반발을 가져오는 원인이 된다.한편 옥사를 일으킨 또 다른 주역인 허균 역시 다른 주역인 이이첨, 김개시 등에 의해 처형된다.1623년 인조반정(仁祖反正)이 일어나던 당일 광해군은 처음 반정을 접하고 이이첨의 반역으로 오해하였으며,한편 김개시는 인조반정 직전 정보가 누설되어 반정 세력들을 검거할 수 있었음에도 반정 세력으로부터 뇌물을 받고 광해군의 판단력을 흐리게 만드는 등 광해군 정권에 결정적인 위해를 끼쳤다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="폐위 이후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1623년 인조반정이 일어나자 광해군은 폐위되어 강화도로 유배된 후 다시 제주도로 유배되어 살다가 1641년 67살의 나이로 승하하였다. 서인 이귀, 김류, 최명길, 김자점 등은 정원군의 장남 능양군을 받들어 ‘반정' 을 단행하고 궁궐을 장악했다. 이들은 광해군을 인목왕후 앞으로 끌고 가 정죄한 뒤 유배시켰다.인목왕후는 광해군과 폐세자에 대한 처형을 주장하였으나, 인조와 반정 세력은 이를 받아들이지 않고 유배를 보내는 선에서 반정을 마무리 짓게 된다.곧 반정군에 의해 이이첨, 정인홍, 김개시 등은 죽임당하고, 40여 명의 관리가 구금된다. 광해군은 곧 강화도 교동에 유배되었다. 유배지에서 탈출하려던 아들 폐세자 질과 며느리 박씨는 탈출에 실패하고 자결하였고, 부인 유씨 역시 화병으로 사망하였다.그 뒤 다시 제주도로 옮겨져 유배살이를 하였으며, 후금(청나라)측에서 정묘호란의 명분으로 광해군의 폐위 문제를 거론하기도 하였다. 이후 몇 차례 역모 사건에 거론되었는데, 심지어는 광해군 스스로 친필 밀서를 역모 세력에게 전달하기도 하는 등 적극적인 면모를 보이기도 하였다. 그러나 인조와 집권 서인은 그를 죽이지 않고 천수를 누리도록 하였다. 한편 유배지에서는 상궁과 포졸들로부터 영감이라는 모욕적인 호칭을 듣기도 했다. 초연히 유배 생활을 지내던 광해군은 1641년(인조 19)에 67세를 일기로 죽었다."
+                />
+
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="사후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="사후 장례는 박씨 집안으로 시집간 딸에 의해 봉사하게 되었다.\n\n인조반정 이후 조선 후반기 내내 친형 임해군을 죽인 패륜사건과 폐모살제(인목대비를 사사시키고 영창대군을 평민으로 강등하는 사건)를 이유로 연산군에 이어 패륜의 군주로 규정되어 왔다. 그러나 현대에 들어오면서 조금씩 재조명 여론이 나타나기 시작했다. 명나라와 후금의 전쟁 중 강홍립을 파견하여 이중적인 태도를 보인 점 역시 명나라에 대한 의리를 배신하고 사대를 저버린 것으로 간주되어 조선 시대 내내 비판의 대상이 되었다. 그러나 현대에 들어와 광해군 대의 외교를 중립 외교 혹은 실리 외교로 보는 시각이 등장하면서 여러모로 재평가,현재는 폭군으로서의 이미지가 많이 희석이 됐다. 그의 묘소는 대한민국 정부 수립 이후 사적 제363호로 지정되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="시조"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="11dp"
+                android:text="風吹飛雨過城頭(풍취비우과성두)\n瘴氣薰陰百尺樓(장기훈음백척루)\n滄海怒濤來薄幕(창해노도래박막)\n碧山愁色帶淸秋(벽산수색대청추)\n歸心厭見王孫草(귀심염견왕손초)\n客夢頻驚帝子洲(객몽빈경제자주)\n故國存亡消息斷(고국존망소식단)\n烟波江上臥孤舟(연파강상와고주)\n\n궂은 비바람이 성머리에 불고\n습하고 역한 공기 백 척 누각에 가득한데\n창해의 파도 속에 날은 이미 어스름\n푸른 산 근심어린 기운이 맑은 가을을 둘러싸네\n돌아가고 싶어 왕손초를 신물나게 보았고\n나그네의 꿈에는 제자주(서울)가 자주 보이네\n고국의 존망은 소식조차 끊어지고\n안개 자욱한 강 위에 외딴 배 누웠구나\n"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="풍취비우과성두 장기훈음백척루는 비바람이 치는 척박하고 초라한 귀양생활을,창해노도래박막 벽산수색대청추는 그러한 척박함과 비교되는,노도처럼 치는 푸른바닷물과 가을빛이 든 푸른 산 등의 자연을 말하고 있다. 이러한 척박함과 푸름의 대비는 화자의 마음을 자연에 대한 동경심을 불러일으키며 화자내면 속에서는 푸른 자연과 같이 아름다운 도읍에 대한 그리움을 불러일으키고 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

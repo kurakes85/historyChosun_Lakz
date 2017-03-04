@@ -1,14 +1,693 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:id="@+id/sejong_activity"
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="원래 국가는 이런 애민 정신을 갖은 학자출신 전문가, 공부벌래
-        세종 대왕이 통치 해야 합니다"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
 
-</LinearLayout>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="4대 세종 이도 "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="백성을 자신보다 사랑한 진정한 지도자 세종"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <ImageButton
+            android:id="@+id/img_button_link_title"
+            android:layout_width="250dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:background="#00ff0000"
+            android:foregroundGravity="center"
+            android:src="@mipmap/sejong_title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="세종대왕, 1976년,운보 김기창"
+            />
+
+        <Button
+            android:id="@+id/text_link_unbo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00ff0000"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="10dp"
+            android:text="운보 김기창 링크"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="12dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 세종(世宗)\n시호 : 조선 영문예무인성명효대왕(英文睿武仁聖明孝大王)\n명 : 장헌(莊憲)\n능묘 : 영릉(英陵)\n본관 : 전주(全州)\n휘 : 막동(莫同)(아명)/이도(李祹)\n자 : 원정(元正)\n출생지 : 한성 준수방 정안군 사저(현 서울특별시 종로구 통인동 부근)\n사망지 : 한성 영응대군저 동별궁\n배우자 : 소헌왕후(昭憲王后)\n아버지 : 조선 태종\n어머니 : 원경왕후(元敬王后)\n생몰 기간 : 음력 1397년(태조 6년) 4월 10일 ~ 1450년 2월 17일\n양력1397년 5월 7일 ~ 1450년 3월 30일 (52년 10개월 23일,)\n재위기간 : 음력1418년 8월 10일 ~ 1450년 2월 17일\n양력1418년 9월 9일 ~ 1450년 3월 30일 (31년 6개월 21일, 1만 1,525일.)\n종교 : 유교 (성리학) → 불교"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/img_button_link_yeomindongrak"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#00ff0000"
+                android:foregroundGravity="center"
+                android:src="@mipmap/sejong_001"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="[여민동락], 백성과 즐거움을 함께하다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="세종 의 이력"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/zoomtextview_taejo_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="성(姓)은 이(李), 휘(諱)는 도(祹), 본관(本貫)은 전주(全州), 자(字)는 원정(元正), 아명은 막동(莫同)이다. 세종은 묘호(廟號)이며,시호(諡號)는 영문예무인성명효대왕(英文睿武仁聖明孝大王)이고, 명나라에서 받은 시호는 장헌(莊憲)이다.존시를 합치면 세종장헌영문예무인성명효대왕이 된다. 태종(太宗)과 원경왕후(元敬王后)의 셋째 아들이며,비는 청천부원군(靑川府院君) 심온(沈溫)의 딸 소헌왕후 심씨(昭憲王后 沈氏)이며, 조선의 왕 중에서 왕세자에게 양위를 하지 않고 훙서한 최초의 왕이다.한성 준수방(지금의 서울특별시 종로구 통인동) 고을에서 아버지 정안군 이방원(靖安君 李芳遠)과 어머니 민씨 부인의 셋째 아들로 태어났으며 태종 8년(1408년) 충녕군(忠寧君)에 봉해졌다가, 태종 12년(1412년), 둘째 형 효령군 이보(孝寧君 李 補)와 함께 대군으로 진봉된다.1418년 첫째 형 양녕대군이 왕세자에서 폐위되면서 세자로 책봉되었고 얼마 후 부왕의 선위(禪位)로 즉위하였다.즉위 초반 4년간 부왕 태종이 대리청정을 하며 국정과 정무를 주관하였고 이때 장인 심온(沈溫)과 그의 측근들이 사형에 처해졌다.이후 주변의 소헌왕후 폐출 주장을 일축했고, 건강이 좋지 않았던 그는 김종서, 맹사성 등을 등용하여 정무를 주관하였는데 이 통치체제는 일종의 내각 중심 정치제도인 의정부서사제의 효시가 되었다.세종은 재위 기간 동안 과학, 경제, 국방, 예술, 문화 등 모든 분야에 걸쳐 찬란한 업적을 많이 남겨 위대한 성군(聖君)으로 존경받는 인물이다.1443년 누구나 쉽게 배울 수 있는 효율적이고 과학적인 문자 체계인 훈민정음(訓民正音)을 창제하였다. 이것은 20세기 주시경(周時經)에 의해 한글로 발전되어,오늘날 대한민국과 한반도에서 공식 문자로서 널리 쓰이고 있다. 10월 9일은 한글날로 기념한다. 과학 기술에도 두루 관심을 기울여 혼천의, 앙부일구, 자격루, 측우기 등의 발명을 전폭적으로 지원했고,신분을 뛰어넘어 장영실, 최해산 등의 학자들을 적극 후원하였다.국방에 있어서는 이징옥, 최윤덕 등을 북방으로 보내 평안도(平安道)와 함길도(咸吉道)에 출몰하는 여진족(女眞族)을 국경 밖으로 몰아내고 4군 6진을 개척하여 압록강(鴨綠江)과 두만강(豆滿江) 유역으로 국경을 확장하였고, 백성들을 옮겨 살게 하는 사민정책(徙民政策)을 실시하여 국토의 균형된 발전을 위해서도 노력하였다. 또한 이종무를 파견하여 왜구(倭寇)를 토벌하고 대마도(對馬島)를 정벌하였다. 이밖에도 법전과 문물을 정비하였고 조세 제도의 확립에도 업적을 남겼다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="세종의 업적"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:text="업적이 너무 방대하여 아래 링크를 추가합니다"
+                />
+
+            <Button
+                android:id="@+id/text_link_upjuk"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00ff0000"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="10dp"
+                android:text="여기를 터치해 주세요"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="세종의 생애"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="생애 초기"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="이도(李祹)는 1397년 음력 4월 10일(양력 5월 15일) 당시 정안군이던 태종과 원경왕후 민씨의 삼남으로 태어났다.아버지 정안대군 이방원이 왕세자가 되면서 잠정적 왕위계승권자의 한 사람이 되었으며,1408년 12살에 충녕군(忠寧君)에 봉해졌다. 어려서부터 독서와 공부를 좋아하였으며,두 형과 함께 빈객으로 임명된 계성군 이래(李來)와 변계량(卞季良)에게 수학하였다.하루는 눈병이 났음에도 책을 손에 놓지 않아 부왕 태종이 강제로 책을 빼앗아서 숨겼다고 한다.그 뒤에는 정몽주(鄭夢周)의 문하생인 성리학자 권우의 문하에서 수학하였다.어려서부터 책을 한시도 손에 놓지 않아 눈병과 과로로 건강을 해치기도 하여,부왕 태종은 책을 모두 감추게 하기도 했다. 그러나 그는 부왕이 숨겨둔 책들을 찾아내어 독서를 계속하였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="대군 진봉, 그리고 형들과의 경쟁"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1412년 16살에 둘째 형 효령군(孝寧君)과 함께 대군으로 진봉되어 대광보국 충녕대군(大匡輔國 忠寧大君)이 되었다.그는 형제간에 우애가 깊은 인물이고,부모에게 지극한 효자로 각인되었다.그러나 그는 형들에게 일종의 라이벌 의식을 지니고 있었고,자신의 둘째 형 효령대군(孝寧大君)이 세자의 자리를 희망하고 있다는 것을 알게 되면서 더욱 독서와 학문 연구에 정진하기도 한다.특히 동생이며 부왕 태종(太宗)의 넷째 아들인 병약한 성녕대군(誠寧大君)에게는 동기간 중 자신이 병간호를 할만큼 그 우애가 유난히 각별했으나 홍역을 앓던 성녕대군은 끝끝내 병을 털어내지 못한 채 1418년 음력 2월 4일 14세로 일찍 죽고 만다.실록에는 그의 도발적 행동도 기록되어 있다. 충녕대군(忠寧大君)은 '임금의 아들이라면 누군들 임금이 되지 못하겠습니까' 라는 한 신하의 위험한 발언을 아버지 태종에게 전해 자신의 존재를 알리고,세자인 이제(李禔)에게 '마음을 바로잡은 뒤에 몸을 꾸미라' 고 충고하기도 하였다.이 일로 이제와의 관계는 악화되었다.후대의 만화가 박시백은 '충녕대군의 행동이 세자를 향한 충정이었을까, 아니면 도전이었을까?' 라며 의문을 제기하기도 하였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="세자 책봉과 즉위"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1418년에 태종이 신하들과의 회의 에서 '세자의 행동이 지극히 무도(無道)하여 종사(宗社)를 이어 받을 수 없다고 대소 신료(大小臣僚)가 청(請)하였기 때문에 이미 폐(廢)하였다.'라고 하며 김한로와 연관되는 등의 심각한 비행으로 이제를에세 폐위되고 하, 학 충녕대자질이 높이을가되하 높이등평가부 반에도 불구하고 태종은 이 해 6월 22살의 그를 새로운 왕세자로 책봉하고,이제를 양녕대군(讓寧大君)으로 강봉(降封)하였다.부왕이 왕세자를 폐위할 것을 예감한 효령대군은 세자 자리를 기대하였으나,이제는 충녕대군에게 세자 자리가 갈 것이니 포기하라고 하였다.충녕대군은 처음에는 세자 자리를 사양하였으나 받아들여지지 않고 이해 8월 초8일 태종은 왕위를 왕세자에게 물려 주고 연화방의 옛 세자궁으로 거처를 옮겼다.충녕대군은 이를 거두어줄 것을 여러번 청하였지만 태종의 결심이 굳건하여 받아들여지지 않았다. 마침내 이틀 뒤인 8월 10일 조선의 제4대 임금으로 즉위한다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="재위기간 업적"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="유교 정치의 기틀 마련"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종은 신분을 가리지 않고 유능한 인재를 많이 등용하여 깨끗하고 참신한 정치를 펼쳐 나갔다.그러면서도 인사와 군사에 관한 일은 세종 자신이 직접 처리함으로써 왕권과 신권의 조화를 이루었다.아울러 국가의 행사를 오례에 따라 유교식으로 거행하였으며, 사대부에게도 주자가례의 시행을 장려하여 유교 윤리가 사회 윤리로 자리 잡게 만들었다.또한 사대사고를 정비하고, (삼강행실도), (효행록) 등을 간행하여 유교를 장려하였다.[불교]에 대해서 초년에는 억압 정책을 썼으나 말년에는 내불당(內佛堂)을 지어 불교를 독신(篤信)하고 승과를 설치하는 등 억압 정책을 완화했다.또한 양녕대군의 폐립(廢立) 문제에 반대 의견을 내던 이조판서 황희는 1413년 초 태종의 노여움을 사서 좌천(左遷)되었다가,1418년(태종 18년)에 충녕대군이 세자로 책봉되자 이에 반대하다가 결국 폐서인되어, 교하(交河, 파주) 지방에 유배된다.이 해에 태종은 세자에게 양위하고 물러나는데, 이때 교하가 너무 가깝다는 이유로 태종의 노여움을 사서 남원(南原)으로 옮겨서 5년을 더 머물러야 했다.그러나 상왕 태종의 진노가 풀려 1422년(세종 4년) 부왕 태종은 그를 소환하도록 권고, 직첩(職牒)을 주며 세종에게 부탁하여 곧 등용토록 하였다.세종은 황희가 자신이 세자에 책봉되는 것을 반대했고 외숙부들을 죽음으로 내몰았지만, 그의 사람됨이 바르다는 것을 알고 즉시 유배에서 불러들었다.그는 야사에서 말하는 것처럼 항상 이도 좋고 저도 좋다고 말하는 호인(好人)이기만 했던 것도 아니다. 그는 세종에게 ‘아니다’라고 말할 수 있는 정치가였고, 국가 미래를 내다보는 정확한 판단력을 가지고 있었다. 그래서 세종은 그의 여러 단점에도 불구하고 끝까지 중용했다.1423년 예조판서를 거쳐 강원도관찰사로 나가 구휼을 잘 하고 민심을 얻었다. 세종의 신임을 얻은 그는 크고 작은 잘못이 있었지만 그때마다 세종대왕의 신임과 비호를 받아 가벼운 처벌을 받거나 복직했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="대외정책"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종은 명(明)과의 외교에서 금·은 세공을 말(馬)과 포(布)로 대신토록 하는 데에 합의를 성공적으로 이끌었고,여진과의 관계에 있어서 최윤덕(崔閏德)과 이천(李蕆)에게 압록강 상류지역에 4군(郡)을, 김종서(金宗瑞)와 이징옥(李澄玉)에게 두만강 하류지역에 6진(鎭)을 설치하도록 하였다.일본과의 외교에서 초기에는 삼포 개항 등의 회유책을 썼으나 상왕 태종의 명령 아래 무력으로 대마도를 정벌하였다.사령관 이종무(李從茂)의 실책으로 조선의 피해가 만만치 않아 실질적으론 군사적인 승리라고는 할 수 없었지만,대마도 도주가 조선에 항복하여 조공할 것을 약속하였기에 부정적인 것 또한 아니었다. 조선 앞바다는 그로 인해 얼마간 왜구로부터 잠잠할 수 있었다.(이종무의 실책: 정찰대 선발 때 제비뽑기를 선발 방법으로 채택해 사기를 떨어뜨렸고, 결국 의욕 없이 나간 정찰대 중 180명이 왜병의 기습에 죽고 말았다.)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="국방 정비"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종은 학문적인 사업은 물론이고 국토 개척과 확장을 통하여 국력을 신장하는 일에도 힘을 기울였다. 왜구 문제는 처음에는 회유책을 써서 평화적 해결을 모색했으나, 당시 일본국의 무로마치 막부의 전국 통제력도 완벽하지 않아 왜구의 남해안 노략질은 줄어들지 않았다.1419년에도 왜구가 침입하자 그해 음력 6월 19일 이종무 장군을 삼도 도절제사로 삼아 그로 하여금 삼도에 소속된 9명의 절제사들과 전함 227척,군사 1만 7천 명을 이끌고 거제도의 마산포를 떠나 왜구의 근거지인 대마도를 정벌케 하였다.대마도에 상륙한 조선군은 섬의 구석구석을 찾아다니며 왜구를 죽이고 집에 불을 질렀다.그렇게 보름쯤이 지나자 대마도의 도주가 항복을 하였다. 이때 이종무는 왜구에게 잡혀 갔던 조선 사람과 함께 붙잡혀 있던 명나라 사람도 구출하였다.조선군은 대마도의 항복을 받아들이고 군대를 철수시켜 1420년 대마도를 경상도에 편입시킨다고 대마도 도주에게 통고했다. 그 대신 3포를 개항(1426년)하고,계해약조(1443년)를 통해 세견선 50척, 세사미두 200석으로 무역을 허락하였다. 이것은 왜구를 너그럽게 포용함으로써 노략질을 근본적으로 방지하는 정책이었으며,실제로 이같은 정책으로 오랫동안 왜구의 침입이 없어졌다.1433년에는 압록강을 넘어 파저강 전투에서 여진족을 무찔렀으며,1443년에는 북방 이민족인 여진족에 대한 강경책과 영토 확장에 대한 일환으로 최윤덕 장군과 김종서 장군으로 하여금 여진족을 토벌하여 평안도의 4군(四郡)과 함길도의 6진(六鎭)을 개척하게 하였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="훈민정음 창제"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1420년 중앙 집권 체제를 운영하기 위해 정책 연구 기관으로 궁중 안에 집현전을 설치하여 그들을 일반 관리 이상으로 우대하였다.1443년 ―조선에 고유 문자가 없음을 개탄한 세종은 신숙주(申叔舟), 성삼문(成三問), 박팽년(朴彭年), 정인지(鄭麟趾), 정창손(鄭昌孫), 이개(李塏) 등의 집현전 학사들에게 명하여 언어를 연구하게 된다.그는 문자 연구를 위해 당시 중국 명나라의 언어학자 황찬(黃瓚)을 만나려 하였으나,명나라 조정에서 허용하지 않아 만나지 못했다. 세종은 성균관 주부 성삼문, 집현전 교리 신숙주 행 사용(行司勇) 손수산(孫壽山) 등을 명나라의 한림학사(翰林學士) 황찬을 만나도록 지시한다.그런데 마침 명나라 한림학사 황찬이 죄를 짓고 요동(遼東)에 귀양 가 있자 일행은 그를 만나게 되어 13번이나 요동과 조선을 직접 왕래하여 음운(音韻)에 관한 것을 의논하였다.그는 한자를 모르는 민중들 16세기 지방 하층민도 한글 사용,암클, 언문등으로 불리다가 20세기에 들어 주시경선생에 의해 한글로 정리되고 발전되어 오늘날까지 대한민국과 조선민주주의인민공화국의 문자로 쓰이고 있다.세종의 훈민정음 창제는 누구나 자신의 생각을 말과 글로 표현할 수 있게 한, 그래서 그의 업적 중 가장 뛰어난 것으로 손꼽히는 일이다.이때 훈민정음의 창제를 반대한 신하 중에는 최만리(崔萬理)와 하위지(河緯地)가 있었는데,최만리는 청백리로 인정받았음에도 세종을 높이는 과정에서 상대적으로 폄하되었다 하여 그의 후손들은 복권운동을 시도하고 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="재상 등용과 국정 분담"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종은 문치주의 정책을 펼치면서도 건강이 나빠서 세 명의 정승에게 조정의 대소사를 맡아보게 하였다.황희는 주로 인사, 행정, 군사 권한을 맡겼고 맹사성에게는 교육과 제도 정비, 윤회에게는 상왕 태종과의 중개자 역할과 외교 활동을 맡겼고,과거 시험은 맹사성과 윤회에게 분담하여 맡겼다. 나중에 김종서가 재상의 반열에 오를 때쯤에는 국방 업무는 김종서에게 맡겨서 보좌하게 하였다.맹사성과 황희는 같은 입장을 취하면서도 서로 다른 성품을 가졌다. 황희가 분명하고 강직했다면, 맹사성은 어질고 부드럽고 섬세했다.또한 황희가 학자적 인물이었다면 맹사성은 예술가적 인물이었다.윤회 역시 예술가적인 특성을 갖고 있었다.세종은 이들 재상들의 재질과 능력을 보고 적합한 임무를 분담하여 맡겼다. 황희는 주로 이조, 병조 등 과단성이 필요한 업무에 능했고,맹사성은 예조, 공조 등 유연성이 필요한 업무에 능했으며 윤회는 외교와 집현전 쪽을 주로 맡아보았다.세종은 부드러움이 필요한 부분은 맹사성에게 맡기고, 정확성이 요구되는 부분은 황희에게 맡겼다.따라서 황희는 변방의 안정을 위해 육진을 개척하고 사군을 설치하는 데 관여, 지원하기도 했고,외교와 문물 제도의 정비, 집현전을 중심으로 한 문물의 진흥 등을 지휘 감독하는 일을 맡기도 했다.이에 반해서 맹사성은 음률에 정통해서 악공을 가르치거나, 시험 감독관이 되어 과거 응시자들의 문학적,학문적 소양을 점검하는 일을 주로 맡았다.맹사성과 비슷한 윤회에게는 주로 외교 업무와 상왕 태종과의 매개자 역할,외교 문서의 작성과 시험 감독관 등의 업무가 부여되었다. 세종대왕은 이들 재상들의 능력을 알면서도 권력남용의 가능성을 우려하여 한 사람에게 대권을 모두 넘겨주지는 않았다.이들 재상들은 맡은 분야와 업무를 서로 분장하거나 서로 공유하기도 했다. 맡은 역할과 성격을 떠나 이들은 모두 공정하고 공과 사를 명확하게 구분한다는 공통점이 있었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="의정부 서사제 실시 와 처녀 조공, 금은 조공중지"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="소갈증(오늘날 당료,편식은 위험합니다) 등을 앓던 세종은 맹사성, 황희, 권진, 김종서 등의 재상들에게 일정 부분의 권한을 위임하여 대신 정무를 주관하게 했다.세종은 6조의 관료들이 병권과 인사권 외의 정무를 의정부 정승들의 의결을 거쳐 왕에게 전하게 하는 의정부 서사제를 실시한다.그런데 세종이 의정부 서사제를 실시한 표면적 이유는 건강 때문이었다.세종은 비만한 체구에 운동은 싫어하면서 육식과 학문을 좋아하는 버릇 때문에 종기(背浮腫)·소갈증(消渴症)·풍질(風疾)·안질(眼疾) 등을 평생 앓았다.그러나 세종이 왕권의 상당 부분을 의정부로 옮기도록 결심한 배경은 영의정이 황희(黃喜)였기 때문이다. 여비(女婢)들의 다툼에 ‘네 말이 옳고, 네 말도 옳고, 또 네 말도 옳다’고 했고, 종의 자식들이 수염을 잡아당겨도 웃었다는 일화로 유명하였다.황희는 오랫동안 관직에 있었으므로 처세술에 능하다는 비판을 받기도 했다. 황희는 어떤 젊은 성균관 유생이 길에서 자신을 향해 '정승이 되어서 임금의 그릇됨을 잡지 못한단 말이냐' 라고 면박하자 도리어 기뻐했다고 '연려실기술'에 전한다.이후 18년 동안 황희는 명재상으로서 세종을 잘 보필하여 태평성대로 이끌다가 1449년(세종 31년) 87세로서 은퇴하였다.세종대의 또다른 정승은 맹사성(孟思誠)으로 그는 청렴한 관료였지만 자신의 의견이나 개성을 쉽게 드러내지 않았다.세종은 맹사성 역시 적극 신뢰하여 황희, 권진과 함께 그를 중용하였다. 또한 세종 후반기에는 황희 등이 천거한 김종서 등을 재상으로 중용하여 정사를 맡기기도 했다.\n\n처녀 조공과 금은 조공 일시 중지\n\n고려가 멸망한 이후에도 조선에서는 계속 중국으로 처녀 조공과 금은 조공을 보냈다.처녀 조공은 처녀 진헌이라 불렀는데 부왕 태종대에는 진헌색이라는 기관을 설치했다.그러나 태종 때의 처녀 조공은 40명이었지만 세종 12년까지 명나라에 조공으로 바쳐진 공녀는 74명이었다.태종때에 이미 태종은 명나라에 사정하여 조공을 중지시켜달라고 요청하였으나 명나라는 들어주지 않았다.금은광산에서 막대한 금은을 채굴하다 산사태 등이 발생하고 국가의 부가 빠져나갔으며 세종 즉위 후 1430년(세종 12년)까지 74명의 공녀가 명나라에 바쳐졌다.세종은 즉위 직후부터 여러 차례 명나라에 친서를 올려 처녀 진헌과 금은 공물로 인한 부담이 심한 것을 들어 명나라에 조공을 면제해줄 것을 요청했다.세종의 계속된 조공 면제 요청은 1430년(세종 12년)에 말과 명주, 인삼 등 다른 공물을 더 보내는 조건으로 받아들여졌다. 이로써 처녀 조공과 금은 조공은 면제되었다. 그러나 세종 사후 처녀 조공과 금은 조공은 다시 부활했고, 처녀 조공과 금은 조공은 중종 때에 가서야 완전히 사라진다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="과학의 발전"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/img_button_link_jangyoungsil"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:background="#00ff0000"
+                android:src="@mipmap/sejong_002"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:text="장영실"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종은 정인지, 정초(鄭招), 이천, 장영실 등에게 명하여 천문 관기구인 간의(簡儀), 혼천의, 혼상(渾象), 일성정시의(日星定時儀, 1437년. 천문 기구 겸 시계),해시계인 앙부일구와 물시계인 자격루, 누호(漏壺) 등 백성들의 생활과 농업에 직접적인 도움을 주는 과학 기구를 발명하게 하였다.궁중에 일종의 과학관이라 할 수 있는 흠경각(欽敬閣)을 세우고 과학 기구들을 설치했다.고금의 천문도(天文圖)를 참작하여 새 천문도를 만들게 했으며, 이순지(李純之)와 김담(金淡) 등에 명해 주변국의 역법을 참고로 하여 역서(曆書) [칠정산내편]과 [칠정산외편]을 편찬함으로써 독자적으로 역법을 계산할 수 있게 되었다. 또한 이순지는 천문, 역법 등에 관한 책인 [제가역상집](諸家曆象集)을 편찬하였다.세종 때 장영실이 만든 자동 물시계인 자격루, 현대에 와서 청동 물통 부분만 재구성한 모형이다.태종 때 제작되었던 기존의 청동 활자인 계미자(癸未字)가 글자의 형태가 고르지 못하고 거칠다는 단점이 발견되자,세종은 1420년에 경자자(庚子字), 1434년 갑인자(甲寅字), 그리고 1436년 병진자(丙辰字) 등을 주조함으로써 활판 인쇄술을 한 단계 발전시켰으며,서적 편찬에 힘썼다.1431년과 1446년에는 아악의 음률을 정하는 기준으로 쓰던 구리관인 황종관(黃鐘管)을 표준기(標準器)로 지정하여,그 길이를 자(尺)로 삼고 담기는 물을 무게의 단위로 삼도록 함으로써 조선의 도량형을 확립시켰다.또한 천자총통(天字銃筒), 지자화포(地字銃筒)와 같은 신무기를 개발하는 것은 물론 총통의 제작 및 사용법에 관한 책인 [총통등록](銃筒謄錄)을 편찬했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="문물의 발전"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종은 관습도감(慣習都鑑)을 두어 박연(朴堧)으로 하여금 제례 때 사용하는 중국의 음악이었던 아악을 정리하여 향악과 조화롭게 결합시켰다.또한 새로운 음악에 맞춰 새로이 편경과 편종등의 새로운 악기를 만들었으며, 정간보를 통해 이 음악을 기록케 하였다.세종 자신이 지은 [월인천강지곡]을 비롯하여 정인지·권제(權踶)의 [용비어천가],정초·변계문(卞季文)의 [농사직설], 정인지·김종서의 [고려사], 설순(楔循)의 [삼강행실도],윤회(尹淮)·신장(申檣)의 [팔도지리지], 이석형(李石亨)의 [치평요람], 수양대군의 [석보상절],김순의(金循義)·최윤(崔潤) 등의 《의방유취》 등 각 분야의 서적을 편찬하였다 한편 농업과 양잠에 관한 서적의 간행, 환곡법의 철저한 실시, 조선통보의 주조,전제상정소(田制詳定所)를 설치하고 공정한 전세제도(田稅制度)의 확립 등으로 경제 생활 향상에 전력했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="법전 정비 그리고 복지"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종은 즉위초부터 법전의 정비에 힘을 기울였다. 세종 4년에는 완벽한 [속육전]의 편찬을 목적으로 육전수찬색(六典修撰色)을 설치하고 법전의 수찬에 직접 참여하기도 하였다. 수찬색은 세종 8년 음력 12월에 완성된 [속육전] 6책과 [등록 謄錄] 1책을 세종에게 바쳤고, 세종 15년에는 [신찬경제속육전](新撰經濟續六典) 6권과 [등록] 6권을 완성하였다. 그러나 그 뒤에도 개수를 계속하여 세종 17년에 이르러 일단 [속육전] 편찬사업이 완결되었다.\n\n서민 복지 정책\n\n세종은 복지정책에도 힘을 쏟았는데,부모를 잃은 아이들이나 남편을 잃은 여자 등 약자들에게 담당 관사에서 쌀을 지급해주도록 했고,장애인과 노인에게는 세금을 면제해 주었을 뿐만 아니라 장정을 한 명씩 내주어서 봉양을 하도록 하였다고 한다.그리고 세종은 시각장애인 복지정책에도 신경을 많이 썼다. 그 예로 유명한 시각장애인 점복가에게 1435년 벼슬을 준 일이 있다.세종은 '지화가 국가의 미래를 점치는 일과 왕실 혼인에 자주 참여하여 점복을 잘 치니 벼슬을 내리는 것이 어떠냐'고 정승 황희와 맹사성에게 물었다.황희가 정4품으로 한정하자고 제안하여 시각장애인 점복가 지화와 이신에게 벼슬을 주었다. 그러자 사간원에서 반대한 것을 세종은 사옹원의 벼슬은 문제가 없다고 하였으며,이것이 정당하다고 신하들을 설득시킨 일이 있었다. 한편 시각장애인 독경사는 명통시에서 활동했는데, 명통시는 시각장애인단체로 장애인에게 쌀, 황두를 지원했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="생애 후반"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="가정의 불행"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="재위 초반에 장녀 정소공주가 요절하고,재위 후반엔 광평대군이 갑작스럽게 죽은 뒤,평원대군도 잇따라 요절을 하게되어, 세종과 소헌왕후는 비탄에 빠졌고 곧 불교 사찰을 찾아다니며 이들의 명복을 비는 등 불사를 주관하기도 했다. 이어 소헌왕후마저 승하하면서 그는 생애 후반 불교에 귀의하게 된다.조선의 건국 이념은 유교 성리학이었기에 유학자들의 반발이 거셌으나,세종은 이에 개의치 않고 궁궐 내에 법당을 조성하고 불사 중창과 법회에 참석하였으며,먼저 죽은 가족들의 넋을 위로하기도 하였다.어린 시절부터 몸이 약한 데다가, 학문에만 전념하는 모습을 보여 아버지 태종에게 걱정을 샀던세종은 젊은 시절 무리하게 국정을 돌본 탓에 집권 후반에 들어서면서 건강이 몹시 악화되었다.각종 질병(중풍, 요로결석, 노안)에 자주 시달려서 병석에 누워 정무를 볼 수 없게 되었고,이러한 질병으로 인해 여러 번 세자의 섭정을 하려고 하였으나 신하들의 반대에 무산되었다.한편 그가 즉위한 직후부터 삼촌 회안대군 처형과 사촌형 의령군 이맹종을 처형하라는 상소가 계속 올라왔다.1422년에는 의령군 이맹종을 홍주에서 여주로 옮겼다가 이맹종 집안의 재산을 회안대군의 딸들에게 나눠주었고,1422년 4월 사헌부대사헌 성엄 등은 이숙번, 양녕대군, 김한로, 의령군 이맹종 등의 처벌을 상소하였다.이후 계속 의령군을 사형에 처하라는 상소가 올려져 결국 1423년(세종 5) 세종은 의령군에게 자진을 명하였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="서거"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세종의 병세가 악화되어 제대로 집무를 할 수 없게 되자 결국 1442년부터 세자 향에게 섭정을 하도록 했다.(세종실록)을 보면 집권 후반부에는 이런 각종 질병을 다스리기 위하여 자주 온천에 행차하였음이 기록되었다.세종은 대식가였고, 몸집이 비대하였다는 기록도 있다.1450년 음력 2월 17일 (양력 4월 8일) 소갈증 (당뇨병) 합병증과 중풍등의 후유증으로 인하여 54세를 일기로 영응대군의 사택인 동별궁에서 승하하였다.죽기 전 급하게 우찬성 김종서를 고명대신으로 삼고 임종 시 그가 있어 주기를 바랐으나, 세종의 승하후 일주일 남짓이 지나서 왔다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330019"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:text="사후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1450년 (문종 1) 4월 21일 (음력 3월 10일) 시호(諡號)를 영문예무인성명효대왕(英文睿武仁聖明孝大王)’이라 하고, 나라를 안정시키고 태평성대의 기반을 마련하였다고 하여 묘호(廟號)를 세종(世宗)’이라고 정하였다. 세종의 세(世)는 '번성'을 의미한다. 6월 30일 (음력 5월 21일) 좌의정 황보인(皇甫仁)이 길복(吉服)을 입고 빈전(殯殿)에 나아가서 시호의 책보(冊寶)를 올렸는데, 그 시책(諡冊)은 다음과 같다.\n\n'그윽이 생각하건대, 천지(天地)의 큰 덕은 비록 다 형용하여 말할 수 없지마는, 신자(臣子)의 지극한 정리(情理)로서는 다만 미덕(美德)을 나타내는 데에 간절하므로, 삼가 상헌(常憲)에 따라서 이에 휘칭(徽稱) 을 올립니다. 삼가 생각하건대, 황고 대왕(皇考大王)께서는 제성(齊聖) 광연(廣淵)하시고 총명(聰明) 예지(睿智)하시어 처음부터 끝까지 학문을 바탕으로 정치하는 근원을 깊이 연구하고, 밤이나 낮이나 정성을 다하여 정치하는 방도를 넓혔습니다. 유학(儒學)을 숭상하고 덕화(德化)를 일으켰으며, 농사를 권장하고 형옥(刑獄)을 가엾게 여기었습니다. 조(祖) 를 높이고 종(宗) 을 공경하는 정성을 다하고, 사대(事大)와 교린(交隣)의 도리를 다하였습니다. 구족(九族)은 실로 인륜(人倫)을 돈독히 하는 일에 한결 같았고, 조민(兆民)은 태평한 정치에 다 포용(包容)되었습니다. 예절이 갖추어지고 풍악이 조화(調和)되니, 문치(文治)는 일월(日月)처럼 빛나고, 가까운 곳이 편안하고 먼 곳이 엄숙하니 위무(威武)는 풍정(風霆)처럼 떨쳤습니다. 수방(殊方) 에서는 두려워하고 사랑하는 정성을 바치고, 중국(中國)에서는 칭찬하고 권애(眷愛)하는 은총(恩寵)을 베풀었습니다.좋은 상서[貞符]가 자주 응하고, 칭송의 소리가 번갈아 일어 났습니다. 과연 30년간 태평의 성대이요, 진실로 천 년 사이에 만나기 어려운 행운입니다.바야흐로 아버지께 만세(萬歲)까지 계실 것을 믿었는데, 어찌 하늘이 일조(一朝)에 무너질 줄을 생각하였겠습니까? 부비(付卑) 의 어려움을 길이 생각하니, 호곡(號哭) 벽용(擗踴) 하는 슬픔을 견딜 수 없습니다. 이에 추숭(追崇)하는 전(奠)을 거행하여, 애모(哀慕)하는 마음을 조금 펴려고 합니다. 삼가 옥책(玉冊)을 받들어 영문 예무 인성 명효 대왕(英文睿武仁聖明孝大王)’이란 존시(尊諡)와 ‘세종(世宗)’이란 묘호(廟號)를 올립니다. 우러러 생각하건대, 의령(懿靈)372) 은 깊은 감찰(鑑察)을 내리셔서 빛나는 옥책(玉冊)을 받으시어 대대로 영구히 전하는 홍명(鴻名) 을 누리고, 순희(純禧) 를 거듭 주셔서 무궁(無窮)한 보조(寶祚) 를 말없이 도와주소서.'— [문종실록 1권, 즉위년 5월 21일(갑자)]\n\n세종은 죽어서도 부왕인 태종의 곁에 있고자 하였으나 풍수지리에 좋지 않다는 이유로 손자인 예종 때에 경기도 여주로 이장되었다.그러나 이장 후 1년도 안돼 예종이 갑자기 사망하여 흉지가 아니냐는 논란이 나왔으나 곧 무마되었다.세종의 능은 영릉(英陵)이란 이름으로 현재 경기도 여주시에 위치해 있으며 소헌왕후와 한 봉분안에 함께 묻혀있는 합장릉이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            </LinearLayout>
+    </LinearLayout>
+</ScrollView>

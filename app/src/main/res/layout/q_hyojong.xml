@@ -1,6 +1,441 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="17대 효종 이호"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="선조,인조로 내려오는 암군 족보를 끝내다!"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="11dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 효종(孝宗)\n시호 : 조선\흠천달도광의홍렬선문장무신성현인명의정덕대왕\n(欽天達道光毅弘烈宣文章武神聖顯仁明義正德大王)\n청 : 충선(忠宣)\n본관 : 전주(全州)\n능묘 : 영릉(寧陵)\n휘 : 이호(李淏)\n자 : 정연(靜淵)\n출생 : 한성 향교동 경행방 어의궁\n          (현 서울특별시 종로구 낙원동 부근)\n사망장소 : 한성 창덕궁 대조전\n배우자 : 인선왕후(仁宣王后),\n아버지 : 인조(仁祖)\n어머니 : 생모 인열왕후(仁烈王后), 계모 장렬왕후(莊烈王后)\n생몰기간 : 1619년 5월 22일 ~ 1659년 5월 4일\n양력 : 1619년 7월 3일 ~ 1659년 6월 23일\n재위기간 : 1649년 5월 13일 ~ 1659년 5월 4일\n양력 : 1649년 6월 22일 ~ 1659년 6월 23일"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <ImageButton
+                android:id="@+id/img_button_link_hyojong_001"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="#00ff0000"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:foregroundGravity="center"
+                android:src="@mipmap/hyojong_001"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="효종의 깔끔한 한글편지"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="효종의 생애"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="출생과 호란"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="효종은 인조의 둘째 아들로 어머니는 인렬왕후이며 성은 이(李), 휘는 호(淏), 본관은 전주(全州), 자는 정연(靜淵), 호는 죽오(竹梧), 비(妃)는 신풍부원군(新豊府院君) 장유(張維)의 딸 인선왕후이다. 1623년 인조 반정으로 아버지 능양군이 즉위하면서 왕자로 책봉되고, 1626년(인조 4) 봉림대군(鳳林大君)에 봉해졌다.1635년(인조 13년) 송시열과 윤선도 등이 대군사부(師傅)에 임명되어 봉림대군과 인평대군을 가르쳤다. 그중 송시열은 청나라의 침략을 당한 조선의 현실을 금나라의 침략을 당한 남송과 같이 보았고,주자의 사상이 이를 극복하는 해답이라 보았다. 송시열이 항상 주자를 언급하자 효종은 '말마다 옳은 이는 오직 주자이며, 일마다 옳은 이가 오직 주자이십니까'라고 반문했다 한다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="세자 책봉과 즉위"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1636년 병자호란이 일어나자 인조의 명으로 아우 인평대군을 비롯한 왕족을 거느리고 강화도로 옮겨 장기 항전을 꾀했으나, 남한산성에 고립되었던 인조가 이듬해 정축하성을 결행, 청나라에 항복함에 따라 삼전도의 굴욕을 본 뒤 형 소현세자 및 홍익한·윤집·오달제 등 강경 주전론자(主戰論者)들과 함께 청나라에 볼모로 잡혀가 선양에 8년 동안 머물렀다. 청나라 인질 기간 중 형 소현세자는 청나라의 문물과 베이징에 도착한 아담 샬 등의 천주교 선교사들과 만나 새로운 지식과 문물을 접견하였으나 봉림대군은 인질 생활 내내 복수심과 청나라를 정벌할 것을 다짐하였다. 이는 청나라에 다녀가는 조선인 상인들과 외교관, 역관들을 통해 조선에도 전해졌고 부왕 인조의 귀에도 들어가게 되었다.1645년 2월에 먼저 귀국했던 소현세자가 그해 4월 갑자기 죽자 5월에 청나라로부터 돌아왔다. 귀국 후 청나라를 정벌하고 치욕을 씻어야 된다는 부왕 인조의 주장에 전적으로 동의하였으며 당시 총애를 받던 귀인 조씨의 눈밖에 나지 않기 위해 이복 형제들과도 친하게 지냈다.당시 대다수의 중신들은 원손의 세자 책봉을 주장했으나 국유장군론(國有長君論)을 내세운 인조의 강한 의지에 따라 윤6월에 세자로 책봉되었다. 세자의 물망에 오르자 처음에는 사양하였으나 거듭 권고가 들어오자 세자위를 받아들였다. 1649년 5월 인조의 뒤를 이어 즉위했다. 세조 이후 처음으로 즉위한 무인 기질을 타고난 군주이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="재위 기간"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="인사,정치 개혁"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="즉위 직후 그는 인조 반정의 반정공신인 서인 공신계열과 김자점 등의 외척 세력을 견제하기 위해 새로운 인재들을 발탁했다. 즉위 직후 자신의 대군시절 사부였던 송시열과 송준길을 발탁했는데, 이들의 건의를 받아들여 서인 내에서도 비공신인 산림계열의 영입을 추진하였고 김집, 김상헌, 안방준 등과 그들의 문인들을 적극 발탁했다. 이 중 안방준을 제외하고는 그의 영입에 적극 호응하여 조정에 출사하였다. 또한 서인이었으나 역시 비공신 계열인 김육을 발탁하였다. 김육은 효종 재위기간 내내 대동법 실현을 위해 노력하였다.또한 숭용산림 정책의 일관성을 유지하기 위해 재야에 머무르고 있던 남인 성리학자들의 영입을 추진했다. 서인 중에서도 남인에게 온건한 입장이던 심지원과 원두표의 건의를 받아들여 허목, 윤휴 등에게 청요직을 제수하여 불러들이기도 했다.즉위 초부터 효종은 과거 반정 공신들과 외척의 전횡과 개혁안을 듣기 위해 널리 여러 중론을 모으겠다는 뜻에서 구언(求言) 정책을 펼쳤다. 이에 잠곡 김육이 대동법을 주장하고 김홍욱이 이를 적극 지지하자 대동법 시행령을 내렸다. 이어 김육으로부터 대동법 시행의 적임자로 추천받은 김홍욱을 승지(承旨)로 임명했다가 1651년 공충도 관찰사로 임명하여 충청도에서 대동법을 실시하게 했다.그 뒤 충청도 홍주목사로 있던 김홍욱은 상소를 올려 '청감염철소(請減鹽鐵疏)를 올려 서산·태안 지방의 철물·소금 생산에 종사하는 사람들이 바쳐야 하는 세금 부담이 너무 과중해 염전업자들이 염전을 중단하거나 도망가는 일이 많고 생산이 감축된 실정에 있으니 이를 탕감해 줄것을 청'하였고 이를 효종이 전폭적으로 들어주니 백성들이 매우 기뻐하였다.1654년(효종 5년) 6월 17일 김홍욱과 홍우원 등이 소현세자의 아들 경안군 석철의 석방을 주장하는 상소를 올렸다. 처음에 효종은 이를 받아들이지는 않았으나 '사람들이 말하기 어려워하는 말을 그대가 능히 말하니 진실로 가상하다. 유념하도록 하겠다.' 라고 하여 그 상소를 문제삼는 의견을 물리치고 특별하게 해를 입히지 않았다. 김홍욱은 홍우원의 주장에 적극 동의하다가 이듬해 소현세자빈 강씨의 옥사가 무고임을 주장한다"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="책봉 문제"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="명나라 조정에서는 반정 소식을 듣고 '조선국왕은 충순한데 왜 폐위 시켰냐?' 라는 반응을 보냈다.반정 이후 책봉을 받으러간 사신들은 배를 타고 도착한 산동에서 등주자사에게 '임금을 시해한 짐승같은 놈들' 이라고 욕을 시원하게 바가지로 퍼먹고 북경으로 가는것도 방해받았다.어렵사리 북경에 도착했지만 당연히 곱지않은 명나라 대신들의 눈초리를 받아야했으며 당시 명 황제는 조선왕을 시해했다는 소문은 물론 왜군 3000명을 동원해 조선왕을 시해하고 왕위를 찬탈했다.는 소문까지 듣고있어서 조선사신단은 이를 해명하는데 고생이 많았다고 한다.이 결과 인조가 즉위하고 나서 22개월동안 책봉을 받지 못했다.결국 인조정권은 예전 임해군 사건때와 마찬가지로 명 수뇌부의 환심을 사기 위해 뇌물을 대량으로 썼으며 이 과정에서 가도의 명나라 장수 모문룡의 도움을 받기도 했지만 완전한 도움은 아니었다.이때 인조가 명에 쓴 뇌물의 양은 광해군 재위 전반에 명나라 사신에게 쓴 은의 총량을 능가했고 모문룡은 책봉을 도운 것을 인조 정권의 아킬레스 건 삼아서 온갖 갖은 행패를 부린 계기가 된다.이런 우여곡절 끝에 즉위한지 2년뒤, 햇수로 즉위 3년째 되어서야 명 조정으로부터 정식으로 조선왕에 책봉된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="북벌 계획"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="'북벌의 실행을 위해 송시열을 필두로 하는 산당과 손을 잡고 북벌을 추진했다' 이것이 일반적으로 알려진 이야기지만, 송시열은 실제로는 북벌에 심히 소극적이었으며, 효종이 북벌의 당위성을 설파할 때도 수신(修身)만을 권할 따름이었다. 송시열이 북벌파였다는 이미지는 사관마저 물러가게 하고 효종과 송시열 둘만이 독대한 기해독대(효종이 사망하는 효종 10년 3월 11일)의 내용을 송시열이 후일에 진술한 바에 근거한 것이다. 그래서 지금은 북벌은 군사력을 기르기위한 훼이크였다는 의견도 나오고 있다.\n\n학자들은 효종이 송시열과의 정치적 제휴를 통해 사림 세력의 반발을 억제하고 이들 세력들을 등용하여 왕권을 강화하는데 북벌을 이용했다고 본다. 반면에 송시열은 북벌은 가당치 않은 일이라 염두에도 없지만, 효종의 지지를 앞세워 정치적 입지를 다지는데 열성을 다했다는 것이다. 즉 효종은 송시열을 전면에 내세워 불안한 정국과 민심을 추스르려 했고, 재야의 영수인 송시열은 자신의 기반인 서인들을 등용하는데 앞장섰다는 것이다. 효종이 산당을 중심으로 한 송시열 일파를 아우르면서도 왕권 강화를 시도한 모습은 자주 보인다.\n\n하지만 왕권을 강화하기 위해 걸리적거리는 산당을 제어할 경우, 자신을 인정하여 정통성을 보장해줄 재야세력들이 그에게서 등을 돌릴 것은 뻔한 상황이었다. 당시는 삼전도의 굴욕의 영향으로 조정에서 일하는 것을 오랑캐에 굴복하는 것과 같다고 여기는 풍조가 강했고 고질적인 벼슬 기피풍조가 퍼졌다. 그러니 재야세력과 조정에서 일하는 사대부들의 세력 차이는 엄청났고, 조정의 일부 한당과 친청파의 지지 수준으로는 정통성 확보가 불가능할 지경이었다.\n\n따라서 효종은 오히려 자신의 친위세력이 될법한 김자점과 친청파는 배제해버리고 김집, 송시열, 송준길 같은 산당을 극진히 예우했다. 하지만 이는 왕권 약화로 이어지는 지름길이 될 수도 있었다. 효종은 그걸 방지하고자 유자들을 꼼짝 못하게 만들 명분, 즉 북벌을 들고 왔다는 것이다. 그러니 산당의 수장 송시열도 왕에게 거의 전권을 이양받다시피한 권위를 부여받고도 효종에게 엎드렸던 것이다.\n\n이런 왕권 강화는 효종 본인의 빈약한 정통성을 만회하기 위한 의도 또한 있었다. 효종은 형 소현세자의 자식들에게 돌아갔어야 할 왕위를 가로챈 '찬탈자'로 해석될 수도 있는 위치에 있었고, 특히 형수 민회빈 강씨의 옥사에 대한 의문점은 사대부 전체에 걸쳐 만연해 있었다. 따라서 효종은 정통성에 매우 민감한 반응을 보여, 강빈을 신원할 것을 요구한 신하들을 죽여대고 강빈을 '역강' 으로 부르며 '역강에 대해 한마디라도 꺼냈다간 역당으로 간주하겠다!' 라는 강경한 발언을 해가며 입을 막았다.\n\n그런데 사실 효종은 봉림대군 시절에는 소현세자,강긴 부부와 볼모 생활을 하면서 관계가 매우 좋았다. 게다가 이후 이석견을 비롯한 소현세자들의 자손들은 귀양지를 계속 옮겨주다가 결국 귀양을 풀고 한양에서 살 수 있도록 최대한 배려했다. 즉, 바꿔 말하면 효종으로선 내심으론 소현세자와 그 가족에게 애정을 가졌을 가능성은 있었지만, 조금이라도 이걸 드러냈다간 당장 본인의 정통성이 무너질 수 있어서, 평생 형수 민회빈 강씨에게 강경하게 대응해야 했다는 것. 권력이란 게 이래서 무섭다는 생각을 들게 만드는 점이다.\n\n효종을 북벌에만 매달렸던 이상주의자로 보는 시각이 꽤 많은데, 그도 청나라의 북경 정복과 천도 과정을 소현세자와 함께 두 눈으로 지켜본 사람이라는 걸 기억하자. 청나라에 대해 관념적인 복수심은 있어도, 현실적으로 복수하는 것이 가능하다고 생각한 것은 아니었다는 것이다.\n\n군비확장도 왜란-이괄의 난-호란에 걸쳐 누더기가 된 군사편제를 재정비해야 했으므로 필요한 일이었다.또한 대동법의 확대 등 민생을 안정시키면서 진행한 덕에 효종 치세에서 조선은 안정세를 되찾을 수 있었다.장군인 이완을 등용할 때의 야사 일화가 하나 있다. 어느날 효종은 무신들을 모두 불러모으게 하고, 냅다 그들에게 화살을 날리게 하였다. 놀란 무신들이 죄다 도망갔는데, 오직 이완만이 어명을 받들기 위해서 등에 화살이 꽂힌 채로 그대로 효종의 앞에 나타났다. 또한 당시 그는 임금이 급하게 부를 때는 변고가 있는 것이라 하여 갑옷을 의복 안에 갖춰 입어서, 화살을 맞아도 무사할 수 있었다. 그를 본 효종은 그의 충성심과 준비성에 감탄하여서 그를 북벌의 지휘관으로 임명하였다고 한다.\n\n이후에도 계속하여서 북벌을 위한 군비의 확충을 기하여 군제의 개편, 군사훈련의 강화 등에 힘썼다. 청의 국세가 더욱 일어나 북벌의 기회를 얻지 못하고, 1654년 러시아와 청나라 간의 충돌사건이 일어나자 오히려 청의 강요로 러시아 정벌에 2회 출정하기도 하였다.\n\n1659년 5월 4일 효종이 종기의 악화로 인해 사망하면서 북벌 계획도 흐지부지 끝나게 된다. (음모론적) 야사에 따르면 5월 5일 군대를 출동시키려고 했는데 그 전날 죽었다고.나선정벌 당시, 조선군을 지휘했던 신유 장군은 전리품으로 얻은 플린트 록 머스킷 300~400정중 단 1정만 힘들게 빼돌려서 조정에 진상하였고, 시험적으로 양산이 이루어졌다. 하지만 이게 구조가 복잡해서 생산이 힘들고, 단가는 조총보다 훨씬 비싸면서 성능은 조총보다 약간 앞서는 정도였기에, 효종은 '차라리 같은 값으로 조총 3정 만드는 게 낫겠다' 하여 수백정만 소수 생산한 후 백지화했다 (세종대왕이나 문종이였다면 그 복잡함에 흥미를 느끼고 장영실과 학자들 잠못자게 갈궈 좋은 성능으로 양산에 성공했을거라 추측한다 지도자의 전문성과 끈기가 참 중요하다).한편 신유 장군이 가져온 것 말고도 하멜이 머스킷을 진상했지만, 마찬가지로 양산은 되지 못했고, 하멜은 이후 조선에 정착하여 조용히 살다가 나중에 탈출하게 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="경제 정책"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="효종은 경제재건에도 많은 노력을 기울였다. 당시 조선사회는 여러 차례에 걸친 전란으로 진전(陳田)이 증가하고 농업생산력이 급격히 감소하는 한편, 농민들은 파산하여 유리(流離)하는 등 국가체제를 유지하기 힘들 정도로 경제질서·사회질서가 붕괴 위기에 놓여 있었다.효종은 이러한 위기를 부세제도의 개혁, 농업생산력의 증대, 사회윤리의 강화로 극복하려고 했다. 우선 김육 등의 건의를 받아들여 대동법의 실시지역을 확대해 1652년에는 충청도, 1653년에는 전라도 산군(山郡) 지역, 1657년에는 전라도 연해안 각 고을에서 대동법을 실시했다. 이와 함께 전세(田稅)도 1결(結)당 4두(斗)로 고정하여 백성의 부담을 크게 경감시켰다.한편 1655년에는 신속(申洬)이 편찬한 [농가집성 農家集成] 을 간행·보급하여 농업생산에 이용하도록 했다. 한때 군비확충에 필요한 동철(銅鐵)의 수요를 충족시키기 위해 동전의 유통에 반대하기도 했으나 김육의 강력한 주장에 따라 상평통보(常平通寶)를 주조·유통시키도록 했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="강빈 복권 여론과 김홍욱 자살사건"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="효종은 즉위 초부터 반정공신들과 외척의 권력 남용과 부패행위를 견제하기 위해 수시로 구언이라 하여 여러 신료들과 백성들의 건의를 직접 듣는 정책을 펼쳤다. 1655년 김홍욱은 구언에 의해 황해감사로 재직 중, 강빈옥사의 조작을 탄원하여 인한재응지소(因旱災應旨疏)를 올려 민회빈 강씨의 억울함을 호소하였고, 민회빈 강씨의 신원회복과 소현세자의 살아있는 셋째 아들 경안군 이석철의 석방을 요구하였다.이에 효종은 즉위 초부터 소현세자 문제에 대한 발언을 엄금하였는데 그 이야기를 꺼낸다며 김홍욱이 다른 마음을 먹고 있다며 국문장을 열고 그를 직접 국문하였다.\n\n김집은 직언을 한 선비를 해쳐서는 안된다며 김홍욱의 사면을 청하는 상소를 올렸고, 송시열, 송준길 등이 김홍욱의 석방과 용서를 청하는 상소를 올렸으며 이어 김홍욱 구명 여론을 조성했다. 잠곡 김육 역시 김홍욱의 발언으로 형문을 가하는 것은 옳지 못하다며 석방을 탄원하였다. 남인 측에서도 김홍욱의 구명과 석방 여론이 나타났다. 홍우원, 허목 등은 김홍욱을 죽이는 것은 옳지 못하다며 석방을 건의했다. 중신들의 만류와 산림의 반대, 김집과 그 문하생들의 사면 탄원서와 구명 노력에도 불구하고 직접 의금부에 추국장을 열어 고문을 계속하였다.\n\n그러나 소현세자 일가의 무죄가 입증 되면 자신의 지위가 위태로워진다고 판단한 효종에 의해 김홍욱을 국문끝에 장살로 살해하였다. 죽음에 이르러 '언론을 가지고 살인하여 망하지 않은 나라가 있었는가?' 라는 말을 남겼다고 한다.1654년말 남인 홍우원은 홍문관수찬이 되었는데 홍우원은 당색을 초월하여 김홍욱의 사면, 복권여론을 주청하였다. 그는 소현세자의 빈 강빈(姜嬪)옥사의 허위임을 직언하다 장살당한 김홍욱의 신원(伸寃)과 복권을 주장하다가 파직당하였다.\n\n김홍욱의 장살 사건 이후로 조야는 흉흉해졌고 그때까지만 해도 효종의 정통성에 의문을 제기하지 않던 서인과 남인에서는 소현세자의 아들을 세손으로 삼아 왕위를 전해야 되는데, 효종이 왕세자가 된 것이 아니냐 하는 여론이 나타났다. 소현세자의 아들들이 살아있는 가운데 왕위 계승의 정통성 문제는 폭발력을 안고 있었고, 이 문제는 그의 사후 예송 논쟁에서 윤선도가 다시 언급함으로써 도마에 오르게 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="생애후반"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="문화면에서는 1653년 역법(曆法)을 개정, 24절기의 시각과 1일간의 시간을 계산하여 제작한 시헌력(時憲曆)을 사용하게 했다. 1654년 [인조실록] 을, 이듬해 [국조보감 國朝寶鑑] 을 편찬·간행했으며, 1656년에는 소혜왕후가 편찬한 [내훈] 과 김정국(金正國)이 지은 [경민편 警民編] 을 간행·보급하여 전란으로 흐트러진 사회윤리의 재정립을 시도하기도 했다. 1657년에는 [선조실록] 을 [선조수정실록] 으로 개편·간행했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="최후"
+                />
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="1659년 5월 초 부터 과로로 인하여 정사를 도저히 볼 수 없는 상황이 이어지자, 효종은 침을 맞는 것이 어떻겠냐는 의견을 신하들에게 물었다. 신하들은 일시적으로 만류하는 듯 했으나 효종이 이에 대해 동의하여 침을 맞게 된다. 그런데 어의인 신귀주의 진료를 받던 도중 실수로 침을 잘못 놓게 되어 출혈이 발생한다. 출혈을 멈추려 갖은 시도를 하였으나 오히려 출혈은 더욱 심해졌다. 결국 과다출혈로 인한 쇼크로 갑작스럽게 사망하였다. 또한 효종에게 시침하였던 어의는 수전증이 있었다고 한다. 승하 당시 그의 나이 41세였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="사후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="효종이 갑자기 승하하자 당황한 조정에서는 안절부절하여 대응하지 못했고, 염습을 하는 동안 시신의 부패와 약물의 부작용 등으로 시신이 갑자기 부풀어오르는 현상이 나타났다. 이러한 일을 두고 독살설이 제기되었다. 효종의 국장을 주관하던 송시열, 송준길 등은 당황해하며 염의를 다시 마련하는 한편 새로 관곽을 짤 수 없자, 기존의 관곽에 나무를 잘라 연결하여 이어붙여 새로 재궁을 마련하였다.죽은 뒤 선문장무신성현인대왕(宣文章武神聖顯仁大王)의 존호(尊號)가 올려지고 묘호(廟號)를 효종이라 했다. 능은 경기도 여주군 능서면 왕대리에 있는 영릉(寧陵)이다. 청나라에서 내린 시호는 충선왕(忠宣王)이나, 청나라와의 외교 이외에는 사용치 않았다.그가 사망할 당시 그보다 연하였던 계모 자의대비가 생존해 있었다. 이는 효종의 상복을 장남의 예로써 입느냐, 차남의 예로써 입느냐를 놓고 서인, 남인간에 예송 논쟁이 발생하는 단초가 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="평가"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="당시 조선에서의 역사서에서는 청나라에서 소현세자와 봉림대군(후일 효종)을 조선으로 돌려보낼때 청나라황제가 원하는걸 말해보라 하자 소현세자는 황제가 쓰던 벼루를 말했고 봉림대군은 조선에 잡혀간 조선 백성을 달라고 요구했다. 라고 전해지지만 하지만 이는 소현세자보다 봉림대군이 왕의 자질을 가지고 있으니 죽은 소현세자대신 세자의 자리는 봉림대군이 어울리다 라는 명분을 세우기 위해 이리 적은 것으로 판단된다. 그리고 효종이 즉위하고 전쟁으로 피폐해진 경제를 어떻게든 살리면서 효종이 자신이 청나라에 볼모로 있는 동안 나태해진 군기와 사치를 일삼는 귀족들을 봤기에 청나라의 실정을 잘 알고 있다고 맹신하면서 잘 훈련된 조선 정예군을 데리고 요동지방 정벌을 하면 청나라를 완전히 꺾을 수 있다는 근거없는 자신감으로 북벌론을 내세우며 청나라에게 치욕을 갚아주자 라는 명분으로 성을 다시 축성하고 모든 쇳덩어리는 조총과 화포로 만듬으로서 모든 군대를 총포중심으로 구성했고 동시에 특히 태풍으로 표류한 서양인들중에 귀화한 박연을 기용하여 신무기를 만들고 농번기에는 군사훈련을 안한다는 관례를 깨고 백성들을 훈련시키면서 북벌을 준비했으나 그에 대한 부작용도 만만치 않았는데 당시 총하나 만드는데 엄청난 비용이 들었는데 당연히 이 비용은 백성들에게 돌아갔고 게다가 농번기 시기에 군사훈련을 시켰으니 곡식 수확률이 크게 떨어져 향촌 기반이 흔들렸고 결국 북벌을 준비를 위해 특별세까지 냈으니 고충이 이만저만이 아니었을것이다. 효종은 전후의 조선의 경제력을 조금이나마 올리고 짧은기간에 국방력을 충원하고 전쟁준비를 위해 외교관을 많이 기용하여 외교기반을 확실히했으나 북벌이라는 자신만의 망상으로 인해 평가가 절하된 왕으로 볼수있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

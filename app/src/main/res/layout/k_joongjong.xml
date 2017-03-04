@@ -1,13 +1,399 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/moon_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
 
-</LinearLayout>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="11대 중종 이역"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="생각지도 못한 중종반정으로 왕이되다"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ImageButton
+            android:id="@+id/img_button_link_joong_title"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:background="#00ff0000"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:foregroundGravity="center"
+            android:src="@mipmap/joongjong_01"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="10dp"
+            android:text="중종 어진화"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="11dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 중종(中宗)\n시호 : 조선 휘문소무흠인성효대왕(徽文昭武欽仁誠孝大王)\n명 : 공희(恭僖)\n본관 : 전주(全州)\n능묘 : 정릉(靖陵)\n성 : 이(李)\n휘: 역(懌)\n자 : 낙천(樂天)\n출생지 미상\n사망장소 : 한성 창경궁 환경전\n배우자 : 단경왕후(端敬王后) / 장경왕후(章敬王后) / 문정왕후(文定王后)\n아버지 : 조선 성종\n어머니 : 정현왕후(貞顯王后)\n생몰 기간 음력 : 1488년 3월 5일 ~ 1544년 11월 15일\n양력1488년 4월 16일 ~ 1544년 11월 29일\n\n재위기간 : 음력 : 1506년 9월 2일 ~ 1544년 11월 15일\n양력 : 1506년 9월 18일 ~ 1544년 11월 29일"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="중종 소개"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/zoomtextview_joongjong_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="중종(中宗, 1488년 4월 16일 (음력 3월 5일) ~ 1544년 11월 29일 (음력 11월 15일), 재위: 1506년~1544년)은 조선의 제11대 왕이다. 휘는 역(懌), 본관은 전주 이씨(全州 李氏), 자는 낙천(樂天)이며, 사후 시호는 중종공희휘문소무흠인성효대왕(中宗恭僖徽文昭武欽仁誠孝大王)이다. 묘호는 중종(中宗)으로 결정되었는데 연산군으로부터 나라를 구하여 중흥시켰다는 의미로 정해진 것이다. 반대로 38년의 재위기간 중에 뚜렷한 치적을 남기지는 못하였기 때문에 그저 가운데 중(中)자를 썼다는 해석도 있다. 인종은 '종'(宗) 자로는 부족하다 하여 중조(中祖)를 제안했는데, 성종을 연산군 대신 잇는 왕으로써 '조'(祖)를 붙이는 것은 맞지 않다는 반대를 받아들여 거두었다. 성종의 차남으로 정현왕후 소생이다.1506년 9월 2일부터 1544년 11월 28일까지 재위하는 동안 1506년 9월 2일부터 이듬해 1507년 8월까지 박원종(朴元宗)이 섭정하였고 1507년 8월부터 1543년 3월까지 친정하였으며 1543년 3월부터 이듬해 1544년 11월 28일 왕세자에게 선위(양위)할 때까지 장남 왕세자 이호(훗날 인종)가 대리청정하였고 선위한 다음날인 1544년 11월 29일 승하하였다.반정으로 집권한 두 번째 군주였다. 그러나 사적인 욕심이나 원한으로 반정을 일으킨 세조 찬위, 인조반정과는 다른 각도에서 평가되나, 전반에는 공신 세력의 전횡에, 후반에는 외척 세력의 전횡에 휘둘렸다. 하지만, 김안로나 조광조의 숙청 때 중종의 모습은 사관이 '마치 두 임금에게서 나온 일 같다.'라고 하거나, ' 이때 양연이 대사헌으로 이 의논(김안로의 처벌)을 먼저 주장한 것은 왕의 밀지(密旨)를 받았기 때문이라 한다.'라고 했듯이 단순히 신권에 의해 휘둘린 왕은 아니었다. 재위 중반에 조광조 등의 사림을 일시에 기용하였으나 공훈삭제와 관련한 공신세력들의 반발과 자신의 왕권의 위협에 대해 우려하여 사림 세력들을 기습적으로 숙청한다. 이 후에는 남곤이 정국을 주도하고, 남곤 사후에는 김안로가 주도하지만, 김안로의 지나친 권력쟁투와 횡포로 인해 위협을 느껴 조광조와 마찬가지로 김안로를 기습적으로 제거한다. 이후에는 외척에게 정사를 맡긴다. 이는 후일 대윤, 소윤간의 정쟁의 원인이 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="조광조의 개혁"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/img_button_link_joong_chokwangjo"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="#00ff0000"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:foregroundGravity="center"
+                android:src="@mipmap/joongjong_chogwanhjo"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="10dp"
+                android:text="조광조만 나타면 당시 아낙들이 그를 보느라 넋을 놨다고 한다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="파격적인 개혁을 단행"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="중종의 초기엔 자신을 추대한 공신들을 우대할 수 밖에 없었고, 이 때문에 첫 아내인 신씨를 왕비책봉 7일만에 폐비시켜야 했다.반정공신들을 중심으로 한 훈구세력들은 자신들의 권력을 증대시켜 나가 경제력과 군사력을 장악했기 때문이었다.심지어는 자신들의 기득권을 해치려 할 경우 중종까지도 갈아치울 수 있음을 공공연히 내비쳤던 경우도 있어, 홍경주의 경우는 병조판서를 지내면서 중종에게 대놓고 쿠데타 협박으로 기묘사화를 주도했다는 설이 있지만 근거는 없다.이것은 어디까지나 박원종, 성희안, 유순정이 중종 초년 일찍 죽을 때까지의 이야기고, 후년은 그렇지 않았다. 중종 4년 박원종, 중종 6년 유순정, 마지막으로 중종 7년 성희안이 죽으면서 반정공신 세력은 병사로 줄줄이 퇴장했다.왕위에 오른지 10년이 지난 1515년, 중종은 본격적으로 자신의 치세를 열어보고자 했다. 런 중종에 눈에 띈 사람이 바로 조광조. 도학정치의 이상을 가지고 있던 조광조는 바로 신씨 복위권과 관련해 처벌을 주장하는 노신들을 효과적으로 제압하는데 성공했고 이에 왕권을 강화하려는 중종과 뜻이 맞게 되었다. 조광조는 소위 신진사류라 불리는 성리학적 이론으로 무장된 인재들을 적극 등용하여 왕도정치를 구현하고자 하였다.그러나 조광조를 중심으로한 신진사류의 왕도정치적 개혁에 반정을 주도했던 공신세력을 중심으로 한 훈구파들은 자신들의 권력이 침해될까 우려했고, 소격서 혁파와 위훈 삭제(가짜 공신의 공신명단 삭제)로 결국 갈등은 최고조에 달하게 된다. 중종 자신도 처음과는 달리 지나치게 이상주의로 흐르는 조광조에게 염증을 느끼고 스스로의 권력도 제한되었다고 여겼다. 결국 중종은 1519년 기묘사화로 신진사류들을 숙청한다. 위훈 삭제 직후의 친위 쿠데타였다.이 사건과 관련해, 야사에서는 홍경주의 딸 희빈 홍씨가 궁녀들을 시켜 나뭇잎에 꿀로 '주초위왕'(조씨가 왕이 된다)이라는 말을 써 개미들이 파먹게 한 뒤 그 잎을 왕에게 바쳐 조광조가 역모를 꾀하고 있다고 고했다고 한다..지만 실제로는 할 수 없는 일임이 역사스페셜에서 드러났다. 실상은 중종이 주도하고 훈구 대신이나 남곤과 같은 온건 사림이 거든 사태에 가깝다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="조광조와의 갈등"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="중종 반정 이후 비대해진 훈구파 권신들과 척신들의 전횡에서 벗어나고자 했던 중종은 보다 강력한 왕권을 확립할 수 있는 왕권강화를 원했다. 그러나 조광조는 도학 정치 실현이 목적으로서 목적이 달랐다. 후일 고려대학교 민족문화연구원 오종록 교수는 '왕권 확립을 꾀하던 중종이 훈구파에 대적하기 위해 정암을 키웠으나 정암 등 사림파가 또 다른 세력으로 부상하는 것을 경계했다'며 '정암과 중종은 동상이몽을 꿨다' 고 봤다. 급진 사림파의 개혁 정책에 염증을 느낀 중종은 심정, 김전 등 훈구파와 남곤 등의 온건 사림파를 이용, 친위 쿠데타를 계획한다.또한 사림파의 지치정치, 군신 공치 역시 중종에게 거부감을 주었다. 조광조는 도학정치가 펴지길 꿈꿨고, 중종은 힘센 군주가 되길 갈망한 것이다.조광조는 임금 역시 성리학적 이데올로기에 충실한 사류가 되기를 원했고, 성리학 사상에 입각한 사류와 군주가 공동으로 다스리는 세계 또는 임금 역시 한 사람의 선비가 될 것을 여러번 권고하였다. 중종은 피로를 느낌과 동시에 거부감을 갖게 되었다.중종은 사림파 역시 하나의 비대해진 새로운 기득권층으로 해석하여 강력한 왕권의 걸림돌로 인식한다. 일설에는 주초위왕 나뭇잎 모함 공작이 중종의 지령에 의한 것이라는 주장이 있다.그에 의하면 왕의 심복이 한순간에 버림을 받은 것이다."
+                />
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="개혁의 폐지"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="중종 임금에게 한 궁녀가 궁궐의 나뭇잎 하나를 가져다 바친다. 벌레가 갉아먹은 자리를 따라 나뭇잎에 글자가 새겨져 있었다. [주초위왕(走肖爲王)] , 조씨(走+肖=趙)가 왕이 된다는 글이다.'조광조의 역심(逆心)을 하늘이 알려준 것이옵니다.'반정으로 등극한 중종은 자신 역시 쿠테타로 축출될 수 있다는 생각을 하여, 평소 이복 형제들, 성종의 다른 왕자군이나 기타 왕족들을 불신하고 경계했다.반정으로 등극한 중종은 조광조를 의심하나, 나뭇잎의 글씨는 궁녀가 과일즙을 발라놓은 자리를 개미들이 파먹은 것에 불과한 것이다. 말하자면 음모이다.그날 밤, 홍경주와 남곤, 심정 등은 은밀히 입궐해 중종을 만나 주청한다. '조광조가 붕당을 만들어 국정을 어지럽히고 있사오니 이들을 처단해야 합니다.'중종은 조광조, 김식, 김구 등 사림파를 투옥시킨다.결국 중종은 1519년 남곤, 심정, 홍경주와 계획해서 조광조를 비롯한 다수의 사림들을 실각시켰고, 의심 많은 왕 중종은 조광조에게 사약을 내려 죽음을 당하게 된다"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="외척의 등장"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="외척 세력의 등용"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조광조를 비롯한 급진적인 사림파들이 몰락한 뒤 견제 세력이 없어지자 다시 공신들의 세력이 부활할 조짐을 보였다. 중종은 공신들의 권력집중을 차단할 목적으로 외척인 윤여필, 윤여해, 윤지임, 김안로 등을 등용한다.처음에는 이들에게 내섬서와 장악원 등의 제조 직을 제수했다가 훈련대장 등을 제수하여 도성의 숙위를 맡겼고, 이후 이들의 자녀들이자 자신의 처남격인 윤임, 윤원로, 윤원형 등이 출사하게 된다. 그러나 외척 세력은 또다른 세력을 형성하여 전쟁의 소용돌이를 만들게 된다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="외척의 전횡"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="다음에는 외척 세력이 새로이 등장하여 중종의 치세 중기와 후기에는 외척 세력과 반정 공신들 간의 정권 다툼으로 인해 크고 작은 사건이 연달아 일어나 정국이 편안할 날이 없었다. 1531년에는 기묘사화 후 집권했던 심정·이항(李沆)·김극복(金克福) 등이 화를 당했고, 1537년에는 심정 일파를 모함한 김안로(金安老)·허항(許沆)·채무택(蔡無擇) 등이 주찬되는 등 재위 동안에 화옥(禍獄)이 그치지 않았다.정국이 불안해지자 그 동안 잠잠하던 남쪽의 왜구들이 삼포왜란을 일으켜 경상도 해안 일대에 막대한 피해를 입혔다. 또 북쪽에서는 여진족이 4군 6진 지역을 빈번하게 노략질하는 등 오랑캐들의 약탈이 끊임없이 발생하자 중종은 이에 대응하기 위해서 비변사를 설치하였다. 그밖에 [속삼강행실도], [신증동국여지승람] 등 다방면에 걸친 책들이 편찬, 간행되었으나 기묘사화 이후로는 문화 발전 정책이 거의 정지되었다.한편 윤임, 김안로, 윤원형, 윤원로 등의 척신 세력이 발호하였으나 그는 이를 막지 못했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="중종의 최후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="최후 및 능묘"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="38년 2개월이라는 긴 세월 동안 왕위에 머물러 있었던 중종은 정국이 혼란을 거듭하는 바람에 이렇다 할 만한 업적을 제대로 남기지 못한 채 1543년 3월부터 대리청정을 맡긴 왕세자에게 왕위를 넘겨준 다음날인 1544년 11월 29일 (음력 11월 15일), 57세를 일기로 승하하였다. 능은 서울특별시 강남구 삼성동에 있는 정릉(靖陵)으로 능원에 중종 혼자만 묻혀 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="중종 능에 얽힌 사연"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="능은 서울특별시 강남구 삼성동의 정릉(靖陵). 아버지 성종이 묻힌 선릉과 가까운 곳에 묻혔다. 원래는 장경왕후가 묻힌 희릉에 합장했는데, 문정왕후가 경기도 고양에서 중종의 능을 천장시켜 지금의 강남으로 옮겼다. 그런데 비가 조금만 많이 오면 정자각 앞에 배가 떠 다닐 정도로 침수 문제가 심각했다. 사후에 남편과 함께 묻히려던 문정왕후는 결국 뜻을 이루지 못하고 홀로 태릉에 매장됐다. 게다가 정릉은 임진왜란통에 왜군에 의해 무덤이 파헤쳐지고 불태워졌다.이 사건 때문에 종전 후 한때 외교 문제로 비화되기도 했다. 에도 막부에서 조선과의 수교를 트기 위해 범인들과 중종 유골이란 시신을 돌려보냈는데 심문해봤더니 범인들은 이 일과 아무 상관도 없는 사람들이었고 유골이 중종의 것이라 믿을 증거도 전혀 없었다. 조정은 한 때 크게 들끓었으나 결국 현실적인 필요에 의하여 '왜놈들이 그렇죠 뭐. 걍 없던 일로 치고 계속 수교 논의하시져' 라는 온건론이 우세를 점하면서 1609년 기유약조를 통해 일본-조선은 수교를 다시 시작하였다.그러나 임진왜란 때 훼손된 탓에 선릉과 정릉은 시신이 훼손되었거나, 시신이 없는 빈 묘일 가능성이 크다. 중전은 셋을 두었지만 어떤 중전과도 함께 묻히지 못하고, 능 역시 빈 묘일 가능성을 생각하면 죽어서는 상당히 안습한 대우를 받는 임금이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

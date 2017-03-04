@@ -10,8 +10,13 @@
         android:layout_height="match_parent"
         android:scrollbars="vertical"
         android:orientation="vertical"
-        android:paddingRight="5px"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
         >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -24,14 +29,44 @@
             android:text="3대 태종 이방원 "
             />
 
-        <ImageView
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="조선의 기틀을 확고히 잡은 태종"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="2dp"
             android:foregroundGravity="center"
-            android:src="@mipmap/taejong_title"
-            android:id="@+id/imageView" />
+            android:background="#00ff0000"
+            android:src="@mipmap/josun_agi"
+            android:id="@+id/img_button_link_taejong_title"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff3333"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="12dp"
+            android:text="6.25 전쟁당시 어진이 소멸되어 조선어기 로 대체 합니다."
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -64,7 +99,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:text="1. 태종 개요"
+                android:text="태종 개요"
                 />
 
             <android.support.v4.widget.Space
@@ -109,7 +144,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:text="2. 고려시절"
+                android:text="고려시절"
                 />
 
             <android.support.v4.widget.Space
@@ -137,16 +172,20 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="1.1 정몽주 살해"
+                android:text="정몽주 살해"
                 />
 
             <android.support.v4.widget.Space
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
             
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
+            <ImageButton
+                android:id="@+id/img_button_link_poeun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:background="#00ff0000"
                 android:src="@mipmap/taejong_jung"
                 />
 
@@ -155,10 +194,12 @@
                 android:layout_height="10dp" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#ff3333"
                 android:textAlignment="center"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="14dp"
                 android:text="포은 정몽주"
@@ -186,7 +227,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="1.2 조선 개국"
+                android:text="조선 개국"
                 />
 
             <android.support.v4.widget.Space
@@ -214,7 +255,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:text="3. 왕자의 난 시리즈"
+                android:text="왕자의 난 시리즈"
                 />
 
             <android.support.v4.widget.Space
@@ -228,7 +269,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="3.1 제1차 왕자의 난"
+                android:text="제1차 왕자의 난"
                 />
 
             <android.support.v4.widget.Space
@@ -256,7 +297,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="3.2 제2차 왕자의 난"
+                android:text="제2차 왕자의 난"
                 />
 
             <android.support.v4.widget.Space
@@ -312,7 +353,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:text="4. 조선왕조의 반석을 다지다"
+                android:text="조선왕조의 반석을 다지다"
                 />
 
             <android.support.v4.widget.Space
@@ -326,7 +367,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="4.1 사병혁파"
+                android:text="사병혁파"
                 />
 
             <android.support.v4.widget.Space
@@ -354,7 +395,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="4.2 관제 정비"
+                android:text="관제 정비"
                 />
 
             <android.support.v4.widget.Space
@@ -382,7 +423,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="4.3 계모와의 악연, 그리고 외척의 척살"
+                android:text="계모와의 악연, 그리고 외척의 척살"
                 />
 
             <android.support.v4.widget.Space
@@ -410,7 +451,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="4.4 공신 숙청"
+                android:text="공신 숙청"
                 />
 
             <android.support.v4.widget.Space
@@ -438,7 +479,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:text="4.5 명과의 우호관계"
+                android:text="명과의 우호관계"
                 />
 
             <android.support.v4.widget.Space
@@ -483,9 +524,95 @@
                 android:text="이렇게 궁합이 좋았던 두 사람의 통치기간이 겹친 시기였던만큼 조선과 명의 관계는 매우 좋았다고 볼 수 있다.다만 이는 사대주의에 대한 평가와 직결되는 부분이기 때문에 설왕설래 비판을 받기도 한다. 하지만 태종은 명의 여진족 직할통치 드립처럼 조선의 주권을 위협할만한 요소들은 홍무제대의 증거까지 들이대며 철저히 막았다.명 주도 질서에 앞서 참여하고 영락제와의 개인적 친분도 작용했는지 조공무역을 1년에 3회로 늘리는 파격적인 환대를 받게 된다.그 외에 정도전이 요동정벌을 벌이던 시기는 명도 한창 혼란스러운 시기라서, 정도전의 발안대로라면 요동을 얻을 수 있었을 텐데 태종이 권력욕에 내전을 벌여서 좌절되었다는 비판적으로 보는 시각도 있긴 하다."
                 />
 
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="퇴위와 죽음 "
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
 
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="심온 제거"
+                />
 
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="태종은 1418년 8월 10일에 옥새를 충녕에게 넘긴 뒤 수강궁으로 물러났다. 양위를 거두어달라는 청을 거절함으로써 왕위를 물려주고 상왕으로 물러났다. 그러나 상왕이 된 후에도 그는 4년간 줄곧 국정을 감독하였고, 병권과 인사권을 장악하였다. 1418년 11월 8일 '성덕신공상왕(聖德神功上王)'이라는 존호를 받았다. 1419년에는 둘째형 정종이 사망했는데, 《정종실록》은 태종 생전에 간행되지 못하고 태종이 죽은 뒤에 편찬, 간행되었다.태종은 며느리 소헌왕후의 아버지 심온을 숙청할 계획을 세웠다.병조참판 강상인이 정무를 자신에게 보고하지 않고 사위인 세종에게 보고한 것을 빌미삼아 그를 제거할 계획을 세웠고,심온을 영의정부사에 임명한 뒤 명나라에 사신으로 보냈다. 그는 국문을 친히 주관하며 강상인에게서 심온의 이름이 거론되게 하였고, 심온이 돌아오기 전 강상인과 심정, 박습, 이관 등을 처형한다. 대질심문할 용의자나 증인도 없는 상태에서 심온은 사사되었다.이후 왕비 소헌왕후가 역적의 딸이라는 이유로 폐출해야 된다는 주장이 나타났으나 아들 충녕대군 이도의 간청과 애원으로 소헌왕후에 관한 폐출 이야기를 그만두었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text=" 1418년 세종에게 양위하고 상왕이 되었다. 양위의 뜻을 내비치면서 신하들에게 이런 말을 했다. '18년 동안이나 호랑이 등에 탔으니 그것으로 충분하다'. 말은 그렇게 해 놓고 그놈의 호랑이를 4년이나 더 즐겨 타다 가셨다 참고로 자신의 자발적인 의지에 따라 양위한 사람은 태종이 유일하다. 그런데 군권만은 자신이 쥐고 있었다. 그리고 세종의 외척이 권력을 휘두르는 상황을 막기 위해 세종의 장인 심온을 사사하고 그 집안을 박살냈는데 이 때문에 그 당시 심온의 가문인 청송 심씨에서는 박은과 그의 가문을 열렬히 까는 편이었다. 태종을 대놓고 깔 순 없으므로 대신 심온 숙청을 주도한 박은을 깐 것. 또 이종무의 대마도 정벌(기해동정) 계획을 수립하고 실행에 옮기는 등 주도적으로 활약했다. 그렇게 상왕이 되어서도 조선의 안정과 세종의 왕권 안정을 위해 노력했고, 말년에는 놀러 다니려고 각지에 정자를 짓고 좋아하는 사냥을 다니는 등 신나게 살았지만 그와 별도로 할 일은 꾸준히 했다. 게다가 자신이 후계자로 삼은 세종대왕의 뛰어난 자질을 자기 눈으로 확인하고 이에 만족하는 말도 남겼으며 명나라 사신들도 세종대왕을 극찬하는 말을 듣고 기뻐하기도 했다. 이렇듯 말년을 평안하게 누리다가 1422년 5월 초10일, 한성 연화방(지금의 서울 종로구 원남동 주변)의 이궁에서 향년 56세로 눈을 감았다. 공교롭게도 원경왕후랑 같은 나이에 죽었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="말년 그리고 죽음"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text=" 1418년 세종에게 양위하고 상왕이 되었다. 양위의 뜻을 내비치면서 신하들에게 이런 말을 했다. '18년 동안이나 호랑이 등에 탔으니 그것으로 충분하다'. 말은 그렇게 해 놓고 그놈의 호랑이를 4년이나 더 즐겨 타다 가셨다 참고로 자신의 자발적인 의지에 따라 양위한 사람은 태종이 유일하다. 그런데 군권만은 자신이 쥐고 있었다. 그리고 세종의 외척이 권력을 휘두르는 상황을 막기 위해 세종의 장인 심온을 사사하고 그 집안을 박살냈는데 이 때문에 그 당시 심온의 가문인 청송 심씨에서는 박은과 그의 가문을 열렬히 까는 편이었다. 태종을 대놓고 깔 순 없으므로 대신 심온 숙청을 주도한 박은을 깐 것. 또 이종무의 대마도 정벌(기해동정) 계획을 수립하고 실행에 옮기는 등 주도적으로 활약했다. 그렇게 상왕이 되어서도 조선의 안정과 세종의 왕권 안정을 위해 노력했고, 말년에는 놀러 다니려고 각지에 정자를 짓고 좋아하는 사냥을 다니는 등 신나게 살았지만 그와 별도로 할 일은 꾸준히 했다. 게다가 자신이 후계자로 삼은 세종대왕의 뛰어난 자질을 자기 눈으로 확인하고 이에 만족하는 말도 남겼으며 명나라 사신들도 세종대왕을 극찬하는 말을 듣고 기뻐하기도 했다. 이렇듯 말년을 평안하게 누리다가 1422년 5월 초10일, 한성 연화방(지금의 서울 종로구 원남동 주변)의 이궁에서 향년 56세로 눈을 감았다. 공교롭게도 원경왕후랑 같은 나이에 죽었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
 
         </LinearLayout>
     </LinearLayout>

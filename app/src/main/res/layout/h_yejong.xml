@@ -1,13 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/moon_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        >
 
-</LinearLayout>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="8대 예종 이황"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="조선의 8대 임금, 세조와 정희황후 윤씨의 차남."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="11dp"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:text="묘호 : 예종(睿宗)\n시호 조선 : 흠문성무의인소효대왕(欽文聖武懿仁昭孝大王)\n명 : 양도(襄悼)\n능묘 : 창릉(昌陵)\n본관 : 전주(全州)\n휘 : 이황(李晄)\n자 : 명조(明照) / 평남(平南)\n출생지 : 한성 사저\n사망지 : 한성 경복궁 자미당\n배우자 : 장순왕후(章順王后) / 안순왕후(安順王后)\n아버지 : 조선 세조\n어머니 : 정희왕후(貞熹王后)\n생몰 기간 : 1450년 1월 1일 ~ 1469년 11월 28일\n양력 : 1450년 1월 14일 ~ 1469년 12월 31일 \n재위 기간 : 왕\n음력 : 1468년 9월 7일 ~ 1469년 11월 28일\n양력 : 1468년 9월 22일 ~ 1469년 12월 31일 (1년 3개월 8일,465일)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="예종 개요"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/zoomtextview_taejo_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="세조가 쿠데타로 즉위한 뒤에도 원래 그는 왕위와는 거리가 멀었다.세조의 장남인 의경세자(덕종으로 추숭 됨)와의 나이차가 워낙 많았는데다,의경세자는 여러모로 유력한 후계자였기 때문이다. 왕자시절 군호는 해양대군.그러나 행운인지 음모인지 의경세자가 만 19세의 나이로 급사해버렸다.단종을 죽인 것에 대한 단종의 어머니 현덕왕후 권씨의 저주란 야사도 있다.하지만 실제로는 의경세자가 단종보다 먼저 죽었다.이로써 세자가 되었고, 세조가 죽기 하루 전에 선위를 받아 임금이 되었다.하지만 몸이 안 좋았고 성년이 되기 전인 19세에 즉위했기 때문에 세조의 정실이자 예종의 어머니인 정희왕후가 예종과 동석하여 수렴청정을 했다고 하나,이에 대해선 정희왕후가 곧 수렴청정을 거뒀다는 게 정설이다.당시 예종의 나이는 거의 성년에 가까웠고, 당시 수렴청정을 한 전례가 없었다.그리고 조선 최초의 수렴청정은 성종 때의 정희왕후로 기록되었다고 한다.세자 시절엔 얌전하고 똑똑해 신하들이 '문종 같은' 군주가 될 것으로 기대했다.한마디로 신하들과 함께 조정을 운영해나가는 형태의 군주를 기대한 것이다. 앞서 말한 얌전하고 똑똑의 핵심은 '얌전'에 있다. 하지만 그 아버지에 그 아들이라고, 신하들의 기대는 금방 '박살' 그렇게 어긋났다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="찌질한왕"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="짧은 재위기간 내에 벌어진 '남이의 옥사'로 인해 사극에서 항상 찌질한 왕으로 등장하며,등장해도 금방 죽어 성종, 연산군이 차례로 왕이 되는 징검다리 군왕일 뿐이다(예: SBS 드라마 왕과 나 등). 실제로 인종이 기록을 깨기 전까지는 최단 기간의 왕이었다(1년 3개월, 이 정도의 기록이면 더 안습하다).즉위하자마자 사람을 형틀에 매다는 일부터 시작했다고 까이기도 했다.하지만 법의 절제가 필요하다는 것은 어느 정도 알고 있었던 모양.그가 내린 교서 예종실록 예종 1년 10월 8일자를 참고해보도록 하자.세조 말년에 세조는 옛 계유정난 이후 형성된 측근 위주의 원훈(구공신)들과,이시애의 난 이후 새로 등장한 신공신 들을 서로 견제하여 원훈의 성장을 견제하려고 했다. 애초에 이미 세조 말년 구 공신을 견제하기 위해 이시애의 난을 진압한 자들을 신 공신으로 세웠다가 세조의 건강이 급격히 나빠지자 원상제를 도입한 것만 봐도 이미 남이는 구성군 이준(세종의 4남인 임영대군의 차남. 예종과는 사촌간이다. 영의정까지 되었지만, 결국 역모와 관련이 있다는 이유로 귀양갔다)과 함께 왕권을 위협할 가능성이 있는 존재들로 분류되어 있었다.예종은 강경책을 택한다. 구공신들이 드린 세조의 묘호(신종)를 물리치고 세조라는 묘호를 고집 관철시켜 구공신들을 억제했고 신공신의 대표인 남이, 강순을 죽여버림으로써 신공신을 박멸하려 했다.예종 스스로는 기민한 직감력과 강한 사명감을 갖고 있었다. 한마디로 부지런하고 엄한 상사.그러다보니 세자 당시부터 병조판서로 벼락 출세한 남이를 위험하게 생각했다. 세조가 지나치게 총애한 면도 있지만 남이 자신의 처신에도 문제가 있었다. 이시애의 난을 평정할 때 총사령관이었던 구성군 이준을 세조가 총애하자 견제하는 말을 하다 세조에게 누구와 의논했느냐는 말을 듣기까지 했다. 그래서 즉위 직후 병조판서 남이를 의산군 겸사복장으로 강등시켜 경계심을 드러냈다. 이후에 유자광이 남이가 역모를 꾸몄다고 고변하자 심문 끝에 죽였다.흔히 유자광이 남이를 모함하기 위해 남이가 지은 시의 미평국(나라를 편안케 못하면)부분을 미득국(나라를 얻지 못하면)으로 고쳐 바쳤다고 하나, 이는 야사이며 남이가 실제로 역모를 꾀하거나 평소 조정에 불만이 있었다고도 전한다. 유자광은 그 기회를 잘 포착한 것 뿐이다. 각설하고, 당시 지지부진 할 수 있었던 경국대전 편찬 작업을 강행한 것도 역시 예종. 나쁘게 말하면, 남들이 보기에는 사소한 부분에 집착하는 찌질이였고, 좋게 말하면, 남들에게 잘 이해되지 않는 노력형이었다. 아버지 세조는 신하들과 벗을 하면서까지 신하들을 다독이고 이해를 시켜가며 일을 했으나, 그의 아들인 예종은 굳이 신하들과 벗을 하려 하지도 않았다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="갑작스러운 죽음"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조선왕조실록에서는 죽기 전 날까지 멀쩡했다고 전하며, 예종은 전날 '전부터 발에 종기가 있어 좀 아프지만 지금은 많이 나아졌다'라고 대답했으나 다음 날 급사하고 만다. 예종은 즉위 2년만인, 정확히 15개월만에 족질(발병)로 죽었다.예종이 직접 얘기했던 것처럼 족질은 어린 시절부터 그를 괴롭힌 고질병이었다.어째 인터넷상에서는 복상사로 죽었다는 말이 퍼져 있는데, 근거는 없다. 아마 급사하였다는 것에서 시작된 말로 추정된다.예종실록은 기축년(1469) 11월 28일 예종은 훙하였다고 적고 있다. 예종실록을 살펴보면 당시 예종의 죽음에 왕실과 신료들이 매우 혼란스러워했던 것으로 보인다.신숙주는 예종 사후에 대비를 만난 자리에서 '신 등은 밖에서 다만 성상의 옥체가 미령(靡寧)하다고 들었을 뿐이고, 이에 이를 줄은 생각도 못하였습니다'고 말했다. 그만큼 예종의 죽음이 갑작스럽고 예상치 못하였다는 것을 알 수 있는 대목이다.대비 역시 '주상이 앓을 때에도 매일 내게 조근(朝覲)하였으므로, 나도 생각하기를, '병이 중하면 어찌 이와 같이 하겠느냐?'하고, 심히 염려하지 않았는데, 이제 이에 이르렀으니, 장차 어떻게 하겠느냐?'고 놀라움과 슬픔을 함께 표출했다. 대비도 예종의 병이 죽음을 이르게 할 정도는 아니었다고 생각한 바다.왕과 비에서는 왕이 된 후 인수대비가 보는 앞에서 직접 버선을 벗고 썩어가는 발을 보여주면서 '나는 오래 살지 못한다' 라고 하는 장면이 있다.윤승운 화백의 [맹꽁이 서당] 에는 예종이 평소부터 몸이 안 좋아,즐겨 보는 책에 손수 '예종'이라고 쓰고,자신이 죽은 뒤 '예종'이라는 묘호를 달라고 신하들에게 부탁하는 장면이 나오는데, 이 이야기는 실록에도 나온다. '대왕 대비가 대행왕이 예(睿)로써 시호를 삼도록 말했었다고 알리다.'(성종 1권, 즉위년(1469 기축 / 명 성화(成化) 5년) 12월 3일(임자) 3번째기사).죽었을 때 나이는 만 20세. 조선 역대 국왕 중에서 사실상 가장 단명한 왕이다. 단종이 있긴 하지만, 단종이 어떤 기록을 통해서 보든 자연사가 아닌 것을 생각하면 실질적으로 가장 단명한 왕은 예종이다. 예종 스스로는 앞서 말했듯 강력한 위기의식과 사명감에 사로잡혀 있었고 이때문에 짧은 재위 기간 동안 여러 일들을 억지로라도 이끌면서 심신이 퍽 지쳐있었던 듯 하다.이쪽도 효종처럼 사망 플래그가 있었는데 죽기 2~3달 전에 궁을 지키던 갑사 둘이서 새벽에 까치가 울자 '까치가 밤에 울면 그 집 주인이 황천길 간대' '어? 그런데 이 궁 주인 누구야?' '주상 전하잖아. 보라고, 곧 위태로워질 거야' '그럼 누가 임금 되는데?' '영순군이 있잖아' 라고 얘기를 했는데, 그걸 동료 한 명이 얘기해서 국문해서 둘을 능지했는데 그러고 몇 달 뒤 사망..."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="평 가"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="아버지 세조가 공신들을 적절히 솎아내지 않고 우대하여 공신들의 위세가 높았으나 왕의 권위에 도전하는 것만은 용납하지 않고 강한 왕권을 휘두른 것에 감명받아 왕권 강화에 힘썼다.이 와중에 장인이자 권신인 한명회와 사사건건 대립하였다.그래서 그의 갑작스러운 죽음의 배후에 항상 한명회가 있는 것이 아니냐는 시각도 존재한다.조선의 최고 법전인 [경국대전]이 사실은 예종의 치세에 완성되었으나,반포하기 전 예종이 급사해 그 업적은 성종이 이어 받았다. 여러모로 안습인 군주. 대중적으론 유자광의 모함에 억울한 남이를 죽였다는 야사 때문에 쪼잔하고 의심많은 왕이란 이미지가 강한 편이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
