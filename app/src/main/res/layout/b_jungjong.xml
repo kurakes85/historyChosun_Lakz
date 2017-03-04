@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingRight="5px"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="2대 정종 이경 "
+            />
+
+        <!--<ImageView />-->
+        <!--이미지 자료 없음 이방원 개객끼-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="묘호 : 정종(定宗)\n시호 : 조선의문장무온인순효대왕(懿文莊武溫仁順孝大王)\n명 : 공정(恭靖)\n 본관 : 전주(全州)\n능묘 : 후릉(厚陵)\n성 : 이(李)\n휘 : 방과(芳果) / 경(曔)\n자 : 광원(光遠)\n출생지: 고려 함흥 함흥본궁\n사망지 : 조선 한성 인덕궁 정침\n배우자 : 정안왕후(定安王后) 김씨\n아버지 : 조선 태조\n어머니 : 신의고황후(神懿高皇后)\n생몰기간 : 음력1357년 7월 1일 ~ 1419년 9월 26일 양력 : 1357년 7월 18일 ~ 1419년 10월 15일 (62년 2개월 28일, 2만 2733일.)\n재위기간 : 왕 음력 1398년 9월 5일 ~ 1400년 11월 13일, 양력1398년 10월 14일 ~ 1400년 11월 28일 (2년 1개월 14일, 775일.)
+태상왕 : 음력1400년 11월 13일 ~ 1419년 9월 26일양력1400년 11월 28일 ~ 1419년 10월 15일 (18년 10개월 17일, 6895일.)"
+                />
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="정종 소개"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/zoomtextview_taejo_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="영안군 혹은 영안공. 흔히 영안대군으로 알려져 있지만 이것은 잘못된 호칭이다. 대군이라는 호칭은 동생인 태종이 고려시대의 오등작을 폐지하면서 등장시킨 것으로 태종 즉위 후에 생긴 호칭이다. 즉 태종이 '정안대군'이었던 적은 한 번도 없던 것처럼 정종도 '영안대군'이었던 적은 한 번도 없었다. 이름은 이방과(李芳果)였으나, 즉위 후 경(曔)으로 바꾸었다. 태조 이성계의 둘째 아들이다.겨우 2년 남짓 재위했고 사후에는 정통성 문제로 홀대받아 오랫동안 왕 대접을 받지 못했다. 물론 생전에는 동생도 함부로 하지 못할 정도의 포스가 있었지만 오랫동안 공정왕이라는 시호로 불리다가 오랜 시간이 흘러서야 정종으로 추존되었다. 드라마 등에서는 유약한 이미지로 묘사되는 경우가 많지만, 고려 말에는 장군이었던 아버지 이성계를 따라 전쟁터를 종군하기도 했던 무골이다. 기록에 의하면 체구가 곰처럼 강건하고 왼쪽 눈 밑에 큰 사마귀가 있었다고 전한다. 기록에 따르면 아버지인 이성계의 무인적인 기질만큼은 형제들 중 가장 많이 물려받았다고 한다.역대 조선 국왕 중 최초로 한양(경복궁)에서 즉위한 왕이다. 또한 태조 이성계(즉위 당시 만 57세) 다음으로 즉위할 때의 나이가 가장 많은 왕이기도 하다. 즉위 당시 만 41세."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="정종 생애"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="1.1 조선 건국 이전(왜구토벌)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="왜구의 침입이 고려 제30대 왕 충정왕 2년(1350, 공민왕의 조카)부터 본격화 되기 시작하였다. 특히 고려 우왕 때에 이르면 14년간 378회(기간평균, 14년간 14일 간격)를 침입할 정도로 절정에 달하였다. 무엇보다도 해안가에서는 왜구의 침입이 극심하여 심지어 강화도가 약탈당하고 도읍지 개경까지 위협을 받을 정도였으며 이때 정종의 조부 환조대왕이 개경에 이주하게 되었는데 때마침 양광도(楊廣道)에 왜구가 침입하여 개경을 위협하여 판군기감사 겸 서강병마사로 임명되어 나아가 왜적을 물리쳤다. 왜구는 단순한 해적 정도의 수준이 아니라, 배후에 유력한 영주가 있어 그들에 의해 움직였다. 그 대표적인 영주가 대마도의 영주였다. 일본정부(무로마치 막부 정권)에게 왜구 통제를 요구하였으나 진전이 없어 강경하게 대처하여 홍산대첩(1376년, 최영), 진포대첩(1380년, 최무선), 황산대첩(1380년, 이성계), 관음포대첩(1383년, 정지), 대마도 1차정벌(1389년, 박위) 등의 전쟁을 거치고 비로소 소멸되어갔다.이 시기에 정종은 우왕 3년(1377, 21세) 음력 5월에 이성계를 수행하여 지리산까지 노략질하기 위해 진출한 왜구를 치는데 일조를 했으며, 기록상으로 이때부터 국왕 즉위(태조 6년, 1398)까지 약 21년 동안을 왜구토벌 등으로 전쟁터를 누볐다.아버지 이성계를 따라 왜구를 토벌한 공로로 그는 추충여절익위공신(推忠礪節翊衛功臣)에 책록되고, 봉익대부 지밀직사사 겸 군부판서(奉翊大夫 知密直司事兼軍簿判書), 응양군상호군(鷹揚軍上護軍)을 역임하였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="1.2 정치국면 전환과 친원파 축출"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="원나라가 정치 불안 등으로 쇠퇴해 가자 고려 공민왕(恭愍王, 재위 1351~1374)은 몽골식 복장과 머리모양을 폐지하고 친원파(親元派)를 숙청하는 등 일련의 반원 정책을 추진하였다. 홍건군의 침입(紅巾之亂)과 내부 반란을 잘 넘긴 공민왕은 무명의 승려 신돈(辛旽)을 파격적으로 등용하였다. 이는 고려말 권문세가(權門勢家) 등의 저항을 정면으로 돌파하면서 원 간섭기 내내 문제가 되었던 불법적인 토지, 노비 소유 문제, 인재등용의 과거시험, 조세문제 등을 과감히 개혁하기 위한 조치였다. 그러나 친원파가 대부분인 권문세족 등의 반발 속에 신돈 정권이 축출(공민왕 20년, 1371)되고 친정(親政)을 시작하였으나 개혁은 끝내 실패로 돌아갔다.여말선초(麗末鮮初)의 시기에 친정을 시작한 개혁군주 고려 공민왕(당시 45세)이 자제위(子弟衛)홍윤, 최만생 등에 의해 처참하게 피살된 사건, 즉 공민왕 시역사건(1374년) 이후부터 우왕 9년(1383)까지 친원파 이인임(李仁任) 일당에 의해 고려의 조정은 농단, 전횡되고, 친명파(親明派)들은 숙청되고 있었다.이렇듯이 고려말기에는 국내적으로는 권문세족들에 의해 고려 조정이 농단, 전횡되어 피폐되었으며, 국외적으로는 장기간 왜구 침략으로 국가의 존망이 위태로운 시기였다.정종은 우왕 12년(1386, 30세), 고려 우왕과 최영의 계획아래 순군만호부(巡軍萬戶府)의 부만호(副萬戶)가 되어, 도만호(都萬戶) 왕안덕(王安德)과 함께 고려 조정을 농단하고, 전횡하던 친원파 이인임(李仁任) 등을 축출시키는데 일조하여 정치국면의 전환을 이루어냈으며, 결국 그의 일당은 분격한 고려 우왕과 최영이 주도하고 신진세력이 협력하여 축출되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="2.1 조선개국"
+               />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조선 태조 1년 (1392, 36세), 부친 이성계가 조선을 건국하자 정종은 영안군(永安君)으로 책봉되었으며, 태조의 친위부대인 의흥친군위(義興親軍衛) 절제사(節制使)에 임명되었다.조선개국 초기의 혼란한 상황은 계속되어 아래로는 왜구(倭寇)가 계속해서 침탈하고 있었고,위로는 명(明)나라로부터의 압박이 계속되고 있었으며 이로 인해 영안군 이방과는 1393년에 문화현(文化縣, 황해남도 신천군),영녕현(永寧縣, 평안남도 녕원군)의 두 현에 출군하여 왜구(倭寇)를 물리쳐 공훈을 세웠다.태조 3년 (1395, 39세), 태조는 의흥삼군부(義興三軍府)를 개편하고 여기에 10위를 중, 좌, 우의 3군으로 나누고 각 군마다 종친, 대신들을 절제사로 임명하였는데 영안군 이방과는 중군절제사(中軍節制使, 경기좌우도 및 동북면 관할)에 임명되었다. 이로써 영안군 이방과는 병권에 관여케 되었고 요동 공격을 위한 훈련을 하게 된 것이다. 사실 이는 정도전, 남은, 성석용(成石瑢) 등이 국내의 정세를 안정시키고 명나라로부터의 압력을 물리치기 위해 요동을 정벌할 것을 청한 데에서 나온 조치였다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="2.2 즉위"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="태조 6년 (1398, 42세), 음력 8월에 동생 정안군(당시 32세)이 제1차 왕자의 난을 일으켜 본래 왕위에 뜻이 없었던 영안군은 왕세자가 되기를 극구 사양하였으나,태조의 장자 진안대군(鎭安大君)은 이미 사망하였기 때문에 왕세자에 올랐다가 1개월 뒤인 1398년 음력 9월에 태조의 양위로 경복궁 근정전에서 조선 제2대 국왕으로 등극하였다. 정종은 우왕 3년 (1377년) 때부터 21년 동안 전쟁터를 누빈 군인 출신이며, 일찍이 정안군(태종)이 창업 대의에 가장 열정적이었던 것을 인정하였다. 또한 직접적으로 동생 정안군(태종)이 왕위에 오를 것을 추천하는 등 왕위에 관한 관심은 없었다고 전해진다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="지극한 효성과 우애의 정종"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff3333"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="14dp"
+                android:text="토산군(현 황해북도 토산군, 옛 금천군의 일부)은\n동북면(함경도의 옛 이름)에 왕래하는 땅이고\n또 네가 전에 영솔하였던 군사들이 사는 곳이니\n네가 만일 오래 머물면 뒤에 반드시 말이 있을 것이다.\n안산 으로 가는 것이 좋겠다.\n네가 받은 땅은 그 고을에 옮겨 주고,\n또 식읍 50호를 주는 것이니,\n네가 편한 대로 땅을 맡기고 사람을 부려서\n일생을 마치도록 해라.\n정월 초하루면 단기(單騎)로 서울에 들어와서 \n서로 생각하는 정을 펴도록 하자.\n[정종실록] 정종 2년(1400) 2월 13일"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="태조 이성계의 아들 중 특히 효심이 깊었던 인물이기도 하다.사료에 의하면 1차 왕자의 난이 벌어질 때는 홀로 병상에 누워 있는 아버지의 쾌유를 비는 제사를 지내고 있었다. 이방원이 난을 일으켰단 소식에 크게 놀라서 김인귀란 자의 집으로 도망갔고, 자신이 세자가 되었다는 말에 마지못해서 숨어 있던 곳에서 나온 후 '내가 세자라니! 차라리 정안공이 하지?'라며 발을 빼려다 역시 마지못해 받아들였다. 태조가 정안공 이방원이 붙인 시위군이 말이 시위군이지 간수나 다름없다며 정종에게 하소연하자 재상을 불러 눈물을 흘리며 설득하여 시위를 풀었다. 이에 태조 역시 눈물을 흘리며 '왕은 성격이 본래 순후하여 이전에도 내 가슴을 아프게 한 적이 없었다.'고 말했다.또한 2차 왕자의 난에서도, 군사를 일으킨 다음 지지를 바라며 리포트를 하는 방간에게 너 미쳤구나 당장 군대 해산하고 궁궐로 혼자 들어오면 내가 목숨만은 지켜주마라는 반응을 보였다.한 마디로 방원에게 상대도 되지 않을 테니 정신나간 짓 하지 말고 얼른 항복하라는 이야기(...)결국 싸움에서 승리한 정안공이 패배한 방간의 처분을 어찌할지 조언을 구하자 한참을 가만히 있다가 '그래도 어려울 때 기댈 것은 피붙이밖에 없다.' 며 선처를 당부했다.결국 방간은 목숨을 건져 유배지에서 그럭저럭 편하게 살다 죽었다. 후술하듯 식읍까지 받았으니 사실상 유배도 아니다.이후 토산으로 유배 간 동생 이방간을 안산으로 옮겨 안치하면서 방간에게 전답을 마련해 주고, 고을의 주민 50호를 주도록 조치했으며 편지를 보내줬는데 이 편지를 보면 정종의 우애와 인간미가 잘 드러난다.글 첫머리의 편지를 받은 방간은 갓을 벗고 머리를 두드리면서 통곡할 따름이었다고 한다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="2.3 재위기간"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="실록에 의하면 재위기간 동안 격구나 사냥을 즐기며 정치에는 관여하지 않았다. 격구를 하다가 곁에 있던 사관(史官)에게 '내가 격구하는 것도 다 기록되냐'고 질문하자 사관이 '당연하죠' 라고 대답하는 일도 있었다. 그러자 정종은 '옛날 사람들이 격구한 일을 어떻게 기록했는지 봐야겠으니 고려사 를 가지고 오라'고 말했던 일도 있었다.뿐만 아니라 경연을 하다가도 '내가 병 때문에 팔다리가 저려서 격구를 해서 몸 좀 풀려고 한다'고 말해서, 지경연사(知經筵事) 조박(趙璞)이 '하시는건 좋은데 환관이나 간사한 애들하고는 같이 하지 마세요'라고 권하는 일도 있었다.아울러 격구와 관련해 태조에 대한 효심을 드러내는 에피소드가 많다.대간에서 격구를 비판하며 '태조가 환관의 꾐에 빠져 격구를 궁에 도입했다' 고 간하자 대간을 불러 '내 허물을 가지고 왜 부왕을 욕되게 하냐'며 화를 냈다고 한다.사냥을 나가면 언제나 중도에 사람을 시켜 잡은 짐승을 태조에게 보냈다고 한다.정종은 잠시 조선의 수도를 개경(오늘날의 개성특급시)로 돌려보냈다.여러모로 고려 시대에 대한 향수가 강했고, 형제끼리 골육상쟁을 벌인 한양(경복궁)을 좋아하지 않았다고 한다.이때 정종실록을 보면, 개경으로 다시 수도를 돌리기까지 유독 까마귀와 까치에 시달린 기록이 많이 나왔다.\n\n정종 1권, 1년(1399 기묘 / 명 건문(建文) 1년) 2월 12일(계축) 1번째기사밤중에 뭇 까마귀가 대궐 위에 날아와 울다\n\n정종 1권, 1년(1399 기묘 / 명 건문(建文) 1년) 2월 14일(을묘) 1번째기사\n\n뭇 까마귀가 궁성 북쪽 소나무에 모여 지저귀다\n\n정종 1권, 1년(1399 기묘 / 명 건문(建文) 1년) 2월 15일(병진) 1번째기사\n\n뭇 까마귀가 경복궁을 빙빙 돌고 다음날도 또한 그와 같이 하다\n\n정종 1권, 1년(1399 기묘 / 명 건문(建文) 1년) 2월 19일(경신) 2번째기사\n\n뭇 까마귀가 궁성 북원에 모여 울다\n\n정종 1권, 1년(1399 기묘 / 명 건문(建文) 1년) 2월 23일(갑자) 1번째기사\n\n까치가 근정전 망새에 집을 지다.그리고이 까마귀, 까치 소동이 본격적으로 개경천도의 계기가 되었는지...\n\n정종 1권, 1년(1399 기묘 / 명 건문(建文) 1년) 2월 26일(정묘) 2번째기사\n\n종척과 공신을 모아 도읍 옮길 것을 의논하여 송경에 환도하기로 정하다\n\n정종 1권, 1년(1399 기묘 / 명 건문(建文) 1년) 2월 26일(정묘) 2번째기사\n\n종척과 공신을 모아 도읍 옮길 것을 의논하여 송경에 환도하기로 정하다'뭇 까마귀가 모여서 울고, 들 까치가 와서 깃들고, 재이(災異)가 여러 번 보였사오니, 마땅히 수성(修省)하여 변(變)을 없애야 하고, 또 피방(避方)하셔야 합니다.'임금이 이에 종친과 좌정승 조준(趙浚) 등 여러 재상들을 모두 불러 서운관에서 올린 글을 보이고, 또 피방해야 될지의 가부를 물으니, 모두 피방하여야 된다고 대답하였다. 임금이 어느 방위로 피방하여야 할지를 물으니, 대답하기를,“경기 안의 주현(州縣)에는 대소 신료(大小臣僚)와 숙위(宿衛)하는 군사가 의탁할 곳이 없고, 송도(松都)는 궁궐과 여러 신하의 제택(第宅)이 모두 완전합니다.'하니, 드디어 송경(松京)에 환도하기로 의논을 정하였다. 애초부터 도성 사람들이 모두 구도(舊都)를 생각하고 있었으므로, 환도한다는 말을 듣고 서로 기뻐하여 손에 손을 잡고 이고 지고 하여 길에 연락부절하니, 성문(城門)을 지키어 이를 제지하도록 하였다.기껏 한양으로 내려와 대공사를 짓고, 골육상쟁의 난이 일어나 뒤숭숭한 와중에, 까마귀가 수시로 울어대니 다시 개경으로 돌아가잔 내용이다. 물론 태종이 즉위한 이후 다시 천도를 논의하여 창덕궁을 지으면서, '조선의 수도 개성' 에서 일어난 역사적 사건은 2차 왕자의 난으로 그치게 되었다.태종에게 왕위를 물려준 뒤에는 놀면서 편하게 살다가 죽었다.제사도 지내고 불공도 드리다가 이를 핑계로 전국 각지의 온천유람을 떠나는등,말년에는 태종도 그의 유유자적한 생활을 부러워했다고.태종도 말년에는 고독감 같은 것을 느꼈는지 상왕이 된 형과 어울려 노는 일이 잦았다.실록에 정종과 태종이 서로 명절날 장난을 친 이야기를 읽다보면 무척 유쾌할 도다.더불어 63살로 천수를 누렸는데 당시의 평균적인 수명을 생각하자면 오래 산 편이며,영조(83살)와 아버지인 태조 이성계(74살), 고종(68살), 광해군(67살) 다음으로 역대 조선 국왕들 가운데 5번째로 장수했다.6번째는 딱 환갑을 맞이하기 전이었던 숙종(60세)이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="여담"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="짜증나는 이숙번"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="이숙번과의 전쟁 에서 몇번 진 적이 있다. 이숙번의 집 앞으로 새로 길이 나기로 됐는데 이숙번이 누구 마음대로? 라며 펄펄 뛰었고 인덕궁 앞에 좋은 자리가 있는데 거기에 길을 놓으라며 반협박을 했는데 인덕궁이 바로 정종이 사는 곳이다. 정종도 내 집앞에 길을 왜 놓으냐며 못마땅해 했으나 그로써는 이숙번의 요구를 철회시킬 힘이 없었고 결국 그의 집 앞으로 길이 놓였다.[태종실록] 권25 13년 6월 19일 병인 2번째 기사"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="조선시대 만우절 여담"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조선시대판 만우절 관련 일화에도 등장한다. 조선시대에는 첫 눈이 내리면 신분고하를 막론하고 그날 하루 거짓말이 허용됐다. 그리고 그 첫 눈을 담아 누군가에게 보내면 첫 눈을 받은 사람이 술을 한 잔 쏴야 했고, 반대로 심부름 오거나 혹은 미리 보낸 사람을 잡으면 보낸 사람이 쏴야 하는 전통이 있었는데 태종이 세종에 양위하고 어느 날 첫 눈이 내리자 장난기가 돈 태종이 첫 눈을 상자에 담아 최유를 시켜서 형 정종에게 약이라고 속이고 전달했다. 그러나 약상자(?)가 도착하기도 전에 소식을 들은 정종은 이미 이를 알고 최유를 잡으라고 하지만 이미 최유는 눈치를 채고 도망을 가버렸다. 할 수 없이 정종은 동생 태종에게 술을 한 잔 쏠 수밖에 없었다고. 아무튼 즐겁고 유쾌한 말년을 보내 태종이 형을 많이 부러워했다고 한다.(출처 [세종실록] 1418년 10월 27일 기사."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="사후"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="정종은 왕자의 난을 이유로 수도를 한성에서 개경으로 옮겼으나 다음 해인 정종 2년(1400) 제2차 왕자의 난이 일어나자 동생 정안공을 왕세자로 책봉하고9개월 뒤인 음력 11월 13일에 왕세자에게 왕위를 물려주고, 상왕(上王)으로 물러났다. 맏형으로서 남아있는 형제들간의 반목을 일소하고 정치를 안정시키기 위한 선택이었으며, 재위중에는 형제간의 친목에 많은 관심을 기울였다. 재위중에, 삼성(三省)이 회안대군을 탄핵하기위해 논의하려 할때, 동모제(同母弟, 친동생)의 형친(兄親)의 정으로서 논의를 미연에 차단 금지시켰다. 이후 상왕으로 물러난 정종은 인덕궁(仁德宮)에서 거주하면서 사냥과 격구, 연회, 온천여행 등으로 세월을 보내다 세종 1년(1419) 음력 9월 26일에 63세의 나이에 승하하였다. 사망한 뒤 국상을 치를 때에도 왕의 국상은 후대왕이 상주가 되어야하는 원칙에서 벗어나 왕위계승자인 정안군(→태종)이 아닌 장자(長子)인 의평군 이원생(義平君 李元生)이 섭상주(攝喪主:대리상주)가 되었다.조선 조정에서는 바로 순효라는 시호를 올려 순효대왕(順孝大王)이라 부르다가 명나라에서 공정이라는 시호를 올려 가져오자 이때부터는 묘효 없이 공정대왕(恭靖大王)이라 불렀다.정종(定宗)이라는 묘호는 사후 250여년 만인 1681년, 제 6대 단종과 함께 제 19대 숙종 7년에 정해졌다. 정종(定宗)의 의미는 '태조의 업적을 계승하여 정국을 잘 다스렸으며 백성을 편안하게 하고 크게 염려하였다'는 뜻이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="능묘"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="그의 묘는 현재 북한의 개성특급시에 있다. 조선시대 왕들 중 유일하게 묘가 북한에 있으며 조선왕릉 중 제일 북쪽에 있는 능이다.왕비까지 포함하면 태조의 첫 비이자 정종의 생모 신의왕후 한씨의 묘인 '제릉'도 개성에 있다. 참고로 남한의 조선왕릉 중 제일 북쪽에 있는 능은 인조의 장릉이다.태조 이성계의 조상인 추존왕들의 왕릉은 제외한다.그들의 무덤은 함흥 부근에 있다. 정확한 위치는 경기도 개풍군 흥교면 흥교리(현 황해북도 개풍군 령정리). 능호는 후릉(厚陵)으로 정안왕후와 나란히 묻힌 쌍릉이다. 공민왕릉과 비슷한 형식이다.안타깝게도 정종의 묘가 북한에 있는지라 같이 북한에 있는 신의왕후의 릉 제릉과,왕릉의 제식을 못 갖춘 연산군의 묘와 광해군의 묘와 더불어 유네스코 세계유산 등재에 올라가지 못하였다.일화에 따르면 선조 대까지만 해도 정종의 능은 초라하기 짝이 없었다는데 송도 출신의 차식이라는 사람이 와서는 능을 잘 관리하였다.그러자 정종이 그의 꿈에서 나타나 보답을 하겠다면서 '어머니가 아프니 약을 주겠다.'라고 했는데 그가 잠에서 깨니 매 한 마리가 장어 한 마리를 떨어뜨리고 갔다. 그리고 그 장어를 어머니에게 먹였더니 나았다고 는 설화가 있다 그정도로 왕에대한 예우는 많이 받지 못한듯 하다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

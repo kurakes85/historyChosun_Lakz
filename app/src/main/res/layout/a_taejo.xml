@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    android:paddingRight="5px"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/taejo_title_textview"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:text="1대 태조 이성계 "
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:src="@mipmap/taejo001"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:id="@+id/taejo_title_textview_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="12dp"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:text="묘호 : 태(太祖)\n 시호 : 조선지인계운응천조통광훈영명성문신무정의광덕고황제\n(至仁啓運應天肇統廣勳永命聖文神武正義光德高皇帝)\n능묘 : 건원릉(健元陵)\n휘 : 성계(成桂),개명한 이후에는 단(旦)\n자 : 중결(仲潔) / 군진(君晋)\n호 : 송헌(松軒) / 송헌거사(松軒居士)\n출생지 : 화령(和寧)\n본관 : 전주\n사망지	 : 창덕궁(昌德宮) 광연루(廣延樓) 별전(別殿) \n배우자 : 신의고황후(神懿高皇后) , 신덕고황후(神德高皇后)\n아버지 : 이자춘(李子春)\n어머니 : 의혜왕후(懿惠王后)\n생몰기간 : 1335년 10월 27일 ~ 1408년 6월 18일(72년 7개월 22일, 2만 6,532일.)\n 재위 기간 : 왕 1392년 8월 5일 ~ 1398년 10월 14일 (6년 2개월 9일, 2,261일.)\n 태상왕 : 1398년 10월 14일 ~ 1408년 6월 18일(9년 8개월 4일, 3,534일.)"
+            />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="#000000"
+           android:textAlignment="center"
+           android:textStyle="bold"
+           android:textSize="20dp"
+           android:text="태조의 이력"
+           />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:id="@+id/zoomtextview_taejo_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="이성계는 함경도 영흥에서 출생하였으며 함경도 함흥에서 성장하였고 본관은 전주 '이씨'다. 성(姓)은 이(李), 휘는 단(旦), 초명은 성계(成桂), 초자는 중결(仲潔), 자는 군진(君晉), 호는 송헌(松軒)·송헌거사(松軒居士)이다. 1388년부터 1392년까지 고려 왕조의 실권을 맡은 적이 있는 이성계는 고려에서의 관직이 문하시중 직위에 이르렀고, 고려 우왕 때, 우군도통사(右軍都統使)로서 요동 정벌을 위하여 북진을 하다가 위화도에서 회군하여 문하시중으로서 정권을 장악하고 고려 공양왕으로부터 보위 선양의 형식으로 개경(지금의 개성특급시) 수창궁에서 즉위함으로써 조선을 개국하였다. 원래 이름은 성계였으나 조선을 개국한 후에 '단'으로 개명하였다. 조선 군주 보위에 오른 이후 막강한 권력으로 전제개혁을 단행하였고, 신진세력의 경제적 토대를 구축하였으며, 도읍을 한양으로 옮겨 조선의 기틀을 다졌다. 시호는 태조강헌지인계운성문신무대왕(太祖康獻至仁啓運聖文神武大王) 이며 이후 존호를 더하고 대한제국 때 명나라에서 내린 시호 강헌(康獻)을 폐지하고 고황제(高皇帝)로 추존하여 정식 시호는 태조지인계운응천조통광훈영명성문신무정의광덕고황제(太祖至仁啓運應天肇統廣勳永命聖文神武正義光德高皇帝)이다. 재위 기간은 6년 2개월이며, 상왕위(上王位)에는 약 10년 동안 있었다. 경기도 구리시 동구릉 내에 있는 건원릉(健元陵)에 안장되었다."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="1.1 전주 이씨 시절"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="본관은 전주 이씨. 조선왕조실록의 시작점이라고 할 수 있는 태조 1권 총서 1번째 기사에서는 계보에 대한 언급이 있는데, 일단 실존이 확인되는 인물은 고려 중기 무렵에 나타난 무신정권의 집권자 중 한명인, 이의방의 동생 이린(李璘)이다. 반역자로 규정된 이의방과 혈연적으로 관련이 있다는 사실이 별로 내키지 않았는지, 과거 전주 이씨의 족보에는 이린의 한자가 다르게 되어 있다든가 하는 식으로 애매하게 기록되어 있는 경우도 있었다. 태조 총서의 기록에서도 李璘이 아니라, 李隣으로 기록되어 있다. 현재는 전주 이씨의 문중에서도 확실히 인정하고 있다. 하여간에 이린은 이의방이 정균에 의해 살해 당할때 죽지 않고 몸을 피한 듯하다. 이때 이린은 시중(侍中)이었던 문극겸(文克謙)의 사위였는데, 장인어른이 조금 도와주었을 수도 있다. 문극겸은 이의방이 죽은 후에도 비교적 꾸준하게 활약하였다. 이린이 문극겸의 딸과 결혼하여 낳은 아들이 이양무(李陽茂)다. 이양무의 아들이 이안사(李安社)이고, 나중에 추존되어 목조(穆祖)가 된 사람으로, 다시 이때부터 비교적 자세한 내용들이 기록되기 시작했다."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="1.2 이안사의 동북면 이주"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="조선 왕조가 전주 이씨인만큼, 당연히 본래 이 가문도 전라도 전주(全州)에 있었다. 그런데 이곳과는 전혀 다른 함경도가 이성계의 근거지가 된 것은 조금 곡절이 있었던 까닭이다. 자세한 사항은 알 수 없지만, 기록으로 보면 이안사(이성계의 고조부)는 그 지역의 관리와 관청에 딸린 기생의 문제로 트러블이 생겼다고 한다. 여자 문제 가지고 트러블이 생겼는지 재산 관련 문제인지는 여하간에 알 수 없으나, 하여간에 사이가 더럽게 된 모양으로 문제가 생긴 관리는 윗선에 연락하고 심지어 군사까지 동원해서 이안사를 치려는 움직임을 보이자, 이안사는 그 말을 듣고 강릉도(江陵道)의 삼척현(三陟縣)으로 이주했다. 이때, 이안사를 따라간 사람들의 숫자가 170여 가(家)나 된다고 하는데, 이를 볼 때 과장을 고려하더라도 전주에서 꽤 끗발이 날리던 가문으로 보인다. 삼척으로 옮겨간 이안사 집단은 오랜 기간 그곳에서 살면서, 자연스레 농사도 지었던 것으로 보이는데, 이때 그들이 배 15척을 만들어 왜구를 방비했다는 기록이 있다. 그렇다면 이안사 집단은 이때도 왜구에 대비하여야 할 필요가 있을 정도로 경제적 기반이 있었다는 말이 된다.(『이성계의 경제적 기반에 대한 연구』 ─ 이현우) 그래서 의주도병마사로 임명되었지만 이후 정세변화속에 원나라에 귀부한다."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="1.3 몽골에 투항 천호가 되다"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="그렇게 기반을 가지고 있던 그들이었는데, 또 문제가 생겼다. 원나라의 야고(也古)라는 인물이 쳐들어올때는 몸을 피해서 문제가 없었지만, 대략 그 무렵에 새로운 지방관이 이 지역으로 오게 되었는데, 하필 전날에 문제가 생겼던 그 관리였다.얼른 자리 털고 뜨는게 나을 것으로 보였던 이안사는 동북면의 의주(宜州)로 이동했다. 이때도 170여 가가 따라 나섰다고 한다. 마찬가지로 과장을 고려한다고 쳐도, 이안사가 상당한 수의 유이민 집단을 통솔하고 있었다는 사실을 추정해볼 수 있다.고려 조정에서는 그렇게 이주한 이안사를 의주병마사(宜州兵馬使)로 임명해서, 그렇게 된 바에야 원나라 군사를 막으라고 시켰지만, 산길대왕(散吉大王)이라는 원나라 장수가 2차례 항복을 권유하자, 싸워봐야 가망이 없다고 생각했는지 아니면 그 편이 떡고물이 많을것이라고 여겼는지 원나라에 항복하였다.항복한 후 이안사는 같은 집안 사람을 산길에게 혼인시켜 서로 연줄을 만들어 놓고, 자의인지 타의인지 더 북쪽으로 가서 개원로(開元路) 남경(南京)의 알동(斡東)에 정착하였다. 알동은 정확한 위치는 알 수 없으나 두만강 하류지역으로 보인다.이안사는 산길의 주선으로 인해 알동천호소(斡東千戶所)가 이안사를 위해 세워지고 이안사 본인은 다루가치(達魯花赤)를 겸하게 되었다. 이때 이안사의 집은 알동에 있었지만 거처가 일정하지는 않았다고 하는데, 이안사가 자신의 집단 유지를 위해 여러곳을 왕래하면서 노력했다고 보는 시각도 있고, 이안사의 집단이 여진족 거주지역에 살면서 순수 농민적 성격에서 여진족과 같은 생활 방식으로 바뀌었다고 보는 견해도 있다.이안사가 사망한 뒤, 아들 이행리(李行里)가 그 기반을 이어 받았다. 이행리는 여몽연합군의 일본원정에도 참여하여, 충렬왕을 뵙고 자기가 원나라에 항복할 수 밖에 없었던 상황을 설명하면서 용서를 구하기도 했다. 충렬왕은 '그대 행동을 보니 마음을 알겠다' 라면서 이해한다는 식의 반응을 보였다.그런데 이런식으로 이행리의 세력이 확대되고 위상도 제법 커지자, 근처에 있던 여진 천호(千戶)들이 불만을 가지게 되었다.이행리는 우연히 그 과정을 알게 되고 가족들을 이끌고 달아났는데, 뒤를 보니 적이 무려 300여명이나 되어 추격전을 벌이다가, 갑자기 건너는 곳의 강이 물이 열려 자신들은 돌파하고, 다시 강이 물이 막혀 적이 추격해올 수가 없었다고 한다. 이런 기록은 과장이 있겠지만, 여하간에 다시 기반을 날리고 도망친 이행리는 여러 섬에서 조금 지내다가, 의주로 와서 그곳에서 다시 세력을 키웠다. 그리고 1300년, 쌍성 근처의 고려인들을 관리하는 다루가치(達魯花赤)에 임명되었다. 그 후 이행리가 죽고 아들인 이춘(李椿)이 이를 이어받았다. 이춘은 자신들의 본거지를 함주(咸州)로 옮겼는데, 목축하는데 편리해서 그랬다고 한다. 이 무렵에는 이씨 집안의 세력권 아래, 유목 성향을 가지고 있는 무리들이 이미 많았던 것으로 보인다. 또 이춘은 쌍성 총관(雙城摠管)의 딸과 결혼했는데, 이로 볼 때 해당 지역에서 어느 정도 인정을 받은 세력으로 보인다. 원나라 조정에서는 알동에서 이씨 집안을 따라 이곳까지 이주한 사람들을 본래 자리로 되돌리려고 했지만, 이춘은 직접 원 조정에 글까지 올려 사정을 설명하고 이를 막아내었다. 이런 면으로 볼때, 이춘에게 있어서 그 주민들은 경제적 기반을 위해 꼭 필요했던 것으로 여겨진다."
+            />
+
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="1.4 원나라의 쇠퇴, 이자춘의 고려 귀향"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="이춘이 사망하고 난 뒤에는 후계자를 놓고 내흥이 벌어졌는데, 처음에는 이춘의 큰아들인 탑사불화(塔思不花)가 후계자가 되었는데 곧 죽고 말았다. 탑사불화의 아들이었던 교주(咬住)는 나이가 어렸는데, 이춘의 부인 중 박씨의 아들이었던 탑사불화, 이자춘의 세력에 대해, 조씨의 아들이었던 완자불화(完者不花), 나해(那海)와 누가 해먹을 것인가를 두고 싸움이 벌어진 것이다. 이때 이자춘은 직접 개원로(開元路)로 나가 사정을 설명했고, 원나라에서 박씨 쪽에 손을 들어줌에 따라 이자춘이 어린 이교주 대신에 임시로 이씨 집안의 대빵이 되었다. 그 후 이자춘은 나해를 때려잡았다. 일단 기록으로는 이교주가 나이가 차자, 이자춘은 자리를 다시 넘겨주려고 했다는데, 교주가 받지 않았다고 한다. 이자춘은 꽤 기민한 편이었던 이자춘은 당시 동아시아의 정세도 바로 꿰뚫어 보고 있었다. 원제국의 국력이 쇠약해지는 사실을 바로 알아차리고, 고려의 공민왕이 반원 정책을 시도하려는 것을 파악하고, 직접 공민왕을 만났다. 당연히 도움이 필요했던 공민왕은 이자춘을 대환영하였으나 당장에 받아들이지는 않고 기다리라는 지시를 내린다. 이자춘은 공민왕의 밀지를 받고 쌍성총관부 공격에 동참하였고 그 결과, 고려는 쌍성총관부 지역을 되찾았고, 이자춘은 당당하게 고려의 공신이 되어 동북면에서 세력을 확고하게 유지할 수 있게 되고 고려 중앙정계에도 진출할 기회를 얻는다. 그리고, 이자춘과 함께 쌍성총관부 공격에 참전한 아들이, 훗날 역사를 바꾸는 주역이 되었다."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="청년 시절"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="원나라에서 만호장이 되었다가 원나라가 망할 때쯤에 고려에 내응하여 쌍성총관부를 점령하는데 공을 세우고 고려의 신하가 되었다.아버지인 이자춘과 배다른 형인 이원계와 배다른 동생인 이화와 함께 였다. 이원계는 위화도 회군 후 절명시를 남기고 자살했다. 고려의 신하로서의 충절이었다고 하는데 당시 상황을 보면 정말로 그랬는지는 알 수 없다. 다만 아들들에게는 삼촌을 도우라는 유언을 남겼다. 그래서인지 이원계의 둘째아들인 이천우가 공신에 이름을 올리고 있다. 참고로 고려에서는 첫째 부인 소생이나 둘째 부인 소생이나 모두 다 적통이다. 먼저 들어온 사람이라고 적통, 어느 어머니의 신분이 더 높다고 적통 그런 거 없다. 게다가 이름을 보았을 때 계자 돌림임을 알 수 있다. 이원계와 이성계의 사촌의 이름을 보면 마찬가지로 계자 돌림인 걸 알 수 있다. 그렇게 치면 이화는 몰라도 최소한 이원계는 적자라는 말이다. 하지만 전주 이씨 족보에는 이성계를 제외한 두 사람은 서자로 기록되어 있다. 그러니까 이것은 왜곡이다. 아마도 고려 시기에는 원나라와 몽골 유목민족의 풍습으로 여러 부인을 두다 보니 그렇게 된 것 같다. 그게 아니더라도 고려시대에 지방호족이 존재하는 나라에서 호족을 감시하는 수단으로 수도에 소환해서 생활하게 하는 제도 때문에 고향의 아내인 '향처'와 수도의 아내인 '경처'가 따로 있던 시절이기도 하다. 그것이 후일에 그런 제도들은 사라진 뒤에 이해부족으로 그렇게 기록 된 것일 수도 있다. 젊어서 어느 절에서 쉬던 중 꿈에 무너지는 집의 서까래 세 개에 깔렸는데 깨어나 보니 등에 서까래 3개에 눌린 상처가 있어 그 절의 중이던 무학대사가 이는 왕이 될 징조라고 말한 일화는 유명하다. 서까래 3개가 나란히 놓여져 있으니 석 삼(三)자 모양이 되고 이성계의 몸을 작대기(│)라고 하면, 둘이 합치면 임금 왕(王)자가 되기 때문이다.또 다른 일화로, 이성계가 왕위에 오르기 전 용한 점술가를 찾아갔는데 그 앞에 얼짱거지가 거지티 안 날 정도로 옷을 멋지게 입고 와 있었다. 점술가가 한자를 하나 뽑아보라고 하는데 그 거지가 뽑은 한자는 물을 문(問). 점술가가 말하기를 '문(門) 앞에 입(口)이 있으니 당신은 거지 팔자요' 라고 하자 그 거지가 '나 참 딱 걸렸네' 하고 투덜대면서 쓸쓸히 퇴장한다.그 다음 이성계도 한자를 뽑았는데 역시 문(問)이었다. 그러나 이번엔 점술가가 놀라서 '이것은 좌로 보나 우로 보나 임금 군(君)이니, 왕이 될 팔자로군요'라고 했다고 한다.다른 판으로, 이성계가 먼저 파자점 치는 점술가를 찾아가 물을 문(問)을 뽑았더니 점술가가 이성계에게 왕이 될 팔자라고 말해주고 그 다음 날 이성계가 근처에 있던 거지 하나를 멀쩡한 사람처럼 변장시켜서 똑같은 점술가를 찾아가 문(問)을 뽑게 하라고 시켰더니 점술가가 그 거지에게는 거지 팔자라고 말했다는 이야기도 있다. 별 상관은 없지만 이런 패턴은 이야기에서 자주 등장하는데, 높으신 분들보다 점술가의 지적 능력을 띄워주는 목적이 강하다.또 다른 변주로 이성계 이후에 점을 본 사람이 거지가 아니라 이지란이며, 점쟁이의 거지 팔자 선언으로 날뛰는 이지란을(복채도 이성계의 2배나 냈다고 한다) 이성계가 말리면서 둘이 이때 의형제를 맺었다는 이야기 또한 있다."
+        />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="무인 이성계 "
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="최영과 나란히 고려의 수호신으로 통했던 한국사 최강의 맹장 중의 하나였다. 활을 잘 쏘아서 '신궁(神弓)'이라는 별명이 붙을 정도로 천하의 명궁으로 알려졌다. 훗날 이성계의 눈부신 활약상에 관해서는 여러 영웅담이 전설처럼 전해지고 있으며, 이성계는 30여 년 동안 전장에 나아가 단 한 번도 패하지 않았다고 알려져 있다. 아버지 이자춘과 함께 고려에 귀순했으며 귀순 후 왕의 호위직인 애마를 맡아서 했다. 고려군과 내응하여 쌍성총관부를 함락시키는데 큰 공을 세운 것을 시작으로 고려의 무장으로서 고려를 침략해오는 몽골, 왜구, 홍건적, 여진족과 반란군들을 물리치는데 많은 공적을 세웠다.\n - 1361년 10월 독로강(禿魯江) 만호(萬戶) 박의의 반란을 진압하고 박의를 죽였다.\n같은 해 10만 홍건적 침공. \n수도 개경이 함락되자 이성계가 고려인과 여진족 2천으로 구성된 사병조직으로 개경 탈환에 성공해서 가장 먼저 입성하고 홍건적 두목을 활로 쏴 죽였다.\n- 1362년 원나라 장수 나하추의 수만 군사의 침입을 물리쳤다.\n- 1364년 원나라 황제의 명으로 침공한 덕흥군과 최유의 1만 군대를 최영과 함께 섬멸시켰다.\n- 1364년 1월 삼선(三善)과 삼개(三介)의 반란군이 함주를 함락하자 이를 물리치고 밀직부사. 단성양절익대공신에 책봉되었고, 동북면원수지문하성사, 화령부윤이 되었다.\n- 1370년 11월 지용수 등과 함께 만주의 동녕부(東寧府)를 점령함. (제1차 요동정벌)\n- 1377년 우왕 3년 왜구를 지리산에서 격퇴했다.\n- 1378년 수도 개경을 위협하던 왜구의 대군에 맞서 최영이 싸우다가 위기에 빠졌는데 기병을 이끌고 구원하여 격퇴하였다.\n- 1380년 내륙으로 진출한 왜구의 대군을 크게 섬멸했다. 이를 후세엔 황산대첩이라 부르게 된다. 황산대첩은 그를 국가적 영웅으로 자리매김하는데 큰 도움을 주었다.\n- 1382년 여진족 호바투가 노략질을 할 때 동북면도지휘사가 되어 이지란과 함께 궤멸시킴.\n- 1384년 동북면도원수문하찬성사가 되어 함주를 공격한 왜구를 물리침.\n- 1388년 수문하시중이 되어 최영과 함께 이인임을 유배시킴. 임견미, 염흥방 척살.\n\n 공민왕 시기에 이루어진 제1차 요동정벌에서는 미친듯한 활약을 보여주는데 애기살로 70명에게 헤드샷을 날리며 난공불락의 요새를 점령하는가 하면, 채명이라는 상대편 장수를 설득하기 위해 머리, 허벅지를 맞혀버리는 활솜씨를 선보이며 요동성 점령에 큰 활약을 보여준다. 다만 요동성을 함락하였으나, 요동성의 곡식창고가 불타버리고 고려에서의 보급도 이루어지지 않아 회군하였다. 개인적으로나 정치적으로나 선배무장인 최영과 절친한 사이였다고 하며 그와 함께 이인임 일파를 척살하고 수문하시중의 자리에 올랐다.위화도 회군 이후를 생각하면 참 아이러니해지는 부분."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="이성계의 세력"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="이자춘의 벼슬은 삭방도만호 겸 병마사(朔方道萬戶兼兵馬使)였으며,이성계의 벼슬은 금오위상장군(金吾衛上將軍) 겸 동북면상만호(東北面上萬戶)였다.이것이 원나라 벼슬 그대로 '만호장'이라는 뜻이면, 이성계 휘하에 1만호에 달하는 백성이 식읍과 같이 주어져 있었던 것이다.이는 단지 상징적인 것으로 보이지만, 태종 시기에 남아 있던 이성계 직할 '가별초'가 5백호에 달했다는 기록을 보면 동북면의 상당한 토지와 인구를 '봉건 영주'처럼 지배하고 있었던 것으로 보인다. 그 세력이 어느 정도였는지 확실하지는 않지만, 개경 탈환에서 이성계가 동원한 사병은 2,000명이나 되었다는 점에서 그 만한 사병을 유지할 수 있는 막대한 경제적 기반과 군사력을 갖추고 있었음이 분명하다.이성계의 사병 규모는 양적으로 상당한 규모였을 뿐만 아니라 질적으로도 정예였는데, 이성계는 외적과 싸울 때도 아낌없이 자신의 사병을 동원했였으며 이들은 이성계의 화려한 전공을 뒷받침하는 정예병이었던 것으로 보인다. 이성계의 가별초는 조선왕조 건국 이후 왕자들에게 분배되었다가, 태종 시기에 혁파되어 일반 백성으로 편입되었다.이후 이성계의 가산은 조선 왕실의 재산으로 편입되어 왕들의 비자금인 내탕금으로 사용되었다. 명목상으로 조선의 재산은 모두 왕의 재산이었으나 신하들의 동의 없이는 세금 등을 왕의 마음대로 사용할 수 없었다. 반면 이 가산은 왕의 마음대로 사용할 수 있는 개인 재산이나 마찬가지였다. 정도전 등은 이 재산도 국고로 환수해야 한다고 주장했으나 태종이 정도전을 제거한 후 이 가산은 왕의 개인 재산이라고 선포했다. 왕들은 내탕금을 사용하여 개인적으로 절을 짓거나 잔치 등을 여는데 활용하였으며, 흉년에 백성들을 구휼하거나 땅을 사들여 개인적인 용도로 사용하였다.이성계가 왕이 되었을 때 함경도 땅의 3분의 1이 이성계의 개인 재산이었던 것으로 추정되며, 이는 별도의 내시 기관인 '내수사'가 관리하였다. 내수사에서는 이 땅을 소작하거나, 소출로 이자놀이를 해 재산을 늘렸는데 소작료와 이자가 시중에 비하여 낮았으며 관료들의 수탈도 없었기에 백성들은 앞다투어 내수사에 소작을 하거나 돈을 빌리려 하였다.또 그는 동만주 북방 여진족들에게 막대한 영향력을 행사하였다. 후일의 청태조인 누르하치의 6대조인 아이신기오로 먼터무도 이성계의 부하였을 정도였다고 한다."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="위화도 회군과 조선 건국"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="우왕의 명으로 제2차 요동정벌을 위해 북상하다 역심을 품고 압록강의 섬 위화도에서 회군하여 개경을 공격, 최영과 우왕을 몰아내고 창왕을 옹립하였다. 그랬다가 우왕이 공민왕이 아닌 신돈의 핏줄이라는 주장(폐가입진)을 하며 우왕과 창왕도 몰아내고 공양왕을 옹립한다. 그리고 최영에 이어 우왕과 창왕도 참살된다.공양왕 시기에 정몽주가 공양왕과 결탁하여 이성계 무리를 견제하기도 했으나, 정몽주가 이방원에게 참살되자 공양왕은 이성계에게 양위하고 고려는 멸망한다. 왕으로 등극한 후 명나라에 '권지고려국사'로 외교문서를 보내 왕이 되었음을 알렸는데 조선이 자주국이긴 했으나 명나라로부터 고명을 받지 못하면 외교적으로 '권지국사(권지조선국사)'라 하고 '조선국왕'이라 칭하지 못했다."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="조선건국과 정적숙청"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="이성계는 위화도 회군 이후 삼군도총제사(三軍都摠制使)가 되어 조준 등과 결탁하여 사전(私田)을 개혁하고 특권층의 세력을 좌절시키는 한편 신흥세력의 기반을 굳게 하였다. 우왕 때에 정치 일선에서 배제되었던 신진 사대부도 속속 정계에 복귀하여 본격적인 개혁의 계기를 마련하였다. 하지만 신진 사대부 사이에는 사회의 모순에 대한 개혁의 방향을 둘러싸고 서로 대립하였다. 이색, 정몽주 등 온건 개혁파는 고려 왕실을 보존하여 그 틀 안에서 점진적인 개혁을 추진하려 하였다. 반면 정도전 등 급진 개혁파는 고려 왕조를 부정하는 쿠데타를 주장하였다. 점차 쿠데타가 시작되고 있었다.1392년(공양왕 4년) 정몽주는 이성계가 1392년 3월 명나라에 갔다 돌아오는 세자를 마중하기 위해 황주로 나갔던 이성계가 사냥중에 낙마하여 크게 다치는 바람에 한동안 은신해 있자, 정몽주는 이성계가 없는 틈을 이용하여 측근들과 함께 역성혁명파의 핵심 세력인 정도전, 남은, 조준 등과 그들의 측근 윤소종, 남재, 조박 등을 탄핵하여 유배시켜 버린다. 황주에서 이 소식을 접한 이성계는 불편한 몸에도 불구하고 한밤중에 부랴부랴 가마에 몸을 싣고 개경 (지금의 개성) 으로 향했지만 이미 때는 늦은 상태였다. 그 이유는 이성계가 낙마로 인해 크게 다쳤기 때문에 불편한 몸이 되어 있어서 왕의 어전으로 입궐할 수 없는 입장인 데다가, 설사 입궐한다고 해도 이성계의 측근 핵심들이 모두 탄핵받아 유배된 상태였기 때문에 정몽주를 당해낼 재간이 없었던 것이다. 이성계는 아들 이방원을 불러 정몽주에게 찾아가 자기 자신들과 함께 새로운 왕조를 주창할 것을 권하라고 지시하였다. 그래서 이방원은 그의 마음을 떠보기 위해 정몽주를 만나 정자에 둘러 앉아 시조를 한 수 지어 정몽주의 마음을 떠보았다. 이 시조가 그 유명한 '하여가'와 '단심가'다. '하여가'는 이방원이 지은 시조로, 내용은 이렇다.이런들 어떠하리 저런들 어떠하리, 만수산 드렁 칡이 엵혀진들 그 어떠리, 우리도 이 같이 얽혀 천년만년 살고지고 라는 시조 한 수를 남겨 같이 새 나라, 왕조를 세우는 데에 같이 이루어 보자는 이방원의 뜻이었고, 그리고 '단심가'는 정몽주가 지은 시조로 내용은 이렇다.이 몸이 죽고 죽어 일백 번 고쳐 죽어, 백골이 진토 되어 넋이라도 있고 없고, 임 향한 일편단심이야 가실 줄이 있으랴 라는 시조를 내어 정몽주 자신은 자신의 몸이 백번 천번 죽어도 고려의 왕만을 섬긴다는 것이 정몽주의 뜻이었다. 그래서 이방원은 정몽주가 있는 한 역성혁명(새 나라 새 왕조를 세우는 것)을 이룰 수가 없다고 판단이 되자 다섯째 아들 방원은 자신의 수하 조영규를 시켜 밤중에 집에 돌아가는 정몽주을 쫓아가 선죽교에서 타살(살해)시켜 버린다. 그러하여 정몽주가 살해되자 고려 조정은 다시 이성계 일파가 득세하였다. 그래서 정몽주의 측근들인 온건 개혁파들을 대거 축출되어 유배길에 올랐고, 정몽주에 의해 탄핵받았던 이성계 일파인 급진개혁파들이 정계에 속속 복직하여 세력을 결집시켰다. 그리고 나머지 온건개혁파들에 대한 많은 척결들이 이루어졌고, 정도전이 정계에 복귀하면서 사실상 역성혁명이 구체화되어 1392년 7월에 정도전, 남은, 조준, 배극렴 등은 공양왕을 왕위에서 폐위시키고 이성계를 왕으로 추대할 것을 결정한다. 그들은 이를 위해 정비 안씨를 찾아가 공양왕의 폐위와 이성계의 옹위를 명령하는 교지를 요청하였고, 정비가 이를 수용함으로써 공양왕이 비로써 정식으로 폐위되고 이성계가 신하들의 계속된 추대와 간청으로 이성계는 마침내 1392년 7월 17일, 수창궁에 나아가 왕위에 올라 새로운 왕조를 개창하였다. 이로써 고려의 왕조는 태조 왕건이 개국한지 474년 만에 제 34대 공양왕을 끝으로 하여 멸망되었다. 고려왕조를 멸망시킨 태조 이성계는 고려의 왕족 후손들인 왕씨들을 대단히 싫어해 그 동조 세력들을 강화도와 거제도 두 곳에 살도록 제한했으나 곧 왕씨들을 제거하기 위한 음모가 시작되었다. 이성계의 측근들의 신하들은 '왕씨를 살려두면 큰 화가 미칠 것이오! 조선의 앞날에 큰 걸림돌이 될 것이니 모두 죽이시오!' 라는 명분이 없는 말을 태조 이성계가 믿고 명령을 내어 강화도에 있던 왕씨들을 강화나루에 던져 수장시켜버렸고, 거제도에 있던 왕씨들 또한 바다에 던져 죽여버렸다. 그리고 원주로 유배갔다가 삼척으로 유배된 공양왕은 공양군으로 강등되어 살다가 이성계의 명령의해 1394년 4월 50일(태조 2년), 공양군 부자는 사사되었다. 공양군은 나중 태종 이방원에 의해 공양왕 실록이 편찬되고, 공양왕으로 다시 추봉 되었다. 이로 인해 남아있는 왕씨들은 곧 죽게 될 것이라고 알고 '왕(王)'성에서 어머니 성을 따르거나 '전(全)'씨, '옥(玉)'씨, '용(龍)'씨, '전(田)'씨 등으로 성을 바꾸고 비참하게 살아가야 했다. 이로써 고려 왕족인 왕씨일가와 조선 건국에 반대했던 정적들을 숙청하여 왕권을 강화하여 조선 왕조 500년이 시작이 된다.즉위 초기의 태조 이성계 뒤이어 이성계는 정도전 등의 추대를 받아 1392년 8월 5일(음력 7월 17일)에 송경(松京) 수창궁(壽昌宮)에서 공양왕으로부터 선위(禪位) 받는 형식으로 왕위에 올라 개국하였다.즉위한 다음날 개경 거리와 궁궐에 단비가 내렸다. 오랜 가뭄 끝에 모처럼 비가 내리자 사람들은 천지신명이 새 임금을 축복하여 내리는 비라고 떠들며 기뻐하였다.처음에는 민심의 동요를 염려하여 국호는 그대로 고려로 두었으나, 1393년 3월 27일(음력 2월 15일) 조선(朝鮮)이라 고쳤다.한편 명나라에 책봉을 청하는 사신을 보냈지만 명나라의 홍무제는 그를 정식 국왕으로 봉하지 않고 권지고려국사라는 직책을 내린다. 즉위 초반의 집권기반은 취약하였고, 정도전과 무학대사에게 명하여 민심을 수습할 방안을 마련케 한다. 고려 구신들의 반발    그러나 이성계를 지지한 신진사대부의 무력 쿠데타는 수많은 사람들을 죽음으로 몰아넣었고, 유능한 관리들로 하여금 벼슬길을 버리고 은둔생활을 하게 만들었다.이때 두문동의 72현을 비롯하여 고려의 유신들에게 개국공신과 그에 상응하는 개국원종공신의 지위를 내렸지만 이들 중 상당수는 거절하고, 낙향하거나 산으로 숨어버린다. 두문동(경기도 개풍군)에 모여 있던 고려의 옛 신하들이 마을에 불을 질렀는데도 한 사람도 나오지 않고 모두 타죽었다는 이야기는 당시 새 왕조에 대한 반감이 어느정도로 심했는가를 알게 해주는 일화이기도 했다.결국 태조는 새로운 도읍지를 정할 것을 명한다. 바로 그는 지역의 민심과 사상적 기반을 달리 해야 될 필요가 있다는 정도전의 건의를 받아들여 도읍지 천도와 국교(國敎)를 불교에서 유교로 개정할 결심을 한다.태조 이단은 즉위 초, 민심을 두려워하여 나라 이름을 그대로 고려라고 했으며, 모든 법제를 고려의 예에 따르게 했다. 개국 직후 그는 길재, 이색 등의 구신들을 방문하여 협력을 요청했다. 권근, 하륜, 심덕부, 설장수 등은 그의 요청에 협력하여 새 조정에 참여하였지만 길재, 신호 등은 그가 보낸 사자들의 면담을 거절하였다. 신진사대부의 스승격인 이색 역시 이단의 조선 조정 참여 요청을 거절하였다.이색은 한양의 왕궁에 온 뒤에도 그를 임금이라 하지 않고 그대, 송헌이라 불러서 남은, 정도전, 조준 등이 반발하기도 했다. 개국공신인 남은의 동생 남재와 숙부 남을진 역시 이단의 협력 요청을 거부하고 은둔생활을 한다. 개국공신을 책록하면서 고려의 구신들에게도 원종공신의 칭호를 내려 회유, 포섭하려 하였으나 일부만이 협력하고 대부분 고려의 구신으로 남겠다며 요청을 거절하여 조선 초기에 많은 어려움들이 있었다.새 왕조를 연 태조 이단은 즉위 한 달 만에 수도를 옮길 결심을 했다.처음에는 나라 이름도 고치지 않고 수도도 그대로 개경으로 할 생각이었으나 무슨 까닭에서인지 천도를 결심, 후보지를 고르기 시작했다. 백성의 생활이 채 안정되기도 전에 큰 역사를 벌임은 옳지 않다는 천도 반대론을 물리치고 재위 3년(1394년) 8월 태조는 마침내 신도궁궐조성도감(新都宮闕造成都監)을 설치하여 새 수도의 도시 계획을 구상, 천도를 명령했다.처음 후보지로 지목된 곳은 계룡산이었으나 하륜이 계룡산은 땅이 좁고 토지가 비옥하지 않으며 금강과도 멀리 떨어져 있다는 이유를 들어 천도에 반대하는 상소를 올렸고 계룡산 대신 하륜이 거론한 무악(지금의 서울특별시 서대문구 신촌 일대)은 '예로부터 제왕은 모두 남면하여 나라를 다스려왔고, 동향했다는 말은 한 번도 들어보지 못했다.'는 정도전의 반대로 중지되었다. 다음날, 태조는 왕사 무학, 정도전, 하륜 등과 함께 새 도읍지를 둘러보기 시작했다. 그 곳은 바로 고려의 남경 터였다.《연려실기술》에는 한양을 새로운 왕조의 수도로 추천한 것은 승려 무학으로, 삼각산에 이어 목멱산(木覓山)을 거쳐 백악산 아래의 땅(지금의 서울특별시 종로구 필운동)에 도착한 무학은 인왕산을 주산으로 삼고 백악산과 남산으로 좌우 용호(龍虎)를 삼는 이곳을 궁궐터로 정하고 태조에게 아뢰었다. 무학은 이곳이 적당하다고 생각했지만, 한 노인이 소를 타고 지나가다가 '이놈의 소! 미련하기가 무학과 꼭 같구나. 바른 길을 버리고 굽은 길을 찾아가다니, 이럇!'라고 소리질렀다고 한다. 무학은 노인을 쫓아가 길지를 알려달라고 간청했고, 노인은 '여기서 서쪽으로 십리를 더 가면 알 일이다.'라고 말하고 사라졌다. 무학은 그대로 태조에게 길지를 보고하였고 정도전 등이 찬성하자, 태조는 그곳으로 도읍지를 정했다. 그곳이 북악산 밑, 경복궁 자리였다고 한다. 하지만 실록에는 태조 본인이 한양으로의 천도를 결정한 주체였다고 되어 있다. 새 도읍지 한양이 '조운이 잘 통하고 사방의 이수도 고르니 사람들에게 편리하다.'는 이유였다. 10월 태조는 각 관청당 2명씩만 남겨두고 문무백관을 거느리고 개경을 출발, 한양으로 들어왔다. 그리고 새 수도의 이름을 한성부로 고쳤다. 12월부터 본격적인 역사에 들어갔다. 이는 왕씨의 본거지인 개경을 버리고 한양(漢陽)으로 천도하여 도성을 신축하는 등으로 국가의 새로운 면모를 갖추게 하는 효과가 있었다. 재위 4년(1395년)에는 도성축조도감이라는 관청을 설치, 성을 쌓기 위한 기초측량을 하게 했다.총책임자는 정도전을 임명했다. 태조 5년(1396년) 쌓기 시작한 한양 성곽은 1년여 만에 완성되었다.고려를 무너뜨리고 새 왕조를 세운 이단(이성계)은 명나라로 가서 국명을 지어주길 부탁했다. '화령'과 '조선'중 하나로 이름을 지어주길 부탁하자 명의 홍무제는 국명을 조선으로 최종 결정하였다. 이는 단군 이래로 내려오는 우리 역사에서 나라의 이름을 중국에 정해달라고 부탁한 경우는 한 번도 없었고, 이 일 때문에 태조 이단은 자주적인 태도를 버렸다는 오명을 남기게 되었다. 논공행상으로 창업에 공을 세운 이에게 개국공신의 호를 주고 전지(田地)와 노비를 내리어 왕권을 튼튼히 하였으며 관제(官制)를 비롯한 국가의 시설을 정비하고 정도전 등으로 하여금 《조선경국전》,《경제육전》등을 찬집(纂輯)하게 하여 반포하는 등 여러 가지 정책에 힘썼다."
+            />
+
+     <android.support.v4.widget.Space
+         android:layout_width="match_parent"
+         android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#330033"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="2번의 참극과 쓸쓸한 말년"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff3333"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="14dp"
+            android:text="'어떤 물건이 목구멍 사이에 있는 듯하면서 내려가지 않는다.' 『태조실록(太祖實錄)』, 권14, 7년 8월 26일 기록 中 (정도전과 박위가 참살되었다는 소식을 접한 뒤 (아마도) 매핵기 증세를 호소하며)"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="말년에는 매우 고통스러운 삶을 살게 되는데 막내아들인 방석을 세자로 세우려다 1차 왕자의 난이라는 쿠데타를 일으킨 신의왕후 소생 왕자들에게 권력을 빼앗기고 상왕으로 밀려나, 영락없는 뒷방 늙은이 신세로 전락하고 만다.태조의 이해할 수 없는 후계자 선택에 대해 굳이 쉴드를 쳐주자면, 태조는 고려로 귀순해 중앙정계로 들어가는 과정에서 정계 실력자들을 필두로 한 고려 지배층과 혼인관계를 맺었다. 맏이 방우는 지윤의 딸과 결혼했고 이색의 손자 이숙묘를 사위로 들였다. 이색은 고려말 정계와 학계의 구심점으로 창왕을 옹립하고 이성계에 맞섰던 인물이다. 게다가 방우는 이색과 함께 (조선시대 역사관에선 신돈의 아들인) 창왕 옹립에 참여했다는 결정적인 약점이 있었다.방과는 증문하좌시중(贈門下左侍中) 김천서(金天瑞)의 딸과 혼인했고 지윤의 두 딸을 첩으로 들였다.(숙의 지씨, 성빈 지씨) 방의는 증문하찬성사(贈門下贊成事) 최인두(崔仁㺶)의 딸과 혼인했고 방간은 증문하찬성사(贈門下贊成事) 민선(閔璿)의 딸과 혼인했고 방원은 예문관대학사(藝文館大學士) 민제(閔霽)의 딸과 혼인했다. 신덕왕후 강씨의 딸인 경순공주는 그 이인임의 조카인 이제와 혼인했고 방번에 이르면 공양왕의 조카사위다. 즉, 신의왕후 한씨 소생 다섯 아들과 방번은 모두 고려 구세력(심하면 왕족)과 혼맥을 중심으로 깊게 이어져 있었다.이러한 혼맥은 변방무장 출신 태조가 중앙정계에 순조롭게 연착륙하는 데 큰 도움을 주었지만 고려를 무너뜨리고 새 왕조를 개창된 이후엔 신의왕후 소생 왕자들에겐 정치적 부담으로 작용할 수도 있다는 것이다. 어린 막내 아들 방석만이 고려 구세력과의 혼맥이 없었기에 그를 선택했다는 것이다.무엇보다도 방석은 태조 자신이 각별히 총애하던 현 왕비 강씨의 아들이었다. 신의왕후 한씨는 조선 건국 이전에 사망했다. 건국 후 절비(節妃)란 시호를 내려 어느 정도 예우하긴 하였으나 죽은 그녀의 권위가 살아있는 왕비인 신덕왕후를 뛰어넘을 순 없었다. 태조 2년 한씨의 3년 상이 끝나고 잔치를 베푸는 것을 마지막으로 그녀에 대한 태조의우는 끝난다. 반면 개국 직후 공신들이 태조를 위해 잔치를 열때 동시에 공신부인들이 강씨를 위해 잔치를 베풀었다는 기록에서[18] 알 수 있듯 강씨의 권위는 공인되어 있었다. 태조 입장에선 왕의 아들이자 살아있는 왕비의 아들인 방석의 세자 책봉은 당연한 수순이었다.이성계가 막내아들을 후계자로 삼는 말자상속 풍습이 있는 유목 민족의 영향을 받았을 것이라는 시각도 있다. 몽골, 여진족 등 북방 유목민족에서는 큰 아들부터 재산의 일정 지분을 주고 차례로 독립시키고 막내가 끝까지 본가에 남아 부모를 모시다 부모님 사후 나머지 재산을 상속받아 본가의 후계자가 되는 풍습이 있다. 이는 목초지 고갈 문제 때문에 항상 새로운 초지로 이동하며 살아가야 하는 유목민의 특성상 장성한 아들들은 빨리빨리 독립시켜 스스로 새로운 지역에서 목초지를 개척하면서 살도록 하는 생존 전략에서 비롯된 것이다. 동북면에서 성장한 이성계가 그 지역에 다수를 차지하고 있던 여진족 출신의 풍속에 강한 영향을 받았다는 것이다.문제는 다수의 여론과 개국에 참여한 신의왕후 소생 왕자들의 생각은 전혀 달랐다는 것이다. 태조가 신의왕후 소생 왕자들에게 취한 태도는 어떻게 보면 철저한 토사구팽이었다. 왕자들과 고려 구 세력의 딸들을 혼인시켜 중앙 정계에 진출했으면서도, 정작 새 왕조가 세워지자 바로 그 인척 관계 때문에 왕자들을 권력의 중심에서 내치려 한 것이다.게다가 한양 천도 직후 신덕왕후가 사망하면서 세자의 정통성에도 흠결이 생겼다. 태조는 일부러 그녀의 릉인 정릉을 도성 내, 그것도 광화문 바로 남쪽에 조성하고 원찰로 흥천사를 창건해 강씨의 존재감과 권위를 유지해 세자의 권위를 지키려 했다. 또한 세자빈 심씨를 현비로 책봉하고 방석과 현비 사이에 아들이 태어나자 왕손의 개복신 초례(開福神 醮禮)를 세자전 남문에서 거행해 태조-세자-왕손의 후계구도를 공고히 하려 했다. 그러나 왕손이나 세자나 아직 어렸고 신의왕후 때와 마찬가지로 죽은 사람 권위에는 한계가 있을 수 밖에 없었다.그리고 이 와중에 사병혁파와 요동정벌 같은 급진적인 정책들이 시행되었고 군권과 조정대권이 일부 종친과 공신들에게 집중되었다. 반대파 입장에선 세자와 왕손이 장성하고 기반이 완전히 날아가기 전에 거사해야 한다는 인식을 주게 되었다. 태조의 실수는 단순히 막내를 세자로 세웠다는 것이 아니라, 이에 필연적으로 따르는 다른 왕자들과 종친, 구 세력들의 불만을 제대로 제어하지 못했다는 데 있다.태조도 나름대로 예방 조치에 심혈을 기울이긴 했다. 국초 왕자들과 사위의 군호를 정하면서 이들의 절제사(節制使) 임명도 병행해 친위군사력을 재편성했는데 이때 방과, 방번, 이제가 함께 의흥친군위절제사(義興親軍衛節制使)로 임명되어 친위군의 중추가 되었다. 방번과 이제야 세자의 동복형과 매형에게 힘을 실어주어 세자의 입지를 강화하겠다는 조치였고 개국에 공을 세운 신의왕후 소생 왕자들도 아예 모른척 할 순 없으니 정치적으로 입지가 좁아진 방우 대신 방과를 대표로 중임을 맡긴 것이다. 이 조치 이후 10일 뒤에 방석이 세자로 책봉되었다.신의왕후 소생의 다른 왕자들에겐 중앙의 군권 대신 지방의 지휘권이 주어졌다. 이중 이성계에게 있어 가장 상징적인 동북면의 가별초 지휘권은 이방원에게 잠시 주어졌다 태조 3년 정도전의 군제개편 제안으로 각 도에 절제사를 두고 종실이 이를 맡게 할 때 방번이 넘겨받는다. (방원은 전라도 절제사로 전임) 이성계에게 동북면이 가지는 의미를 생각하면 결국 세자 방석의 위상을 확고히하겠다는 의미였다.그러나 사병혁파와 요동정벌 등 급진정책에 반발은 태조의 예상 이상으로 거대했다. 왕실 집안싸움이 되다보니 병사들도 혼동이 왔고 아우 이화나 조카 조온, 정도전과 절친한 사이였던 이무 등 친위세력이 되어 줘야 할 인물들까지 대거 포섭되었다. 성품 문제는 있어도 방석의 동복형이니 나을 거라 믿었던 방번은 무인정사를 수수방관해 버렸고 이화의 교란으로 가장 적극적으로 세자를 지키려 했던 이제까지 행동에 나서지 못하면서 방석을 지킬 방패는 한없이 얇아져 버렸다."
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff3333"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="14dp"
+            android:text="내가 젊었을 때에 어찌 오늘날이 있을 줄 알았으랴 다만 오래 살기를 원하였더니 이제 70이 지났는데도 아직 죽지 않는다, [태종실록] 태종 6년(1406년) 4월 4일 연회 중 태상왕 태조의 발언" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ssong.android.com.test_map.ZoomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:lineSpacingExtra="10px"
+            android:lineSpacingMultiplier="1.1"
+            android:textSize="12dp"
+            android:text="아들을 둘이나 보내버리고(이방원도 차마 이방간은 죽이지 못하고 유배를 보냈다) 스스로 왕위에 오른 이방원이 꼴도 보기 싫었는지, 이성계는 1401년 11월 한양을 탈출하여 소요산으로 행차한다. 함흥이라고도 한다. 아래 설명할 함흥차사와 연관이 있는듯. 다음해인 1402년 이성계의 묵인 하에 조사의의 난이 벌어지게 된다. 조사의의 난이라고 불리지만, 실질적 주동자는 이성계라는 게 중론이다. 그러나 이방원은 이미 기반을 갖출 만큼 갖춘 상태였으므로 반란은 빠르게 진압되었고, 이성계는 그 해 12월 개경으로 돌아와 아들과 화해하게 되며, 그 뒤 절에서 여생을 보내다가 그로부터 6년 뒤인 1408년에 생을 마감했다.함흥차사는 조사의의 난이 끝나고 이성계가 개경으로 돌아오기 전 이방원이 이성계를 모시기 위해 여러 사람을 보냈으나 이성계가 모두 활로 쏴서 죽여버려 돌아오지 못하자 무학대사를 보내 설득하였다. 무학대사는 차마 죽일 수 없었던 이성계가 뜻을 꺾고 돌아왔다는 이야기는 야사에서 비롯되었으며 한 번 간 사람이 돌아오지 않거나 소식이 없다는 뜻이지만 정사는 아니며 사실 함흥에 차사로 갔다가 이성계의 활 맞아 죽은 인물이 단 한 명도 없다. 함흥차사로 갔다가 죽었다는 인물중 송유나 박순은 조사의의 난에 휩쓸려서 죽었고, 성석린에 애초에 함흥에 간 적이 없다. 이렇게 죽은 사람은 없는데, 반대로 차사로 갔다가 살아왔다는 사람은 무학대사 제외하고도 많다. 애초에 태종이 차사로 보낸 사람이 엄청나고, 이중 반란에 휩쓸린 사람 제외하고는 다 살아왔다.이성계가 세상을 떠나기 직전에 이 세상에서 마지막으로 본 사람은 고려를 위해 함께 해왔던 정몽주와 자신의 원훈인 정도전을 죽이고 이복형제인 이방석, 이방번까지 참살한 나쁜 놈이자 동시에 자신의 왕조 창건을 도운 일등 공신이자 명군으로 그 자질을 인정받은 애증이 교차했을 아들인 태종 이방원. 죽기 직전에 이성계는 담이 심해서 일어나 앉아 있었는데 이를 본 태종이 청심원을 직접 아버지에게 올렸지만 이성계의 기력이 다했는지 이를 삼키지 못하고 세상을 떠났다. 실록에서는 '눈을 들어 왕(태종)을 다시 쳐다보더니 이에 승하했다'고 이성계의 최후를 기록하고 있다.두 사람이 뒤늦게나마 화해한 건 물론 이유가 있었다. 우선 이성계는 아들들이 서로 죽이는 걸 자기 눈으로 직접 보아야 했는데 그 꼴을 본 사람들은 그가 왕씨들을 잔혹하게 다뤘기에 자기 아들들의 죽음으로 천벌을 받은 거라고 여겨 동정하지 않았다. 이성계도 이 때문에 왕씨들을 너무 가혹하게 다뤘다고 후회했다고 한다. 그러나 얼마 후 왕위에서 강제로 물러나 함흥으로 쫓겨나게 되자 사람들은 이성계를 동정하고 이방원을 원망하기 시작한다. 결국 아버지를 외면했던 이방원은 뒤늦게나마 화해를 택할 수밖에 없었다.또한 이성계 입장에서도 이제는 더 이상 후계가 없었다. 아들들 대부분이 죽거나 유배되거나 무능력자로 판명난 상황에서 그나마 대안이 될 수 있는 건 이미 왕좌에 앉은 다섯째 아들 뿐이었다. 그리고 그 아들은 왕권을 튼튼히 다져 놓으며 흔들리던 왕조를 안정시킨 일등 공신이었으니, 자신의 분노만으로 아들과의 화해를 끝내 거부한다면 결국 나라가 흔들릴 수밖에 없었다. 이에 따라 두 사람은 더 큰 대의를 위해 화해를 한 것이다. 한 마디로 애증의 관계.릉은 구리시 동구릉에 있는 건원릉(健元陵)이다. 처음 죽기 전에 '나를 고향 함흥 땅에 묻어달라' 고 유언했다. 그런데 태종은 나라의 창업자인 자기 아버지를 함흥에 묻는 것은 왕실의 위엄이 서지 않고 제사도 힘들다 생각해서 도성 근처에 모시고자 했다. 이에 잔머리 대왕 태종은 여기서도 머리를 써서 아예 함흥의 흙과 억새를 가져다가 태조의 능에 심어놓았다. 그래서 다른 조선 왕릉들의 봉분이 잘 정돈된 것에 반해 태조의 건원릉은 지금도 억새풀이 무성해서 매우 투박한 느낌을 준다. 어떤 의미에서는 무덤 주인 이성계의 이미지와 잘 부합하는 왕릉이라 볼 수 있다.지금도 억새풀이 무성한 투박한 왕릉이다. 하지만 동구릉에 가면 이 능침 바로 앞까지 올라갈 수 없고 정자각 쪽에서만 관람할 수 있다. 동구릉에서 제일 많은 사람들이 찾는 장소라서 '건원릉은 관람객들이 많이 찾는 곳이니 이곳에서의 휴식은 자제해 주세요'라는 안내판까지 있다.억새풀이 무성해서인지 건원릉은 벌초도 안 하고 방치한다는 이야기가 옛날부터 떠돌고 있는데(심지어는 네이버 지식인 등에서도 이 이야기를 떡하니 말하는 사례도 많다.) 비슷한 루머로 궁궐관리가 귀찮아서 기와 테두리에 시멘트를 발라놨다는 루머가 있다. 이건 지붕 용마루에 석회로 마감한 것이 매연으로 회색빛이 돌자 생긴 억측이다. 근데 한국 건축에서 사용하는 석회 마무리는 석회에 흙, 잘게 찢은 한지, 느릅나무 진 등을 섞어서 쓰기 때문에 넓은 의미로 보면 시멘트가 맞긴 하다.(...) 참고로 석회를 주성분으로 다른 물질을 섞어 물에 개어 사용하는 원시적 형태의 시멘트는 고대 이집트에서부터 사용하던 것이다.억새풀 얘기 역시 당연히 사실이 아니고, 능의 상징이나 다름 없는 이 억새풀을 유지하기 위해 건원릉의 벌초는 1년에 딱 한 번만 한다고 한다." />
+
+        <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+        <ImageView
+            android:id="@+id/imageview_tomb"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:src="@mipmap/taejo003"
+             />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff3333"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:text="태조 이성계의 건원릉" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

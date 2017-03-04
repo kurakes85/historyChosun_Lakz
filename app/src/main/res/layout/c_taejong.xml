@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        android:paddingRight="5px"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/taejo_title_textview"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="3대 태종 이방원 "
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:foregroundGravity="center"
+            android:src="@mipmap/taejong_title"
+            android:id="@+id/imageView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/taejo_title_textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="묘호 : 태종(太宗)\n시호:조선성덕신공건천체극대정계우문무예철성렬광효대왕(聖德神功建天體極大正啓佑文武睿哲成烈光孝大王)\n명: 공정(恭定)\n본관 : 전주(全州)\n능묘 : 헌릉(獻陵)\n휘 : 이방원(李芳遠)\n자: 유덕(遺德)\n출생지 : 고려 함흥 함흥본궁\n사망지 : 조선 한성 연화방 수강궁 별전\n우자 : 경왕후(元敬王后)\n아버지 : 조선 태조\n어머니 : 신의고황후(神懿高皇后)\n 생몰기간 : 음력 1367년 5월 16일 ~ 1422년 5월 10일\n양력1367년 6월 13일 ~ 1422년 6월 11일 (54년 11개월 28일, 2만 86일.)\n재위기간 왕 음력 1400년 11월 13일 ~ 1418년 8월 10일 양 력 1400년 11월 28일 ~ 1418년 9월 9일 (17년 9개월 11일, 6494일.)\n태상왕 음력1418년 8월 10일 ~ 1422년 5월 10일 양력 1418년 9월 9일 ~ 1422년 6월 11일 (3년 9개월 2일, 1371일.)"
+                />
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="1. 태종 개요"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="16dp"
+                android:text="강력한 왕권으로 조선왕조 500년의\n기틀을 다진 명군"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:id="@+id/zoomtextview_taejo_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조선의 3대 국왕. 태조 이성계의 5남이자 세종대왕의 아버지. 휘는 방원, 자는 유덕(遺德)으로 '덕을 남기다'라는 뜻으로 본인 스스로는 덕과 거리가 있는 인생을 살았으나 후계자(세종)를 잘 두었다는 측면에서 생각한다면 적절한 자라고 볼 수도 있다.왕이 되면 피휘 때문에 보통은 이름을 바꾸는데 태종은 죽을 때까지 개명이고 뭐고 없이 흔히 쓰이는 꽃다울 방과 멀 원자를 이름으로 계속해서 썼다.사실 피휘에 대한 규칙을 담고 있는 예기 단궁 하(檀弓 下)편에는 공자의 어머니인 징재의 예를 들면서, 이름이 두 글자인 경우에는 그 중 한 글자만 쓰는 것은 휘하지 않는다고 했다. 그래도 아버지 이성계는 왕이 되고 '이단'으로 이름을 바꾸고, 형인 정종 이방과는 '이경'으로 이름을 바꾸었으니 이방원이 특이한 케이스인 것은 사실이다.어쨌든 본명인 이방원으로도 유명하다. 한국사의 많은 임금들 중 본명이 대중에게 매우 친숙한 임금 중 하나.왕자였을 때 받은 작위는 정안군, 정안공(靖安公)이다. 정안대군으로 알려져 있기도 하나, 조선왕조실록 원문에는 정안군 또는 정안공이라고 적혀있다. 태조 시절에는 정안군으로 기록되어 있고, 정종 시절에는 정안공으로 기록되어 있는 것을 보면 조선 초기에는 작위 호칭이 제대로 확립되지 않았다는 것을 알 수 있다. 애초에 대군이라는 호칭은 태종이 고려시대의 공후백자남 오등작을 폐지하면서 등장시킨 것으로 태종 즉위 후의 일이다. 즉 태종은 '정안대군'이었던 적이 한번도 없다. 따라서 정안대군이라는 호칭은 당대에는 전혀 쓰이지 않은, 엄밀히 따지면 잘못된 호칭. 따라서 당대 기록인 실록에는 당연히 정안대군이라는 표현이 없고 연려실기술처럼 후대에 쓰인 책들에서 즉위 이전의 태종을 언급할 때만 정안대군이라는 호칭을 쓴다. 정안대군이라는 표현이 널리 알려지게 된 이유는 조선왕조실록이 번역되기 이전의 사극이나 소설의 영향.역대 조선 왕들 중 정말 드라마틱한 인생을 살았던 왕 중 하나. 신병주 교수의 표현을 따르자면 최고의 킬러 본능을 가진 사람. 사실상 숙청의 인생이라고 볼 수 있을 정도로 숙청을 많이했다. 정몽주를 죽여 조선 창업에 이바지했고, 정도전, 심효생, 자신의 형제들을 죽여 왕이 되었고, 처남들인 민씨 형제를 죽여 외척을 쳐냈고, 갖은 구실로 아들 세종의 장인인 심온까지 죽여 아들조차 외척에 휘둘리지 않도록 철저히 대비했다. 세종이 그렇게 성군이 될 수 있었던 것은 태종이 세종이 걸어갈 길을 닦아놓았기 때문이라는 시각도 있다. 분명 신생 왕조로서 불안정할 수 있는 정국을 확실히 잡고, 세종이 잡혀 휘둘릴 만한 세력들을 다 제거해서 세종은 정국 안정에 덜 신경쓸 수 있게 한 것을 보았을 때 분명 틀린 말은 아니다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="2. 고려시절"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="이방원은 한씨 소생의 실질적인 막내였다.밑으로 이방연이 있었으나, 태조 2년 환조의 비를 세울 당시 이미 '조몰(早歿)'하여 원윤(元尹)으로 증직(贈職)하였다는 내용이 보여 개국 이전에 어려서 사망한 것으로 추정된다.조선 왕조 전체를 통틀어 가장 강인하고 야성미 넘치는 왕이기 때문에 야성적, 무인적 이미지로 각인되고 있으나사실 과거에 급제한 지적인 엘리트다.오히려 조용하고 유약한 이미지로 박혀 있는 형 이방과야말로 실은 아버지 이성계를 따라 고려말의 숱한 전장을 누빈 무장이다.이방원의 문과 급제 사령장을 받았을 때, 이성계는 너무 기뻐서 그 사령장을 몇 번이고 읽게 했다고 한다.'군인 집안'이라는 열등감을 확 씻어준 아들에 대한 이성계의 기쁨을 엿볼 수 있는 부분.과거 합격 후 이방원은 개경에서 활동하면서 문신으로서 주로 인사교류에 활동하며 이성계에게 도움을 주었던 것으로 보인다.이성계가 직접 '내가 손님과 함께 즐김에는 네 힘이 많이 있었다.' 라는 말을 하기도 했다.당연한 이야기지만 조선 국왕은 굳이 과거 응시를 할 이유가 없었기 때문에,태종은 조선 왕조 유일의 과거(오늘날로 치면 행정고시) 합격과 공무원 근무경력 둘 다를 가진 국왕이다.수양대군이 영의정에 오른 적이 있지만 과거는 치르지 않았다. 이후 왕족 종친이 벼슬에 임하는 제도는 성종대에 이르러 폐지되었다.1388년 21세의 이방원은 전리정랑(典理正郞) 직위를 맡아 개경에 거주하고 있었는데 이성계가 위회도에서 회군 당시 머물러 있었다.태조실록 총서의 위화도 회군에 대한 기록을 보면 태조의 회군으로 정국이 불안해지자 방우와 방과는 태조의 진영으로 가서 지원에 나섰고,이방원은 태조의 두 부인과 어린 자녀들을 고향으로 피신시키는 역할을 담당했고 이천에 머물다가 사태가 수습된 것을 듣고 돌아왔다.이러한 경위를 보면 이방원은 회군하는 이성계와 함께 정변에 직접 참여하지는 않았다는 의미가 된다.반면 이미 장성하였고 혼인을 통해 중앙 정계에 자리를 잡고 있던 방우와 방과 등은 회군한 이성계와 합류하여 적극적으로 정변에 참여한 것이다.그러나 공양왕 즉위 후 방우가 정치적으로 배제되면서 방과가 정치적인 측면은 물론 군사적 측면에서 실질적인 장남의 역할을 수행하게 되었다.이는 방석의 세자 책봉 직전 친위군이 개편되고 방우 사후 그가 가지고 있던 병력이 방우의 장자 이복근이 아니라 이원계의 아들 이조에게 넘어간 것으로 구체화된다.방우는 맏이로서 대우를 받았지만 그 뿐. 그의 자손들은 맏이로서의 위상이 전해져 내려가지 않도록 철저하게 정계에서 배제되었다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="1.1 정몽주 살해"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@mipmap/taejong_jung"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff3333"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:text="포은 정몽주"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="조선 건국과정에서 이방원의 입지를 확실히 만들어 준 사건으로는 정몽주의 살해를 들 수 있다.1392년(공양왕 4년) 3월 당시 이방원은 친어머니 신의왕후의 3년상(1391년 사망)을 치르고 있었는데,아버지 이성계가 세자 왕석이 명나라에서 돌아오는 것을 환영하기 위해, 해주에서 사냥을 하다가 낙마하는 사건이 벌어진다.정몽주를 중심으로 반 이성계 세력은 고려왕실에 위협이던 이성계 일파들을 숙청하기 시작하고 우선 정도전, 조준, 남은 등 귀양 보낸다.이렇게 이성계 일파가 몰락할 위기에 처했는데, 실록에 따르면 이방원이 이제를 통해서 이 위기 소식을 듣고는, 곧장 3년상을 접고 벽란도로 달려가 부상을 입은 이성계에게 현 위기상황을 알리고,이후 이성계를 개경으로 데려와 전세를 다시 이성계 쪽으로 역전시키고 이성계를 몰락 위기에서 구했다라고 태조실록에서는 전하고 있다. 이성계의 귀환으로 이성계 일파는 숙청위기에서는 간신히 벗어났지만 정몽주 일파는 성현의 관리들을 시켜서 정도전 조준의 사형을 주장했고,공양왕도 비록 이성계가 두려워 따르지는 않았지만 사실상 정몽주에게 동조하는 상황이었다. 이런 상황에서 이방원은 아버지 이성계에게 정몽주의 살해계획을 밝힌다.그러나 이성계는 이방원에게 이머니 신의왕후의 3년상을 마치라고 지시하며 정몽주 살해 계획을 거부한다.그러나 이방원은 형 이방간. 이화, 이제, 이지란 등을 모아서 정몽주 살해 계획을 말한다. 앞에서 언급한대로 이성계의 반대 때문에 이지란처럼 살해 계획에 반대하는 사람도 나왔지만,이방원은 자신이 모든책임을 지겠다고 말하며 정몽주 살해계획을 강행하고,직후 조영규, 고여, 이부, 조영무에게 지시를 내리고 도평의사사를 살해장소로 계획하는 등 살해 계획을 차근차근 준비한다.한편 정몽주는 변중량을 통해서 자신의 살해계획을 듣게되는데 이에 정몽주는 1392년 음력 4월 4일 이성계의 집에 문병을 오게되고 이성계에게 환대를 받는다.태조실록에 따르면 이화가 이성계의 환대에 정몽주 살해를 주저하자 이방원이 모든 책임을 지겠다고 살해를 강행했고, 처음에는 정몽주가 사는 동리 입구에서 살해할 계획을 잡고 근처의 이방과의 집에서 무기를 준비한다.정몽주가 유원(柳源)의 장례식에 참석하느라 늦기는 했지만 최종적으로는 대낮에 길바닥에서 철퇴로 죽인다.이런 냉혹한 정치적 결단을 내렸을 당시 이방원의 나이는 26세였다.\n\n일설에는 이방원이 정몽주를 마지막으로 회유하면서 하여가를 불렀고 이에 정몽주는 단심가로 답했다는 일화가 유명하지만 당대에 기록된 태조실록이나 고려사에는 해당 시조가 없다.애초에 기록상에는 이방원은 정몽주를 살해하기로 이전부터 마음을 먹었고 최종적으로는 아버지의 반대를 무릅쓰고 살해를 감행했다.일설 에는 이 시조는 후대에 창작된 것일 가능성이 있다는 주장이 있는데,하여가의 만수산이라는 산은 그 시절에는 없었던 산이라는 것. 한편, 이 내용이 매우 극적이기 때문에 관련 작품들에서 이 장면이 나오지 않는 경우는 드물다.정몽주 암살을 정말 이방원이 주도했는지, 이방원만의 공적인지도 확실치 않다.태조실록의 정몽주 암살을 다룬 부분을 보면 공양왕 즉위 후 조준과 정도전 등을 제거하고자 한 정몽주의 시도를 저지하기 위하여 이성계가 방과, 이화, 이제와 휘하 부하들을 보내 공양왕에게 계하도록 했다고 적었다.이후 암살모의가 벌어지는데 이 모의에 참여한 이방원, 이지란, 이방과, 이화, 이제, 조영무 중에서 가장 실권에서 멀었고 공적이 적었던 사람이 방원이다.특히 정몽주 암살 이후 공양왕을 압박해 정몽주 측 인사들을 쳐낸 사람이 방과인데 그런 그들을 가장 입지가 약한 이방원이 전부 끌고 갔다는 공식이 도출된다.지위와 연배를 고려하면 방원은 실행조에 머물렀을 가능성도 적지 않다.\n여기에 대해서는 반대로 이성계 일파 내에서 정몽주를 제거해야 한다는 분위기가 형성되기 시작하자, 이방원 본인이 나섬으로서 자신의 입지를 향상시키려 했다는 분석도 존재한다.일차적으로 반대파의 구심점을 백주대낮 길 한복판에서 때려죽인다는 과격한 방식으로 제거하면서 공포를 심어 주었고, 자신의 이미지를 각인시키는 데도 성공했으며,위의 주장대로 '이방원이 홀로 이런 일을 할 수는 없을 테니 필시 배후가 있을 것이다' 라는 인식을 유도해 최종 책임은 태조를 비롯한 조선 건국 세력 전체에 교묘하게 분산시켰다는 것.즉, 상황을 파악하고 자신에게 유리하도록 판을 짜서 최대한의 이득을 봤다는 것인데, 이후 이방원의 범상찮은 정치력을 보면 나름 일리가 있는 주장이다.이방원이 이성계에게 정몽주의 살해소식을 알리자 이성계는 '내가 사약을 마시고 죽고 싶은 심정이다.' 라며 크게 분노한다.그러나 이미 정몽주는 죽었고 이성계 입장에서도 정몽주의 죽음은 절호의 기회였기 때문에 반 이성계 일파를 숙청하고 반대로 정도전 조준등을 다시 복귀시키게 한 뒤 최종적으로는 공양왕을 퇴위시키고 조선왕조를 열게 된다"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="1.2 조선 개국"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="정몽주 등을 제거함으로써 이성계를 중심으로 한 신진 세력의 기반을 굳건하게 하여 새로운 왕조인 조선을 세우는 데 큰 공을 세웠다.1392년 이성계가 태조로 등극함에 따라 이방원은 정안군(靖安君)에 봉해졌다.원래 장자로 왕세자를 세워야 하는 것이 원칙이나, 조선 개국에 회의적이었던 태조의 장남인 진안대군 방우를 제치고,신하들은 가장 유능한 왕자를 세자로 세우라고 주청을 올렸다.개국의 공로를 따지면 이방원이 태조의 아들 중 가장 많은 공을 세웠으나, 당시 '왕권(王權)보다 신권(臣權)으로 나라를 다스려야 국정이 안정된다' 라는 신권을 주창하던정도전은 이방원이 왕위에 오르면 신권을 주장하는 자기들을 제거할까 봐 두려워 결국 왕세자로 태조의 막내아들이자 계비 신덕왕후 강씨 소생인 의안대군 방석을 선택하였다.세자 책봉을 놓고 세자 책봉 1순위는 개국에 공을 세운 이방원이었으나 개국공신 간에 이견이 발생했을 때,신덕왕후가 전각 뒤에 숨어서 이를 엿듣다가 통곡소리를 냈고, 그때 정도전 등은 무안대군 방번을 세자로 책봉해야 한다고 주장했다.그러나 방번은 성격이 난폭하였으므로 뒤에 의안대군으로 교체되었다. 이 소식을 전해들은 방원은 심히 불쾌감을 드러냈고,형제들을 찾아가 정실 부인의 자제를 두고 후실의 자제를 세자로 책봉하였다며 불만을 드러냈다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="3. 왕자의 난 시리즈"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="3.1 제1차 왕자의 난"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="한양 천도 직후 신덕왕후가 사망하면서 세자의 지지세력은 큰 타격을 입었다. 태조 이성계는 일부러 그녀의 릉인 정릉을 도성 내에 조성해가며 강씨의 존재감과 권위를 유지해 세자의 권위를 지키려 했지만 신의왕후 때와 마찬가지로 죽은 사람 권위에는 한계가 있을 수 밖에 없었다. 그리고 이 와중에 사병혁파와 요동정벌같은 급진적인 정책들이 시행되었고 군권과 조정대권이 일부 종친과 공신들에게 집중되었다.태조의 실수는 단순히 막내를 세자로 세웠다는 것이 아니라, 이에 필연적으로 따르는 다른 왕자들과 종친, 구 세력들의 불만을 제대로 제어하지 못했다는 데 있다.그리하여 신의왕후 소생 왕자들과 방계 종친, 사병혁파 등 정도전의 급격한 개혁에 반발한 구 세력들이 모의해 1차 왕자의 난을 일으켜 이성계를 추대한 중신들인 정도전과 남은을 살해하고, 이복 형제였던 이방번, 이방석을 제거한다.귀양을 보냈는데 이거이가 손을 써서 죽였다는 것은 실록의 기록이고 사실은 쿠데타 당일에 그냥 쳐 죽였다.경순공주의 남편이자 군부 중진이었던 이제도 살해당했다. 물론 실록에는 '나는 죽이라고 안 했는데 아랫 사람들이 멋대로 그런 거야!' 라고 나와 있지만 정말 그랬을 가능성은 없다.1차 왕자의 난 관련 기록은 전반적으로 곡필이 심한 편이다. 예를 들면 방원 측의 병력은 무기 수도 모자라서 부러뜨려 둘로 나눈 몽둥이와 창자루 든 군사 몇십 명밖에 없었다고 하는데 이것으로 나라의 정궁인 경복궁을 그냥 발라버린다. 실록에 따르면 세자(방석)가 친위대를 이끌고(조선의 왕궁 친위대 대장은 세자가 맡는 관습이 있었다.) 반란을 진압하나 광화문부터 남산까지 횃불이 가득 차 있어서 두려워했다는 서술이 있다. 즉, 몇십 명밖에 되지 않았다는 것은 지어낸 말이고 동원된 군사가 수천에 이르렀을 것으로 추측할 수 있다.또한, 실록에 따르면 정도전과 남은이 나이 어린 세자 방석을 끼고 다른 왕자들을 모두 죽이려 했기 때문에 정당방위로 군사를 일으켰다고 되어있다.그런데 정도전 본인은 그런 어마어마한 계획의 실행 당일에 판만 짜 놓고 천하태평으로 남은의 첩실 집에서 술을 마시고 있다가 잡혀서 죽었다고 한다. 여하튼 조금만 생각해도 말이 안 되는 부분 투성이니 이때의 실록 기록을 그대로 믿으면 곤란하다.그리고 정도전은 오늘날 알려진 것만큼 이방원을 경계하지 않았을 가능성이 높다. 오늘날 사극이나 영상물을 보면 조선 개국 후 대놓고 이방원과 정도전이 대립하고 부딪치는 내용으로 나오지만, 실제로는 태조 초기부터 실권에서 벗어나 있었다. 태조는 왕자들과 사위의 군호를 정하면서 이들의 절제사(節制使) 임명도 병행해 친위군사력을 재편성했다. 이때 신의왕후 소생 중에서는 방과가 아직 살아있던 방우를 제치고 방번, 이제와 함께 의흥친군위절제사(義興親軍衛節制使)로 임명되었다.방번과 이제야 세자의 동복형과 매형에게 힘을 싣어주어 세자의 입지를 강화하겠다는 조치였고 개국에 공을 세운 신의왕후 소생 왕자들을 아예 모른척할 수는 없으니 정치적으로 입지가 좁아진 방우 대신 방과를 대표로 중임을 맡긴 것이다. 이 조치 이후 10일 뒤에 방석이 세자로 책봉되었다.방원을 비롯한 다른 왕자들에겐 중앙의 군권 대신 지방의 지휘권이 주어졌다. 방원은 처음에는 동북면의 가별초를 받았으나 태조 3년 정도전의 군제개편 제안으로 각 도에 절제사를 두고 종실이 이를 맡게 할 때 방번에게 동북면 가별초를 넘겨주고 전라도 절제사로 임명되었다. 이성계에게 동북면이 가지는 의미를 생각하면 결국 세자 방석의 위상을 확고히 하겠다는 의미였다.즉, 정도전이 신의왕후 소생 왕자들을 경계했다면 방우가 배제된 이후 장남의 위치를 차지했고 이성계가 일개 무신일 때부터 보좌하여 공도 크며 중앙군권을 쥔 실력자인방과를 더 위협적으로 여겼으면 여겼지 방원을 집중 경계했을 가능성은 낮다. 또한, 정도전은 일반적으로 생각하는 모든 권한을 위임받은 권신이 아니라 국왕 태조의 비호 아래 모든 일을 추진한 총신인 바 사극에 나오는 것마냥 종실 인사들과 대놓고 척을 질 주는 없었다.쿠데타 발생 석 달 전까지 저서(이때 완성한 것이 불씨잡변.) 작업에 몰두했던 것을 보면 쿠데타를 전혀 예상하지 못했다는 것이 정론이다.태조가 1차 왕자의 난 당시에 와병 중이었다는 주장 역시 믿기 어려운 주장이다.걸핏하면 골골대며 드러눕는 말년의 태조라면 모를까 당시 태조의 행보와는 꽤나 거리가 있다.죽기 직전에 딸까지 얻을 정도로 건강한 사람이 태조였다. 태종의 반란군들이 제일 처음으로 들이친 곳은 정도전이 친구들과 놀고 있던 술집이 아닌 태조가 있던 경복궁이었고 태조는 태종의 반란군들에 의해 체포, 구금당했을 가능성이 매우 크다.다만 이를 두고 와병설을 완전히 부정하기는 어렵고 중병은 아니어도 감기 같은 가벼운 병을 앓고 있어서 그 때문에 경계가 흐트러졌을 수도 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="3.2 제2차 왕자의 난"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="적자가 없던 정종의 후사를 둘러싸고 넷째 형인 회안대군 방간과 권력 투쟁을 벌인다.방간이 박포와 손을 잡고 자신을 죽이려 하자 이들마저 가차 없이 진압하는 무자비함을 보이며 자신의 권력을 지켜냈다.이른바 2차 왕자의 난인데 앞선 1차 왕자의 난이 소수정예병에 의한 궁궐 점거 쿠데타였음에 비해 이쪽은 거의 개성 도심 시가전의 양상이었던 듯하다.1차 왕자의 난 당시 수도는 한양이었는데 1차 왕자의 난으로 민심이 흉흉해진 것 때문에 잠깐 개성으로 옮겼다.개성으로 수도를 잠시 옮긴 이후 2차 왕자의 난이 발생. 선죽교를 사이에 두고 화살이 오가는 양측의 교전이 있었고 여기에 밀린 방간이 패했다.결과는 물론 이방원의 압승. 다만 역시 방번, 방석과는 달리 동복 형제를 죽이기는 싫었던지 박포만 나쁜 놈으로 몰아 죽이고(우리 형제를 이간질한 역적놈!)방간은 유배만 보내는 대인배적 면모(?)를 과시한다. 이 2차 왕자의 난은 태종 측에서 눈엣가시였던 방간이 '반란을 일으켜 알아서 자멸하도록' 유도했다고 보는 견해도 있다.어쨌든 동복형제라는 덕을 봤는지 방간 자신은 유배되어서도 세종 연간까지 그럭저럭 잘 살다 죽었으나 그 자손은 종친 대우는 거의 받지 못했다.세자였던 형 방과가 즉위한 후 이방원 본인은 세자가 되었다. 형의 뒤를 잇는 것이니 '세제'가 맞는 것 아니냐는 지적이 들어왔지만 씹는다.정종 본인도 '오늘부터 동생으로 아들 삼으면 되지 뭐 그런 걸 갖고.'라며 씹었다"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:text="임금의 아우 정안공을 책립하여 왕세자로 삼아 군국의 중사를 맡게 하였다.\n이 때에 대신으로 헌의하는 자가 말하기를,\n'옛날부터 제왕이 동모제를 세우면 모두 황태제를 봉하였고,\n세자를 삼은 일은 없었습니다. \n청하건대, 왕태제를 삼으소서.' 하니, \n임금이 말하기를, '지금 나는 직접 이 아우를 아들로 삼겠다.' 하였다.\n冊立弟靖安公(諱)爲王世子 句當軍國重事 王若曰……時大臣獻議者 以爲自古帝王 立母弟則皆封皇太弟 未有以爲世子者也 請立爲王太弟 上曰 今予則直以此弟爲子 [정종실록] 권제3, 9장 뒤쪽～10장 앞쪽, 정종 2년 2월 4일(기해)"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="사실 정종과 태종의 나이 차이는 겨우 10살이다. 참고로 현행 민법에서는 가정법원의 허가를 받으면 동생을 양자로 들이는 것이 실제로 가능하다. 그리고 일본의 다이묘들도 자식이 없어서 동생을 양자로 들이는 사례는 흔했다. 결국 방원이 정종의 양자로 들어가 세제가 아닌 세자가 된다. 아마 형인 정종은 그냥 끼어든 겉절이에 불과하고 자신이야말로 태조의 '세자'임을 어필하고 싶었던 것 같다. 얼마 있지 않아 정종은 세자 방원에게 양위하고 상왕으로 물러나 버린다. 사실 더 버티고 있었으면 본인의 안위도 보장하기 어려운 상황이었다. 그래도 그나마 이후 살아있는 동안 정종은 상왕으로서 비교적 제대로 대접받았다. 태종이 세종에게 양위한 후에는 둘이서 명절날마다 장난도 치고 사냥도 같이 나갔다는 기사가 실록에 실려 있을 정도이다. 그런데 나중에 생각보다 큰 문제가 되는 것이, 태종이 '세제'가 아닌 '세자'로서 책봉을 받아 왕위에 올랐는데 태종과 정종 사후 태종을 종묘에 모시니까 엄연히 태종의 아버지인 태조가 계신데 왕세자의 아버지로서의 정종이 종묘에 같이 모셔지는 족보가 꼬인 사태가 발생하게 된다. 이에 세종은 정종의 신주를 태묘인 정전에서 빼서 따로 영녕전을 지어 그곳에 모시고 태묘에는 태조-태종만 모시게끔 만들었다. 이 영녕전은 문종, 단종, 예종, 경종처럼 재위기간이 짧거나 이렇다할 특별한 업적이 없거나 사도세자처럼 왕위에 올랐어야 했지만 못 오른 사람들을 모시는 곳으로 자리잡았다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="4. 조선왕조의 반석을 다지다"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="4.1 사병혁파"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="우선 왕족과 대신들의 사병을 싹 없애 군권을 일원적으로 재편했다.바로 본인이 이 사병을 이용해서 왕 자리까지 해먹었기 때문에 사병만큼은 아주 얄짤없이 철저하게 분쇄하고 인원을 흡수하여 모조리 국가 중앙정부 소속 군대로 만들어 버린다.정도전이 사병 혁파를 통하여 태종에게 결정타를 날리려다 역관광으로 죽었음을 상기하면 태종의 정치적 수완이 상당히 뛰어났음을 알 수 있다. 이와 관련된 인물이 이거이다.이거이는 태조와 사돈관계에 있던 인물로 왕자의 난에는 태종에 붙어서 공신까지 되었던 인물이지만 정종시기 사병혁파에 반대하다가 처벌받아서 유배를 가게 된다. 복귀 후에는 영의정까지 올랐으나,나중에 이와는 다른 '불충' 의 이유로 귀양을 가고 그뒤에 그곳에서 죽게된다. 이 귀양이 태종의 공신견제라고 보는 견해도 있다. 비슷하게 사병 혁파를 반대했지만 처신을 잘해서 죽을때까지 별탈없이 산 조영무와는 반대되는 모습. 사실 정도전은 혁신적인 사상가이자 이념가였으나 정치 방면으로 수완이 썩 좋은 편은 아니었다.사병혁파로 조선은 군사력이 거세당했다는 의견이 많다. 고려말 한반도 각지에서 일어난 신흥무인들은 자신의 재산으로 사병부대를 운영했고 무장시켰는데,이러한 문화가 없어지면서 국가 전체적으로 군사력이 많이 약해졌던 것. 반면에, 정치적인 위협이나 반란 농민봉기 등 군사적 혼란은 고려때에 비해서 적었으며,중국과의 관계 또한 한반도 전체역사에서 조선이 가장 좋았던 편. "
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="4.2 관제 정비"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="태조 때만 해도 제 기능을 다하지 못했던, 오늘날의 언론 기관에 해당하는 대간과 사관 등의 정부 기관에 상당한 힘을 실어 주었으며,전제 개혁도 이 시절에 어느 정도 마무리가 되었다. 사실 태조는 능력이 철철 흘러넘치는데다 코드까지 환상적으로 들어맞는 소울메이트 정도전에게 모든 일을 위임하는 경향이 강했기 때문에 의외로 제도적면으로는 정비된 것이 별로 없었다. 이 때문에 이후 군약신강에 틀이 되는 재상중심의 정치 이론(군신공치)가 등장할 수 있었던 것이기도 하다.그런데 이 재상중심의 정치에 가장 강력하게 반발한 인물이 바로 태종이다. 이 때문에 집권 과정의 정통성이 취약했기 때문에 고려 시절의 보수적인(=정치적 성향이 그다지 맞지 않는) 인물들까지 대거 포섭해 가면서 정국을 꾸렸음에도 정책을 보면 상당히 과감한 개혁안들이 많다.고려시대의 도평의사사가 비로소 폐지되고, 의정부가 설치 되는 등 국가 운영 방식의 기본 골격이 만들어지고 제대로 돌아가기 시작한 것도 이 때이다.물론 정도전을 떄려잡은 태종답게 의정부에 자문기능 만을 부여하고 실무관청인 육조를 국왕이 직접 관할하는 육조직계제를 시행했다.중국의 화폐제도를 모방하여 저화라고 불리는 일종의 지폐를 통용하려고 화폐개혁을 실시했지만 결과는 대실패.당시 조선은 교역경제가 상당히 미약한 수준이었고 물물교환이 주를 이뤘기 때문에 실패할 수밖에 없었다.그리고 이 화폐개혁은 아들인 세종대왕이 재추진했으나 역시 대실패. 이 화폐개혁은 많은 시도를 거친 후 조선후기 경제가 활발해진 숙종대에 이르러서야 상평통보로 꽃피게 된다.그러나 많은 사람들이 간과하고 있는 것이 있는데, 비록 화폐개혁은 실패했으나 단군 이래로 오늘날까지 국가 재정이 꾸준히 흑자를 기록한 것은 태종 때가 유일하다.때문에 다음 왕인 세종이 대규모 사업이나 개혁을 시행할 수 있는 기본 재력을 마련한 것도 어떻게 보면 태종이다.게다가 계유정난 당시 단종과 김종서가 수양대군의쿠데타에 쉽게 무너진 이유도 세종 때 대규모 사업을 많이 벌여서 국가재정이 다 떨어져 단종의 왕권이 약해진 까닭이라는 분석도 있다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="4.3 계모와의 악연, 그리고 외척의 척살"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="태종은 공신들은 주로 죽이기보다 적당히 귀양을 보내놓고 잊어버리거나(…) 강등시키는 수법으로 실권을 빼앗았다. 그러나 외척에 대해선 용서가 없어서 처가인 여흥 민씨 네 명의 처남을 싸그리 다 죽이고,나중엔 후계자 세종의 처가인 청송 심씨마저 개박살을 내버린다. 외척에 대해서는 알레르기 수준의 경각심을 갖고 있었던 듯한데, 이에 대해선 계모였던 신덕왕후 강씨 때문이라는 견해도 있다.실제로 태종의 신덕왕후에 대한 적개심은 심각한 수준이었다. 태조는 두 번째 아내인 신덕왕후를 지극히 사랑해서 신덕왕후의 능인 정릉을 서울 도성 안에 조성했다.사실 왕릉은 도성 안에 조성할 수 없는 것이 조선왕조의 법이지만 태조가 너무 강씨를 사랑한 탓에 법률을 어긴 것이다.그런데 태종은 무덤을 멀리 떨어진 곳으로 옮기는 걸로도 모자라 그 땅을 공신들에게 나누어 주었다.특히 하륜이 가장 많이 받았다고 한다. 신덕왕후의 능이 있던 자리에 공신들의 집들이 지어지는 것을 보곤 태조는 그저 말없이 울었다고 한다.원래 신덕왕후의 능은 오늘날의 중구 정동에 뒀지만, 태종 대에 지금의 위치인 성북구 정릉동으로 옮겨졌다. 당시 정릉동은 양주목 관할이었다. 여기가 영화 건축학 개론에 나오는 그 정릉이다.또한, 태종은 신덕왕후 무덤의 격식을 후궁의 무덤으로 낮췄다.이성계는 신덕왕후 강씨와 정식으로 혼인했기 때문에 분명한 정식 부인이었고, 정식 책봉을 받아 왕후가 되었다. 명백히 태종의 개인적 감정이 드러나는 부분이다.한술 더 떠서 묘의 봉분을 완전히 깎아 무덤의 흔적을 남기지 말도록 명했으며, 또한 신덕왕후 능의 석상과 석물, 그리고 능에 사용되었던 12지상들은 청계천을 치수한 김에 광교를 세워서 석재로 사용해 물 속에 거꾸로 처박아 버렸다. 나중엔 신덕왕후의 기일이 되어도 조회도 파하지 않고 태조의 체면을 생각해서 그냥 형식적인 제사만 올리고 끝내기까지 했고 제례 또한 앞으로 왕비로서가 아닌 후궁의 예로 올리게 했다. 그래서 광교를 잘 보면 석물에 새겨진 문양이 뭔가 화려한 걸 볼 수 있다. 그녀의 무덤은 현종대에 가서야 송시열의 건의로 복권되고 다시 능으로 복구되었다고 한다.조선 태조의 무덤이 동쪽으로 간 까닭은?기록에 따르면 정릉이 태종의 손에 의해 파헤쳐지던 날 많은 비가 쏟아져 당시 이를 지켜보던 백성들이 신덕왕후의 눈물이라고 수근거렸는데 훗날 250여년이 지나 1669년(현종 10년) 음력 8월 5일 송시열에 의해 신덕왕후가 왕비로 복귀되는 날에도 엄청난 비가 왔다고 한다. 그래서 이때도 여러 사람들이 원혼이 흘리는 눈물이라 했다고.이쯤 되면 신덕왕후가 대체 의붓아들들과 첫 번째 부인에게 무슨 지독한 짓을 했나 싶은데, 기록에 의하면 조선이 건국되기 전까지만 해도 강씨 부인과 의붓아들들은 사이가 좋은 편이었다고 한다. 그러나 신덕왕후가 정도전과 손을 잡고 막내아들 방석을 세자로 올리는 과정에서 사이가 매우 나빠졌다. 그도 그럴 것이 정종이 아버지 태조를 도와 전장을 누비며 아버지를 도울 때 태종 본인은 도성에서 아버지의 정적들을 견제및 제거해가며 나라를 세우는 데 이바지한 개국 일등공신이다. 만약 태조가 세자로 장남 이방우나 차남 이방과를 세자로 삼았다면, 아무리 야심이 강한 태종 이방원이라 해도 도저히 쿠데타를 일으킬 명분이 없었다. 이방우는 처음부터 최고의 정통성을 가진 적장자였고, 이방과는 이방우가 일찍 죽은 후 실질적인 적장자의 위치를 가졌으며 군사적인 전공 면에선 이방원을 능가했기 때문이다. 그런 형들도 자기 자신도 아닌, 정작 아무것도 한 게 없는 핏덩이 막내가 계모의 치맛바람으로 냉큼 세자 자리를 꿰찼고 이후에 정도전 등이 사병 혁파를 빌미로 첫째 부인의 아들들을 제거하려고 드니 그 적개심은 이루 말할 수 없었을 듯. 태종실록을 보면 신하들에게 신덕왕후의 일을 논하며 이렇게 말했다. '정릉(貞陵)이 내게 조금도 은의(恩義)가 없었다. 내가 어머니 집에서 자라났고 장가를 들어서 따로 살았으니, 어찌 은의가 있겠는가? 다만 부왕(父王)이 애중(愛重) 하시던 의리를 생각하여 기신(忌晨)의 재제(齋祭)를 어머니와 다름없이 하는 것이다.'라고 하였다. 쉽게 풀어쓰면 자신은 신덕왕후를 어머니로 생각하지 않지만, 아버지 얼굴을 봐서 제사나 지내주겠다는 소리.다만, 태조가 어째서 장성한 아들들을 제치고 가장 어린 막내 아들을 세자로 삼았는 지에 대한 책임을 태조가 아니라 그녀와 정도전 일파에게 몰기 위해 태종이 일부러 저리 한 거라고 해석하는 학자들도 있다. 또 원한도 원한이지만 정통성의 문제도 걸려 있는데, 신덕왕후를 정부인으로 인정하면 의안대군은 적자로서 그 정통성을 인정받게 되고 이는 태종과 그 후손들의 정통성 확립에 좋을 게 전혀 없다. 그러나 신덕왕후를 후궁으로 격하시키면 의안대군은 후궁의 자식이 되므로 신의왕후의 자손들이 전부 죽지 않는 이상은 정통성도 없이 세자가 된 것이 된다. 정통성 문제가 엮여 있기 때문에 단순히 사적인 원한이라고만 확정짓는 것도 섣부른 판단이 될 수 있다.한편 원경왕후의 친정을 숙청한 것은 다른 이유가 있다는 설도 있다. 양녕대군 이전에 태어난 자식들이 요절한 까닭에 원경왕후 민씨가 '이번엔 아이를 외가에서 기르면 괜찮지 않을까' 하여 친정에서 양녕대군을 자라게 하였다고 하는데, 일각에선 이 때문에 진작부터 양녕대군은 외가인 민씨 집안의 입김을 강하게 받을 수 밖에 없었고 그로 인해 태종이 민씨 일문을 숙청한 것으로 보기도 한다. 그러나 정작 양녕대군은 외숙부들이 숙청될 때... 자세한 건 해당 항목 참조. 결국 양녕대군이 세자에서 물러나고 세종대왕이 뒤를 이었으니어찌보면 억울하게 숙청당했다고 볼 수도. 양녕대군이 좀더 일찍 세자에서 물러났다면 굳이 민씨 일족은 숙청할 필요가 없었을 수 있다.양녕대군이 혼인을 할 때, 즉 첫 번째 세자빈을 고를 때도 태종은 상당히 신중을 기했다. 세자빈 김씨의 아버지는 태종 본인의 과거시험 동기인 김한로였다.과거 시험에 장원 급제를 한 인재이긴 했지만 조선 건국에 딱히 세운 공도 없고, 하륜이나 정도전과는 달리 정치 싸움이나 세력 규합 등에는 젬병인 순수 관료형 타입이었다.태종은 그가 훗날 국구(임금의 장인) 자리에 오른다 해도 딱히 권세를 휘두를 만한 인물이 아니라고 여긴 것이다. 다만 김한로 역시 외척 숙청의 칼날을 완전히 피하지는 못하고 폐서인되어 고향으로 쫒겨났는데, 이 쪽은 양녕대군에게 여자를 소개해 주는 등 비행을 방조한 혐의가 있었기 때문이다. 결국 태종 가문의 외척 중에서 태종의 숙청 칼날을 피한 것은,왕위 계승과는 전혀 상관없던 효령대군과 성녕대군, 그리고 서자들의 처가 정도,그리고 양녕대군의 혼인과 관련해서 민씨 일족이 본의 아니게 태종에게 위기감을 조성한 사례가 있다. 양녕대군이 혼인하기 직전 명나라 공주와 결혼하는 것이 어떨지에 대한 검토를 한 적이 있었다. 하지만 명 사신과의 논의가 영 진전이 되지 않자 흐지부지되는 듯 했고 태종도 이를 포기한 채 위에 언급한 김한로의 딸과 혼인을 진행했다. 그런데 공부, 이현 등이 민제를 찾아가서 명 공주와의 결혼을 다시 추진하자고 건의하였다. 이 때 민제는 태종의 압력에 못이겨 사직한 상태라서 자신이 감히 주상에게 아뢸 일이 아니며, 민제의 아들들도 말할 자신이 없다며 논의 자체에서 빠지려 했다. 이 사실을 안 태종은 사사롭게 국가의 큰 일에 관여하려 했다며 공부와 이현을 처벌하였다. 겉으로는 단순한 소동이었지만 이는 태종에겐 민씨 가문의 위세를 다시 한번 경험하게 된 사건이었다. 왕세자의 혼인이라는 중요한 국정 문제를 국왕이나 현직 대신이 아님에도 불구하고 민씨 가문에서 논의하려 한 것 자체가 그들의 위치를 말해주었기 때문이다.세종이 즉위한 직후엔 측근인 강상인까지 이용해 세종의 장인인 심온의 집안을 숙청했다. 당시 병조 참판이었던 강상인은 군사 업무를 세종에게만 보고했다가 상왕 태종의 명을 어긴 죄로 파직 후 관노로 삼았는데, 이후 다시 강상인을 고문해서 태종과 세종을 이간질시키려 했으며 여기에 심온이 동조했다는 진술을 받아낸 뒤 심온을 체포해 사약을 내렸다. 또한 심온의 아들들과 아내는 변방에 관노로 보냈는데 이들은 태종이 사망한 뒤에 복권되었다. 복권할 당시 세종은 '사실 이 복권은 아바마마께서도 내심 원하신건데 갑자기 돌아가셔서 못한 것'이라고 변명했다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="4.4 공신 숙청"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="비슷한 방법으로 집권한 손자 세조보다는 오늘날 훨씬 욕을 덜 들어먹는 편인데,바로 철저한 공신 숙청 덕분이다.세조는 자신을 도와준 공신들에게 토지와 관직을 듬뿍듬뿍 내려 주고 비호하였고, 이는 결국 훈구파라 불리는 집단을 무더기로 양성하는 결과를 낳았다. 역사서에서 말하는 훈구파는 조선 건국 세력까지 포함하는,훨씬 포괄적인 개념이다. 다만 시기상으로 대립되는 사림이 등장할 때는 상황이 좀 엉망이었다는 것이 문제다.이와 반대로 태종은 자신을 도와준 공신들을 싹 숙청해 버린다. 심지어 자신의 오른팔이었던 이숙번과 자신의 처갓집, 사돈집마저 사정없이 개박살 내버렸다. 이숙번은 왕자의 난의 1등공신으로 시작해 조사의의 난에까지 맹활약하며 태종의 정권의 성립을 도운 최측근이었다. 그런 이숙번의 죄목은 거만하다는 것이었다. 한마디로 권세 높다고 잘라버린거다. 다만 초창기엔 좀 많이 감싸주긴 했다. 결국 이숙번은 마지막까지 복권이 안되었고, 세종 때 태종실록의 일부 기록을 보완하기위해 도우미 역으로 한양에 잠깐 불렀다가 완성되고 다시 유배지로 원상복귀시켰다는 기록이 남아있다. 그나마 민씨가 4형제만 빼면 죽이지는 않고 대부분 목숨 보전은 시켜준 게 다행인가? 태종의 공신들 중 숙청의 칼날을 피하고 평생 부귀영화를 누릴 수 있었던 자는 하륜과 조영무 등 아주 소수의 인물 정도이다. 이중 조영무는 처신을 잘해서 피한 것이었고 하륜의 경우엔 나이가 많은 점이 작용한 게 크다.[21] 또한 그밖에 다른 공신들도 나이 등을 이유로 품계는 높아보이지만 실권은 없는 명예직으로 보내거나 하는 등 요즘으로 따진다면 명예퇴직을 권유하는 경우도 있었다.그러하기 때문에 태종이 많은 사람을 죽인 것처럼 인식되고 있지만, 태종으로서는 이러한 인식이 억울할 법도 하다. 조선 왕조 동안 각종 사화, 반정 등을 통해 여러 신하들이 죽어 나간 일들이 많았다. 더군다나 태종과 동시대를 살았던 명나라 태조 홍무제나 영락제가 수 만명의 공신과 그 가족들을 죽인 것에 비하면 태종의 숙청은 대단히 온건한 편이었다. 애초에 태종이 이들의 숙청을 보고 참고했을 가능성도 크다. 홍무제는 중원을 통일한 이후 호남의 옥을 필두로 수많은 옥사를 일으켜 1등 공신 이선장을 비롯한 수많은 공신과 그 가족들을 죽였는데, 최대 9만명 정도가 처형되거나 연좌되어유배 혹은 관노로 떨어지거나 고문으로 죽은 것으로 추정되고 있다. 여기에는 문자옥을 일으켜 온갖 구실로 문사들을 살육하고 그들의 입을 틀어막았으며 재상을 폐지하고 황제가 기분 내키는대로 시행하는 태형인 정장을 불문법화하는 등 황제독재에 걸리적거린다 싶어 제거한 사람이 모두 포함된다. 덕분에 명은 유례없이 강력한 황제독재 체제를 성립시켰지만 그 후유증은 바로 다음 대에부터 나타났고 명이 쇠퇴하는 원인이 되었다. 살생을 해도 제거해야할 사람을 최소한으로 한정시키고, 스스로 진절머리를 치면서도 간언과 사관의언론 중요성을 인정하고 그들을 지켜준 태종과는 근본적으로 크게 차이나는 부분이다. 대신들이 '흠, 전하도 얘네 귀찮아 하겠지?'하고 대신들이 탄핵을 받아도 확정되기 전까지는 업무를 볼 수 있게 해달라고 했는데, '그럴 수 없다'고 단호하게 거절했다.태종은 정치적으로는 명군이다. 우선 태종 이방원은 절대 폭군이 아니다. 우선 그가 행한 숙청이 단순히 그에게 거슬려서가아니라 어떻게 보면 왕정국가에서 중요한 왕권이 자리잡기 위한 것이라는 점, 그리고 이에 대한 부작용도 최소화했다는 점,무엇보다 정치적 능력은 완전히 만렙이었고 숙청을 통해서 정치를 잘 해냈다는 점에서 분명 폭군의 범주에 속하지 않는다.하지만 손에 너무도 많은 피를 묻힌 나머지 성군으로는 평가받지 못한다. 본인도 말년인 상왕시절 최측근과 술자리를 할때면 '과인은 덕이 없으므로...' 라고 자조하며 수다를 떨었다 한다. 하지만 세종대왕의 권력 기반은 부왕인 태종이 다 다져놓았으며, 훗날 세종이 성군이 될 수 있도록 기틀을 잡아준 사람이 태종 이방원이다.그리고 태종은 사건이 터지면 '주모자'만 처벌하는 편이었기에 사람들이 흔히 오해하는 학살이나 피의 숙청 같은 이미지와는 거리가 멀다.오히려 정치적으로 사람을 죽인 숫자는 연산군, 중종, 선조, 광해군, 숙종, 영조 때가 태종 때보다 훨씬 많다.그리고 당대는 왕정 시대이고 지금처럼 민주적인 선거를 거쳐 밀리면 낙향하는 게 일반적이지 않음을 잊지 말자.민씨형제의 경우 '세자 이외의 왕자들을 제거'하려는 움직임이 포착되었기에 죽임을 당한 것이라는 게 공식 입장. (조선왕조실록 태종 9년 9월 4일 1번째 기사.)다만 이 죄목의 근거라고는 '세자 외에는 영특한 아들이 없는 게 낫다'는 말 뿐이라 그다지 신빙성은 없다.정황상 당시의 사회 분위기를 반영했을 가능성이 높다. 당장 조선에선 두 차례의 왕자의 난이 벌어졌고 중국에서는 황제 자리를 놓고 내전까지 벌어져 명색이 초대 황제의 적장손인 건문제가 실종되기까지 했다.이러니 세자 외의 아들은 미래의 국왕인 세자의 자리를 위협할 뿐인 위험 요소라는 인식이 강해질 법하다.조선의 통치체계를 완성했다는 평가를 받는 성종이 사실은 어마어마하게 거대해진 훈구들 좀 잡아보겠다고 사림을 불러들였다가 역으로 사림에게 쥐락펴락 당하며 매 한 마리 마음대로 못 날리는 신세가 되었던 것을 생각하면 결과적으로 이는 아들 세종의 치세에 막대한 도움이 되었다. 다만 성종의 이런 모습은 권력게임에서 졌다기보다 성종 본인이'좋은 군주는 대간의 말에 귀기울여야 한다'는 신념이 있었고 또 역대 임금 중에서도 손꼽힐만큼 관대한 임금이었기 때문이다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#330033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="4.5 명과의 우호관계"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="애초에 고려 시절 제1차 요동정벌에 참여하여 명을 침략할뻔하다 위화도 회군을 일으켜 고려를 무너뜨리고 조선을 건국하여 왕이 된 아버지 이성계를 몰아내고 태조 시기 2차 요동정벌을 계획하던 정도전을 죽이고 권력을 차지했던만큼 명은 이방원을 친명파라 여겨 그를 친근하게 대했다. 그전부터 태종 스스로가 왕이 되기 전 명에 여러 차례 사신으로 갔던 적이 있고 홍무제, 영락제도 모두 접견해본 적이 있다. 심지어 영락제랑은 서로 군주가 되기 전 보위 계승자 신분으로 길거리에서 만나 서로 환담을 나누기도 했는데 "
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cc0033"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:text="태종이 연부를 떠나서 도중에 있을 때, \n연왕(훗날 영락제)이 서울 [금릉]에 조회하기 위하여\n 편안한 연(轝)을 타고 말을 몰아서 빨리 달려갔다.\n태종이 말 위에서 내려 길가에서 인사하니,\n연왕이 수레를 멈추고 재빨리 연의 휘장을 열고서 오래도록 온순한 말로\n서로 이야기하다가 지나갔다."
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ssong.android.com.test_map.ZoomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:lineSpacingExtra="10px"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="12dp"
+                android:text="이렇게 궁합이 좋았던 두 사람의 통치기간이 겹친 시기였던만큼 조선과 명의 관계는 매우 좋았다고 볼 수 있다.다만 이는 사대주의에 대한 평가와 직결되는 부분이기 때문에 설왕설래 비판을 받기도 한다. 하지만 태종은 명의 여진족 직할통치 드립처럼 조선의 주권을 위협할만한 요소들은 홍무제대의 증거까지 들이대며 철저히 막았다.명 주도 질서에 앞서 참여하고 영락제와의 개인적 친분도 작용했는지 조공무역을 1년에 3회로 늘리는 파격적인 환대를 받게 된다.그 외에 정도전이 요동정벌을 벌이던 시기는 명도 한창 혼란스러운 시기라서, 정도전의 발안대로라면 요동을 얻을 수 있었을 텐데 태종이 권력욕에 내전을 벌여서 좌절되었다는 비판적으로 보는 시각도 있긴 하다."
+                />
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
